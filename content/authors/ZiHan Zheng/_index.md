@@ -3,12 +3,12 @@
 title: 郑子涵
 
 # Full name (for SEO)
-first_name: Alice
-last_name: Wu
+first_name: ZiHan
+last_name: Zheng
 
 # Username (this should match the folder name)
 authors:
-  - 吳恩達
+  - ZiHan Zheng
 
 # Is this the primary user of the site?
 superuser: false
