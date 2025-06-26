@@ -69,7 +69,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Researchers
+  - Teachers
 ---
 
 胡强，上海交通大学未来媒体网络协同创新中心助理研究员。2013年获得电子科技大学电子信息工程学士学位，2019年获得上海交通大学信息与通信工程博士学位，2019年至2021年在上海科技大学虞晶怡教授团队从事博士后研究，并入选了上海市“超级博士后”激励计划。他的研究方向包括生成式智能媒体、神经渲染、2D/3D视频智能编码与增强等。已在IEEE JSAC、TIP、TCSVT、TMM、CVPR、ACM MM、AAAI等国际顶级期刊和会议上发表30余篇论文，已申请发明专利40余项，其中20余项已获得授权，2项为国际专利，1项专利已完成成果技术转移。主持或作为课题骨干参与多项科研项目，相关研究成果已应用于中央广播电视总台、哔哩哔哩、中国商飞上海飞机制造有限公司、西安全运会和冬奥会赛事转播中。担任JSAC, TVCG, TOMM, TCSVT, TMM, CVPR, NeurPIS,ICCV, AAAI, MM等会议期刊审稿人。
