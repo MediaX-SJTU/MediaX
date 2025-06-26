@@ -45,16 +45,13 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Me. This work is licensed under {license} 备案号：沪交ICP备20250163'
     license:
       enable: true
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
 
-footer:
-  copyright:
-    notice: '备案号：沪交ICP备20250163'
     
 
 # Localization
