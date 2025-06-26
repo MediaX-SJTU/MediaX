@@ -15,7 +15,7 @@ sections:
       text: |
         <br>
         
-        The **MediaX Research Group** has been a center of excellence for .... research, teaching, and practice since ...
+        智能媒体课题组（MediaX）是。。。。
   
   - block: collection
     content:
