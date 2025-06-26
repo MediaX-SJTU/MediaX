@@ -52,6 +52,11 @@ footer:
       share_alike: true
       allow_commercial: false
 
+footer:
+  copyright:
+    notice: '备案号：沪交ICP备20250163'
+    
+
 # Localization
 
 locale:
