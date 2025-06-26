@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: 智能媒体课题组MediaX # Website name
+title: MediaX # Website name
 baseURL: 'https://mediax.sjtu.edu.cn/' # Website URL
 
 ############################
