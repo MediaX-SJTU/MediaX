@@ -1,5 +1,5 @@
 ---
-title: ICME'2025 TD-BFR: Truncated Diffusion Model for Efficient Blind Face Restoration
+title: '[ICME2025] TD-BFR: Truncated Diffusion Model for Efficient Blind Face Restoration'
 date: 2025-03-01
 image:
   focal_point: 'top'
