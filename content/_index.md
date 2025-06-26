@@ -7,8 +7,8 @@ type: landing
 sections:
   - block: hero
     content:
-      # title: |
-      #   智能媒体课题组MediaX
+      title: |
+        MediaX Research Group
         
       image:
         filename: welcome.jpg
