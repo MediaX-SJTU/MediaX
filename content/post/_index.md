@@ -1,23 +1,19 @@
 ---
 title: Latest News
 
-# 使用默认 list 视图（左图右文布局）
-view: list  
+# Listing view
+view: card  # 切换为卡片式视图
+sort_by: Date  # 按日期排序（默认，可选其他字段）
+sort_ascending: false  # 最新的在前（降序，true 为旧的在前）
 
-# 排序规则（可选，按日期倒序显示最新新闻）
-sort_by: Date
-sort_ascending: false  
+# 内容过滤（可选，如需限制显示范围）
+# filter:
+#   folders:
+#     - post  # 仅显示 post 文件夹下的内容（新闻通常存于此）
 
-
-# 显示字段：必须包含 Image（左侧图片）、Title（右侧标题）、Date（日期）等
-fields:  
-  - Image    # 左侧图片（关键）
-  - title    # 右侧标题（关键）
-  - date     # 右侧日期（可选）
-#   - Summary  # 右侧摘要（可选，内容较多时显示）
-
-# 内容来源（仅显示 post 文件夹下的新闻，根据实际调整）
-# filter:  
-#   folders:  
-#     - post  
-----
+design:
+  columns: '2'  # 卡片列数：2列（支持 '1' 单列、'3' 三列，或响应式如 '1 3'）
+  # 卡片高度是否统一（避免参差不齐）
+  card_view:
+    height: uniform  # 可选 'uniform'（统一高度）或 'auto'（自适应）
+---
