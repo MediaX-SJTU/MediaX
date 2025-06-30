@@ -17,8 +17,6 @@ sections:
         country: China
         country_code: CN
       direction: https://github.com/MediaX-SJTU
-      
-
       #contact_links:
       #  - icon: comments
       #    icon_pack: fas
@@ -29,15 +27,15 @@ sections:
       autolink: true
     
       # Email form provider
-    #   form:
-    #     provider: netlify
-    #     formspree:
-    #       id:
-    #     netlify:
-    #       # Enable CAPTCHA challenge to reduce spam?
-    #       captcha: false
-    # design:
-    #   columns: '1'
+      form:
+        provider: netlify
+        formspree:
+          id:
+        netlify:
+          # Enable CAPTCHA challenge to reduce spam?
+          captcha: false
+    design:
+      columns: '1'
 
   - block: markdown
     content:
