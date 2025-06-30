@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 刘璐
+title: Lu Liu
 
 # Full Name (for SEO)
 first_name: Lu

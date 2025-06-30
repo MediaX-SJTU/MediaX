@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 沈劭铖
+title: Shaocheng Shen
 
 # Full Name (for SEO)
 first_name: Shaocheng

@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 张小云
+title: Xiaoyun Zhang
 
 # Full Name (for SEO)
-first_name: Xiao Yun
+first_name: Xiaoyun
 last_name: Zhang
 
 # Is this the primary user of the site?

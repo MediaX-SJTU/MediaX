@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 郑子涵
+title: Zihan Zheng
 
 # Full Name (for SEO)
 first_name: Zihan

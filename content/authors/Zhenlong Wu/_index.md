@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 吴振龙
+title: Zhenlong Wu
 
 # Full Name (for SEO)
 first_name: Zhenlong

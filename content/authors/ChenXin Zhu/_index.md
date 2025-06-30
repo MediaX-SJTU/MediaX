@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 朱宸昕
+title: ChenXin Zhu
 
 # Full Name (for SEO)
-first_name: Chen Xin
+first_name: ChenXin
 last_name: Zhu
 
 # Is this the primary user of the site?

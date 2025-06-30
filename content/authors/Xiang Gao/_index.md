@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 高翔
+title: Xiang Gao
 
 # Full Name (for SEO)
 first_name: Xiang

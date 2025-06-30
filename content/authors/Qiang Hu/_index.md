@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 胡强
+title: Qiang Hu
 
 # Full Name (for SEO)
 first_name: Qiang
