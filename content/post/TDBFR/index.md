@@ -4,7 +4,7 @@ date: 2025-03-01
 image:
   focal_point: 'top'
 
-Image: featured.png
+Image: 'featured.png'
 ---
 
 <!--more-->
