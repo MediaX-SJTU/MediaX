@@ -1,6 +1,6 @@
 ---
 title: Contact
-date: 2022-10-24
+date: 2025-6-30
 
 type: landing
 
@@ -9,14 +9,14 @@ sections:
     content:
       title: Contact
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.
-      coordinates: https://github.com/MediaX-SJTU
+        Looking for self-motivated students (PhD, Master and Undergraduate RA) working with me. For prospective students, please send your resume and transcript to the email.
       email: mediax@sjtu.edu.cn
       address:
         street: 上海交通大学电子信息楼群5号楼303A
         city: 上海市闵行区东川路800号
         country: China
         country_code: CN
+      direction: https://github.com/MediaX-SJTU
       
 
       #contact_links:
