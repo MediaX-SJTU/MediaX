@@ -8,12 +8,10 @@ view: list
 sort_by: Date
 sort_ascending: false  
 
-# 限制显示数量（可选）
-count: 5  
 
 # 显示字段：必须包含 Image（左侧图片）、Title（右侧标题）、Date（日期）等
 fields:  
-  - image    # 左侧图片（关键）
+  - Image    # 左侧图片（关键）
   - title    # 右侧标题（关键）
   - date     # 右侧日期（可选）
 #   - Summary  # 右侧摘要（可选，内容较多时显示）

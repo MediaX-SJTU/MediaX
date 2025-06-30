@@ -3,6 +3,8 @@ title: '[ICME2025]Serial Low-rank Adaptation of Vision Transformer'
 date: 2025-05-22
 image:
   focal_point: 'top'
+
+Image: featured.png
 ---
 
 <!--more-->

@@ -3,6 +3,8 @@ title: '[ICME2025] TD-BFR: Truncated Diffusion Model for Efficient Blind Face Re
 date: 2025-03-01
 image:
   focal_point: 'top'
+
+Image: featured.png
 ---
 
 <!--more-->
