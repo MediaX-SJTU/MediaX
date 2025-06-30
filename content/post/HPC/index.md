@@ -1,6 +1,6 @@
 ---
 title: '[MM2024]HPC: Hierarchical Progressive Coding Framework for Volumetric Video'
-date: 2024-08-03
+date: 2024-08-028
 image:
   focal_point: 'top'
 ---

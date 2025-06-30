@@ -5,19 +5,19 @@ title: 'HPC: Hierarchical Progressive Coding Framework for Volumetric Video'
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
+  - Zihan Zheng
   - Houqiang Zhong
-  - Shaocheng Shen
 
 # Author notes (optional)
 # author_notes:
 #   - 'Equal contribution'
 #   - 'Equal contribution'
 
-date: "2025-08-03T00:00:00Z"
+date: "2024-08-28T00:00:00Z"
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "2025-08-03T00:00:00Z"
+publishDate: "2024-08-28T00:00:00Z"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
@@ -49,7 +49,7 @@ url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://arxiv.org/abs/2407.09026'
+url_source: 'https://dl.acm.org/doi/abs/10.1145/3664647.3681107'
 url_video: ''
 
 # Featured image
