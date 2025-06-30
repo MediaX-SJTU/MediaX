@@ -27,15 +27,12 @@ interests:
 
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: PhD in Pattern Recognition and Intelligent Systems
+      institution: Shanghai Jiao Tong University
+    - course: MSc in Applied Mathematics
+      institution: Xi'an Jiaotong University
+    - course: BSc in Applied Mathematics
+      institution: Xi'an Jiaotong University
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
