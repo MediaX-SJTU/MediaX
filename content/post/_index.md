@@ -15,5 +15,5 @@ design:
   columns: '2'  # 卡片列数：2列（支持 '1' 单列、'3' 三列，或响应式如 '1 3'）
   # 卡片高度是否统一（避免参差不齐）
   card_view:
-    height: uniform  # 可选 'uniform'（统一高度）或 'auto'（自适应）
+    height: auto  # 可选 'uniform'（统一高度）或 'auto'（自适应）
 ---
