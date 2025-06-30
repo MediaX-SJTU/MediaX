@@ -12,6 +12,9 @@ superuser: true
 # Role/position
 role: Professor
 
+#order
+weight: 1
+
 # Organizations/Affiliations
 organizations:
   - name: MediaX lab of CMIC, Shanghai JiaoTong University
