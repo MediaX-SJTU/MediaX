@@ -27,7 +27,7 @@ interests:
 
 education:
   courses:
-    - course: BSc in Electronic Information Engineering
+    - course: B.E. in Electronic Information Engineering
       institution: Shanghai Jiao Tong University 
       year: 2025
 

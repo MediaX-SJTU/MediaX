@@ -30,7 +30,7 @@ education:
     - course: PhD in Information and Communication Engineering
       institution: Shanghai Jiao Tong University 
       year: 2019
-    - course: BSc in Electronic Information Engineering
+    - course: B.E. in Electronic Information Engineering
       institution: University of Electronic Science and Technology of China
       year: 2013
 

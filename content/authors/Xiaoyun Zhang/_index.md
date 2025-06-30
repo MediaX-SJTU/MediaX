@@ -15,7 +15,7 @@ role: Professor
 # Organizations/Affiliations
 organizations:
   - name: MediaX lab of CMIC, Shanghai JiaoTong University
-    url: ''
+    url: 'xiaoyun.zhang@sjtu.edu.cn'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include .
