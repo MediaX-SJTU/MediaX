@@ -36,8 +36,8 @@ education:
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-  - icon: Personal Page
-    icon_pack: fab
+  - icon: envelope
+    icon_pack: fas
     link: https://zihanzheng-sjtu.github.io/
   - icon: google-scholar
     icon_pack: ai
