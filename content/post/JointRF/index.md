@@ -1,5 +1,5 @@
 ---
-title: '[ICIP2024]JointRF: End-to-End Joint Optimization for Dynamic Neural Radiance Field Representation and Compression'
+title: '[ICIP2024]JointRF: End-to-End Joint Optimization for Dynamic Neural Radiance Field Representation and Compression Video'
 date: 2024-06-08
 image:
   focal_point: 'top'

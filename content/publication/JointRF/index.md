@@ -1,6 +1,5 @@
 ---
-title: 'JointRF: End-to-End Joint Optimization for Dynamic Neural Radiance Field Representation and Compression'
-Video'
+title: 'JointRF: End-to-End Joint Optimization for Dynamic Neural Radiance Field Representation and Compression Video'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
