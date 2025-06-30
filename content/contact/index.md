@@ -16,7 +16,7 @@ sections:
         city: 上海市闵行区东川路800号
         country: China
         country_code: CN
-      direction: https://github.com/MediaX-SJTU
+      directions: https://github.com/MediaX-SJTU
       #contact_links:
       #  - icon: comments
       #    icon_pack: fas
@@ -51,7 +51,7 @@ sections:
             brightness: 1
           parallax: false
           position: center
-          # size: cover
+          size: auto
           text_color_light: true
       spacing:
         padding: ['20px', '0', '20px', '0']
