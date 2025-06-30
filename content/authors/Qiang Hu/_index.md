@@ -14,11 +14,11 @@ role: Assistant Researcher
 
 # Organizations/Affiliations
 organizations:
-  - name: MediaX lab of CMIC, Shanghai JiaoTong University
+  - name: MediaX of CMIC, Shanghai JiaoTong University
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include image editing, image restoration and generative models.
+bio: 
 
 interests:
   - 生成式智能媒体
