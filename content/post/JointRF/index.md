@@ -3,8 +3,8 @@ title: '[ICIP2024]JointRF: End-to-End Joint Optimization for Dynamic Neural Radi
 date: 2024-06-08
 image:
   focal_point: 'top'
-  
-Image: 'featured.png'
+
+
 ---
 
 <!--more-->

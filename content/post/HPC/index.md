@@ -3,7 +3,7 @@ title: '[MM2024]HPC: Hierarchical Progressive Coding Framework for Volumetric Vi
 date: 2024-08-28
 image:
   focal_point: 'top'
-Image: 'featured.png'
+
 ---
 
 <!--more-->
