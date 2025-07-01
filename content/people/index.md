@@ -7,17 +7,15 @@ type: landing
 sections:
   - block: people
     content:
-      title: Meet the Team
+      title: Research Team
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-          - Teachers
-          - Researchers
-          - Assistant Researchers
+          - Faculty
           - Ph.D. Students
           - Master Students
-          - Grad Students
-          - Administration
+          - Undergraduate Students
+          - Former Supervised Students
           - Visitors
           - Alumni
       sort_by: Weight
