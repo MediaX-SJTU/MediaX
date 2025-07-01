@@ -5,7 +5,7 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: contact
+  - block: hero
     content:
       # title: |
       #   MediaX Research Group
