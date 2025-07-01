@@ -78,7 +78,7 @@ sections:
 
           <h2>🎯 Research Focus</h2>
 
-          <ul>
+          <ul class="custom-topics-ul">
             <li>
               <strong>Image and Video Restoration & Enhancement</strong><br/>
               High-resolution (4K/8K) quality restoration, super-resolution, and controllable editing of visual content.
