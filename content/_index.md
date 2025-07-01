@@ -45,7 +45,7 @@ sections:
               font-weight: bold;
             }
             .custom-topics-ul {
-              line-height: 1.5; /* 行间距（示例值，值越大行距越宽） */
+              line-height: 0.8; /* 行间距（示例值，值越大行距越宽） */
             }
             .custom-topics-ul li {
               margin-bottom: 0; /* 列表项之间的垂直间距（可选，增强间距） */
@@ -78,7 +78,7 @@ sections:
 
           <h2>🎯 Research Focus</h2>
 
-          <ul class="custom-topics-ul">
+          <ul>
             <li>
               <strong>Image and Video Restoration & Enhancement</strong><br/>
               High-resolution (4K/8K) quality restoration, super-resolution, and controllable editing of visual content.
