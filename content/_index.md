@@ -14,7 +14,10 @@ sections:
       #   filename: welcome.jpg
       text: |-
         Our mision is to develop intelgentsystems thatcan undersiand, mode, and manpulate complexhuman centic isual cantent, enabling the high qualy and efident creaon ofnext*generalon inteigent medla.
-       
+  
+    design:
+        columns: '1'
+
 
   
   - block: collection
