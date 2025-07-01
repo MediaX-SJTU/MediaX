@@ -5,14 +5,14 @@ date: 2022-10-24
 type: landing
 
 sections:
-  - block: slider
+  - block: contact
     content:
       # title: |
       #   MediaX Research Group
         
       # image:
       #   filename: welcome.jpg
-      text: |
+      text: |-
         
         <!DOCTYPE html>
         <html lang="en">
