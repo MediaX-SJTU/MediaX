@@ -47,9 +47,7 @@ sections:
             .custom-topics-ul {
               line-height: 0.8; /* 行间距（示例值，值越大行距越宽） */
             }
-            .custom-topics-ul li {
-              margin-bottom: 0; /* 列表项之间的垂直间距（可选，增强间距） */
-            }
+            
           </style>
         </head>
         <body>
