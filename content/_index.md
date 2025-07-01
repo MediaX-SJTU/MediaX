@@ -57,7 +57,7 @@ sections:
           <h1>Welcome to MediaX@SJTU (上交智能媒体组)</h1>
 
           <p>
-            <strong>MediaX</strong> is a research group of Cooperative Medianet Innovation Center at <strong>Shanghai Jiao Tong University</strong>.  We target  top-tier research at the intersection of 
+            <strong>MediaX</strong> is a research group of <a href="https://cmic.sjtu.edu.cn" target="_blank">Cooperative Medianet Innovation Center</a> at <strong>Shanghai Jiao Tong University</strong>.  We target  top-tier research at the intersection of 
             <span class="highlight">computer vision</span>, <span class="highlight">machine learning</span>, and <span class="highlight">generative intelligent media</span>.
           </p>
 
