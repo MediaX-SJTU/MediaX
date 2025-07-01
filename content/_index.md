@@ -20,7 +20,7 @@ sections:
           <style>
             body {
               font-family: Arial, sans-serif;
-              line-height: 1.2;
+              line-height: 1.6;
               margin: 0;
               padding: 40px;
               background-color: #ffffff;
@@ -45,11 +45,10 @@ sections:
               font-weight: bold;
             }
             .custom-topics-ul {
-              font-size: 16px; /* 字体大小（示例值，可改为 14px/18px 等） */
-              line-height: 1.2; /* 行间距（示例值，值越大行距越宽） */
+              line-height: 1.6; /* 行间距（示例值，值越大行距越宽） */
             }
             .custom-topics-ul li {
-              margin-bottom: 4px; /* 列表项之间的垂直间距（可选，增强间距） */
+              margin-bottom: 0; /* 列表项之间的垂直间距（可选，增强间距） */
             }
           </style>
         </head>
