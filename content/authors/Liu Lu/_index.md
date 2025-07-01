@@ -61,6 +61,8 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Ph.D. Students
+
+weight: 2
 ---
 
 刘璐，2023级直博在读。

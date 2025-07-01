@@ -1,16 +1,16 @@
 ---
 # Display name
-title: ChenXin Zhu
+title: Ziying Zhang
 
 # Full Name (for SEO)
-first_name: ChenXin
-last_name: Zhu
+first_name: Ziying
+last_name: Zhang
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Master Student
+role: PhD Student
 
 # Organizations/Affiliations
 organizations:
@@ -20,16 +20,16 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
-interests:
-  - 生成式智能媒体
-  - 多模态大模型与扩散模型
+# interests:
+#   - 生成式智能媒体
+#   - 多模态大模型与扩散模型
 
 
-education:
-  courses:
-    - course: B.E. in Electronic Information Engineering
-      institution: Shanghai Jiao Tong University 
-      year: 2025
+# education:
+#   courses:
+#     - course: B.E. in Electronic Information Engineering
+#       institution: Shanghai Jiao Tong University 
+#       year: 2025
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -65,6 +65,6 @@ highlight_name: false
 user_groups:
   - Master Students
 
-weight: 3
+weight: 1
 ---
 

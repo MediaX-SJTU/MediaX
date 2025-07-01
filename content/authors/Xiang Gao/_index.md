@@ -59,6 +59,8 @@ highlight_name: false
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Master Students
+
+weight: 2
 ---
 
 高翔，上海交通大学未来媒体网络协同创新中心MediaX团队硕士研究生。本科毕业于北京邮电大学信息工程专业。目前的研究兴趣是生成模型和图像、视频处理。
