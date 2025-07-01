@@ -20,7 +20,7 @@ sections:
           <style>
             body {
               font-family: Arial, sans-serif;
-              line-height: 1.4;
+              line-height: 1.6;
               margin: 0;
               padding: 40px;
               background-color: #ffffff;
@@ -35,10 +35,10 @@ sections:
             }
             h2 {
               font-size: 1.6em;
-              margin-top: 10px;
+              margin-top: 40px;
             }
             ul {
-              margin: 10px 0 20px 20px;
+    
             }
             .highlight {
               color: #c0392b;
