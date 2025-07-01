@@ -14,44 +14,98 @@ sections:
       #   filename: welcome.jpg
       text: |-
         
-        # Welcome to MediaX@SJTU (上交智能媒体组)  
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+          <title>MediaX Lab @ SJTU</title>
+          <style>
+            body {
+              font-family: Arial, sans-serif;
+              line-height: 1.6;
+              margin: 0;
+              padding: 0;
+              background-color: #ffffff;
+              color: #333333;
+            }
+            h1, h2, h3 {
+              color: #1a1a1a;
+            }
+            h1 {
+              font-size: 2.2em;
+              margin-bottom: 10px;
+            }
+            h2 {
+              font-size: 1.6em;
+              margin-top: 40px;
+            }
+            ul {
+              margin: 10px 0 20px 20px;
+            }
+            .highlight {
+              color: #c0392b;
+              font-weight: bold;
+            }
+          </style>
+        </head>
+        <body>
 
+          <h1>Welcome to MediaX@SJTU (上交智能媒体组)</h1>
 
-        **MediaX** is a research group of Cooperative Medianet Innovation Center at **Shanghai Jiao Tong University**. We target top-tier research at the intersection of **computer vision**, **machine learning**, and **generative intelligent media**.  
+          <p>
+            <strong>MediaX</strong> is a research group of Cooperative Medianet Innovation Center at <strong>Shanghai Jiao Tong University</strong>.  We target  top-tier research at the intersection of 
+            <span class="highlight">computer vision</span>, <span class="highlight">machine learning</span>, and <span class="highlight">generative intelligent media</span>.
+          </p>
 
+          <p>
+            We aim to push the boundaries of <strong>multi-modal media (2D/3D/4D)</strong> in the following areas:
+          </p>
+          <ul>
+            <li>Generation</li>
+            <li>Restoration and Enhancement</li>
+            <li>Reconstruction and Compression</li>
+            <li>Quality Assessment</li>
+          </ul>
 
-        We aim to push the boundaries of **multi-modal media (2D/3D/4D)** in the following areas:  
-        - Generation  
-        - Restoration and Enhancement  
-        - Reconstruction and Compression  
-        - Quality Assessment  
+          <p>
+            Our mission is to develop intelligent systems that can understand, model, and manipulate complex human-centric visual content, enabling 
+            the high-quality and efficient creation of next-generation intelligent media.
+          </p>
 
+          <h2>🎯 Research Focus</h2>
 
-        Our mission is to develop intelligent systems that can understand, model, and manipulate complex human-centric visual content, enabling the high-quality and efficient creation of next-generation intelligent media.  
+          <ul>
+            <li>
+              <strong>Image and Video Restoration & Enhancement</strong><br/>
+              High-resolution (4K/8K) quality restoration, super-resolution, and controllable editing of visual content.
+            </li>
+            <li>
+              <strong>2D/3D/4D Generation, Representation & Compression</strong><br/>
+              Efficient modeling and compact representation of dynamic scenes for immersive media.
+            </li>
+            <li>
+              <strong>Multi-Modal Perception & Quality Assessment</strong><br/>
+              Developing perceptual and semantic-aware evaluation systems for UGC, PGC, and AIGC content.
+            </li>
+            <li>
+              <strong>Language-Guided Generation & Understanding</strong><br/>
+              Leveraging vision-language models and diffusion frameworks to guide controllable generation and forgery detection.
+            </li>
+            <li>
+              <strong>Interactive & Automated Media Creation Systems</strong><br/>
+              Building collaborative, multi-agent platforms for intelligent content production and human-in-the-loop media editing.
+            </li>
+          </ul>
 
+          <h2>📢 Join Us</h2>
+          <p>
+            We are always looking for <strong>self-motivated PhD students, Master's students, and undergraduate research assistants</strong> to join our team.<br/>
+            If you're passionate about intelligent media and generative AI, please send your <strong>CV and transcript</strong> to: <em>mediax@sjtu.edu.cn</em>
+          </p>
 
-        ## 🎯 Research Focus  
-
-        - **Image and Video Restoration & Enhancement**  
-          High-resolution (4K/8K) quality restoration, super-resolution, and controllable editing of visual content.  
-
-        - **2D/3D/4D Generation, Representation & Compression**  
-          Efficient modeling and compact representation of dynamic scenes for immersive media.  
-
-        - **Multi-Modal Perception & Quality Assessment**  
-          Developing perceptual and semantic-aware evaluation systems for UGC, PGC, and AIGC content.  
-
-        - **Language-Guided Generation & Understanding**  
-          Leveraging vision-language models and diffusion frameworks to guide controllable generation and forgery detection.  
-
-        - **Interactive & Automated Media Creation Systems**  
-          Building collaborative, multi-agent platforms for intelligent content production and human-in-the-loop media editing.  
-
-
-        ## 📢 Join Us  
-
-        We are always looking for **self-motivated PhD students, Master's students, and undergraduate research assistants** to join our team.  
-        If you're passionate about intelligent media and generative AI, please send your **CV and transcript** to: *mediax@sjtu.edu.cn*
+        </body>
+        </html>
 
   
   - block: collection
