@@ -25,7 +25,7 @@ sections:
               font-family: Arial, sans-serif;
               line-height: 1.6;
               margin: 0;
-              padding: 40px;
+              padding: 20px;
               background-color: #ffffff;
               color: #333333;
             }
@@ -33,7 +33,7 @@ sections:
               color: #1a1a1a;
             }
             h1 {
-              font-size: 2.2em;
+              font-size: 2.0em;
               margin-bottom: 10px;
             }
             h2 {
