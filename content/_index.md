@@ -10,8 +10,8 @@ sections:
       # title: |
       #   MediaX Research Group
         
-      image:
-        filename: welcome.jpg
+      # image:
+      #   filename: welcome.jpg
       text: |
         
         <!DOCTYPE html>
