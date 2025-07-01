@@ -14,7 +14,8 @@ sections:
           - Teachers
           - Researchers
           - Assistant Researchers
-          - Students
+          - Ph.D. Students
+          - Master Students
           - Grad Students
           - Administration
           - Visitors
