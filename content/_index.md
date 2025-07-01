@@ -14,9 +14,99 @@ sections:
         filename: welcome.jpg
       text: |
         
-        <p style="font-size: 20px;"><strong>智能媒体课题组（MediaX）</strong>聚焦于媒体大模型领域的研究探索，突破多模态内容生成、增强、评估与呈现等一系列关键技术，为高质量、高效率的媒体制作提供坚实的支撑。</p>
-        
-        <p style="font-size: 20px;">实验室的研究方向涵盖了<strong>媒体感知与评估</strong>、<strong>视频处理与生成</strong>、<strong>3/4D 生成与呈现</strong>以及<strong>新媒体智作平台</strong>等重要研究方向。其中，<strong>媒体感知与评估方向</strong>致力于构建针对 UGC、PGC 和 AIGC 内容的多维感知智能媒体质量评估理论体系；<strong>视频处理与生成方向</strong>专注于实现 4K/8K 超高清内容的修复增强以及可控的生成与编辑技术研发；<strong>3/4D 生成与呈现方向</strong>着力攻关 GenAI 驱动下的沉浸式视频高效表征、压缩及实时交互呈现相关技术；<strong>新媒体智作平台方向</strong>则致力于打造多智能体协同的自动化内容制作引擎与人机交互编辑平台。</p>
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+          <meta charset="UTF-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+          <title>MediaX Lab @ SJTU</title>
+          <style>
+            body {
+              font-family: Arial, sans-serif;
+              line-height: 1.6;
+              margin: 0;
+              padding: 40px;
+              background-color: #ffffff;
+              color: #333333;
+            }
+            h1, h2, h3 {
+              color: #1a1a1a;
+            }
+            h1 {
+              font-size: 2.2em;
+              margin-bottom: 10px;
+            }
+            h2 {
+              font-size: 1.6em;
+              margin-top: 40px;
+            }
+            ul {
+              margin: 10px 0 20px 20px;
+            }
+            .highlight {
+              color: #c0392b;
+              font-weight: bold;
+            }
+          </style>
+        </head>
+        <body>
+
+          <h1>Welcome to MediaX@SJTU (上交智能媒体组)</h1>
+
+          <p>
+            <strong>MediaX</strong> is a research group of Cooperative Medianet Innovation Center at <strong>Shanghai Jiao Tong University</strong>.  We target  top-tier research at the intersection of 
+            <span class="highlight">computer vision</span>, <span class="highlight">machine learning</span>, and <span class="highlight">generative intelligent media</span>.
+          </p>
+
+          <p>
+            We aim to push the boundaries of <strong>multi-modal media (2D/3D/4D)</strong> in the following areas:
+          </p>
+          <ul>
+            <li>Generation</li>
+            <li>Restoration and Enhancement</li>
+            <li>Reconstruction and Compression</li>
+            <li>Quality Assessment</li>
+          </ul>
+
+          <p>
+            Our mission is to develop intelligent systems that can understand, model, and manipulate complex human-centric visual content, enabling 
+            the high-quality and efficient creation of next-generation intelligent media.
+          </p>
+
+          <h2>🎯 Research Focus</h2>
+
+          <ul>
+            <li>
+              <strong>Image and Video Restoration & Enhancement</strong><br/>
+              High-resolution (4K/8K) quality restoration, super-resolution, and controllable editing of visual content.
+            </li>
+            <li>
+              <strong>2D/3D/4D Generation, Representation & Compression</strong><br/>
+              Efficient modeling and compact representation of dynamic scenes for immersive media.
+            </li>
+            <li>
+              <strong>Multi-Modal Perception & Quality Assessment</strong><br/>
+              Developing perceptual and semantic-aware evaluation systems for UGC, PGC, and AIGC content.
+            </li>
+            <li>
+              <strong>Language-Guided Generation & Understanding</strong><br/>
+              Leveraging vision-language models and diffusion frameworks to guide controllable generation and forgery detection.
+            </li>
+            <li>
+              <strong>Interactive & Automated Media Creation Systems</strong><br/>
+              Building collaborative, multi-agent platforms for intelligent content production and human-in-the-loop media editing.
+            </li>
+          </ul>
+
+          <h2>📢 Join Us</h2>
+          <p>
+            We are always looking for <strong>self-motivated PhD students, Master's students, and undergraduate research assistants</strong> to join our team.<br/>
+            If you're passionate about intelligent media and generative AI, please send your <strong>CV and transcript</strong> to: <em>mediax@sjtu.edu.cn</em>
+          </p>
+
+        </body>
+        </html>
+
   
   - block: collection
     content:
