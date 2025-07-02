@@ -12,7 +12,9 @@ sections:
         <h1>Welcome to MediaX@SJTU (上交智能媒体组)</h1>
 
         <p>
-          <strong>MediaX</strong> is a research group under the Cooperative Medianet Innovation Center at Shanghai Jiao Tong University, focusing on cutting-edge research at the intersection of computer vision, machine learning, and generative intelligent media. We aim to advance the frontiers of multi-modal media (2D/3D/4D) across generation, restoration and enhancement, reconstruction and compression, and quality assessment. Our mission is to build intelligent systems capable of understanding, modeling, and manipulating complex human-centric visual content, enabling the high-quality and efficient creation of next-generation intelligent media.
+          <strong>MediaX</strong> is a research group under the Cooperative Medianet Innovation Center at Shanghai Jiao Tong University, focusing on cutting-edge research at the intersection of computer vision, machine learning, and generative intelligent media. 
+          
+          We aim to advance the frontiers of multi-modal media (2D/3D/4D) across generation, restoration and enhancement, reconstruction and compression, and quality assessment. Our mission is to build intelligent systems capable of understanding, modeling, and manipulating complex human-centric visual content, enabling the high-quality and efficient creation of next-generation intelligent media.
         </p>
 
         <h2>🎯 Research Focus</h2>
@@ -52,7 +54,7 @@ sections:
         </a>
 
 
-        <a href="https://example.com/wechat" target="_blank">
+        <a href="https://notes.sjtu.edu.cn/s/9NKUMusdX" target="_blank">
             <i class="fab fa-weixin"></i> 微信
         </a>
 
