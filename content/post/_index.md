@@ -12,7 +12,7 @@ sort_ascending: false  # 最新的在前（降序，true 为旧的在前）
 #     - post  # 仅显示 post 文件夹下的内容（新闻通常存于此）
 
 design:
-  columns: '1'  # 卡片列数：2列（支持 '1' 单列、'3' 三列，或响应式如 '1 3'）
+  columns: '1 3' # 卡片列数：2列（支持 '1' 单列、'3' 三列，或响应式如 '1 3'）
   # 卡片高度是否统一（避免参差不齐）
   card_view:
     height: auto  # 可选 'uniform'（统一高度）或 'auto'（自适应）
