@@ -7,102 +7,56 @@ type: landing
 sections:
   - block: contact
     content:
-      # title: |
-      #   MediaX Research Group
-        
-      # image:
-      #   filename: welcome.jpg
+      # 移除冗余HTML标签，仅保留正文内容
       text: |-
-        <head>
-          <meta charset="UTF-8" />
-          <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-          <title>MediaX Lab @ SJTU</title>
-          <style>
-            body {
-              font-family: Arial, sans-serif;
-              line-height: 1.6;
-              margin: 0;
-              padding: 40px;
-              background-color: #ffffff;
-              color: #333333;
-            }
-            h1, h2, h3 {
-              color: #1a1a1a;
-            }
-            h1 {
-              font-size: 2.2em;
-              margin-bottom: 30px;
-            }
-            h2 {
-              font-size: 1.6em;
-              margin-top: 40px;
-            }
-            ul {
-              margin: 10px 0 20px 20px;
-            }
-            .highlight {
-              color: #c0392b;
-              font-weight: bold;
-            }
-            .custom-topics-ul {
-              line-height: 0.8; /* 行间距（示例值，值越大行距越宽） */
-            }
-            .custom-topics-ul li {
-              margin-bottom: 0; /* 列表项之间的垂直间距（可选，增强间距） */
-            }
-          </style>
-        </head>
-        <body>
+        <h1>Welcome to MediaX@SJTU (上交智能媒体组)</h1>
 
-          <h1>Welcome to MediaX@SJTU (上交智能媒体组)</h1>
+        <p>
+          <strong>MediaX</strong> is a research group under the Cooperative Medianet Innovation Center at Shanghai Jiao Tong University, focusing on cutting-edge research at the intersection of computer vision, machine learning, and generative intelligent media. We aim to advance the frontiers of multi-modal media (2D/3D/4D) across generation, restoration and enhancement, reconstruction and compression, and quality assessment. Our mission is to build intelligent systems capable of understanding, modeling, and manipulating complex human-centric visual content, enabling the high-quality and efficient creation of next-generation intelligent media.
+        </p>
 
-          <p>
-            <strong>MediaX</strong> is a research group under the Cooperative Medianet Innovation Center at Shanghai Jiao Tong University, focusing on cutting-edge research at the intersection of computer vision, machine learning, and generative intelligent media. We aim to advance the frontiers of multi-modal media (2D/3D/4D) across generation, restoration and enhancement, reconstruction and compression, and quality assessment. Our mission is to build intelligent systems capable of understanding, modeling, and manipulating complex human-centric visual content, enabling the high-quality and efficient creation of next-generation intelligent media.
-          </p>
+        <h2>🎯 Research Focus</h2>
 
-          <h2>🎯 Research Focus</h2>
+        <ul>
+          <li>
+            <strong>Media Perception & Quality Assessment</strong><br/>
+            Developing intelligent, multi-dimensional evaluation systems for UGC, PGC, and AIGC content.
+          </li>
+          <li>
+            <strong>Video Restoration & Generation</strong><br/>
+            Enhancing, controllably generating and editing 4K/8K video content.
+          </li>
+          <li>
+            <strong>3D/4D Reconstruction & Generation</strong><br/>
+            Leveraging 3DGS and GenAI for efficient representation and compression of immersive dynamic scenes.
+          </li>
+          <li>
+            <strong>Intelligent Media Creation Platform</strong><br/>
+             Building collaborative, multi-agent systems for automated and interactive media production.
+          </li>
+        </ul>
 
-          <ul>
-            <li>
-              <strong>Media Perception & Quality Assessment</strong><br/>
-              Developing intelligent, multi-dimensional evaluation systems for UGC, PGC, and AIGC content.
-            </li>
-            <li>
-              <strong>Video Restoration & Generation</strong><br/>
-              Enhancing, controllably generating and editing 4K/8K video content.
-            </li>
-            <li>
-              <strong>3D/4D Reconstruction & Generation</strong><br/>
-              Leveraging 3DGS and GenAI for efficient representation and compression of immersive dynamic scenes.
-            </li>
-            <li>
-              <strong>Intelligent Media Creation Platform</strong><br/>
-               Building collaborative, multi-agent systems for automated and interactive media production.
-            </li>
-          </ul>
+        <h2>📢 Join Us</h2>
+        <p>
+          We are always looking for <strong>self-motivated PhD students, Master's students, and undergraduate RA</strong> to join our team.<br/>
+          If you're passionate about intelligent media and generative AI, please send your <strong>CV and transcript</strong> to: <em>mediax@sjtu.edu.cn</em>
+        </p>
 
-          <h2>📢 Join Us</h2>
-          <p>
-            We are always looking for <strong>self-motivated PhD students, Master's students, and undergraduate RA</strong> to join our team.<br/>
-            If you're passionate about intelligent media and generative AI, please send your <strong>CV and transcript</strong> to: <em>mediax@sjtu.edu.cn</em>
-          </p>
+      # 修正图标配置（微信图标名称改为weixin）
+      - icon: envelope
+        icon_pack: fas  # Font Awesome Solid（信封是实心图标）
+        link: 'mailto:mediax@sjtu.edu.cn'
+      - icon: github
+        icon_pack: fab  # Font Awesome Brands（GitHub是品牌图标）
+        link: https://github.com/MediaX-SJTU
+      - icon: weixin  # 修正：微信图标官方名称为weixin
+        icon_pack: fab  # 品牌图标库
+        link: https://example.com/wechat  # 建议替换为微信二维码/公众号链接（原链接为Google Scholar，需确认是否正确）
 
-        </body>
-      social:
-        - icon: envelope
-          icon_pack: fas
-          link: 'mailto:mediax@sjtu.edu.cn'
-        - icon: github
-          icon_pack: fab
-          link: https://github.com/MediaX-SJTU
-        - icon: wechat
-          icon_pack: fab
-          link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
     design:
         columns: '1'
 
 
-  
   - block: collection
     content:
       title: Latest News
