@@ -83,11 +83,21 @@ sections:
 
           <h2>📢 Join Us</h2>
           <p>
-            We are always looking for <strong>self-motivated PhD students, Master's students, and undergraduate research assistants</strong> to join our team.<br/>
+            We are always looking for <strong>self-motivated PhD students, Master's students, and undergraduate RA</strong> to join our team.<br/>
             If you're passionate about intelligent media and generative AI, please send your <strong>CV and transcript</strong> to: <em>mediax@sjtu.edu.cn</em>
           </p>
 
         </body>
+      social:
+        - icon: envelope
+          icon_pack: fas
+          link: 'mailto:mediax@sjtu.edu.cn'
+        - icon: github
+          icon_pack: fab
+          link: https://github.com/MediaX-SJTU
+        - icon: wechat
+          icon_pack: fab
+          link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
     design:
         columns: '1'
 
