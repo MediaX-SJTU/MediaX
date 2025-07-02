@@ -65,6 +65,6 @@ highlight_name: false
 user_groups:
   - Master Students
 
-weight: 1
+weight: 2
 ---
 
