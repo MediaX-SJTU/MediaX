@@ -57,47 +57,27 @@ sections:
           <h1>Welcome to MediaX@SJTU (上交智能媒体组)</h1>
 
           <p>
-            <strong>MediaX</strong> is a research group of <a href="https://cmic.sjtu.edu.cn" target="_blank">Cooperative Medianet Innovation Center</a> at <strong>Shanghai Jiao Tong University</strong>.  We target  top-tier research at the intersection of 
-            <span class="highlight">computer vision</span>, <span class="highlight">machine learning</span>, and <span class="highlight">generative intelligent media</span>.
-          </p>
-
-          <p>
-            We aim to push the boundaries of <strong>multi-modal media (2D/3D/4D)</strong> in the following areas:
-          </p>
-          <ul class="custom-topics-ul">
-            <li>Generation</li>
-            <li>Restoration and Enhancement</li>
-            <li>Reconstruction and Compression</li>
-            <li>Quality Assessment</li>
-          </ul>
-
-          <p>
-            Our mission is to develop intelligent systems that can understand, model, and manipulate complex human-centric visual content, enabling 
-            the high-quality and efficient creation of next-generation intelligent media.
+            <strong>MediaX</strong> is a research group under the Cooperative Medianet Innovation Center at Shanghai Jiao Tong University, focusing on cutting-edge research at the intersection of computer vision, machine learning, and generative intelligent media. We aim to advance the frontiers of multi-modal media (2D/3D/4D) across generation, restoration and enhancement, reconstruction and compression, and quality assessment. Our mission is to build intelligent systems capable of understanding, modeling, and manipulating complex human-centric visual content, enabling the high-quality and efficient creation of next-generation intelligent media.
           </p>
 
           <h2>🎯 Research Focus</h2>
 
           <ul>
             <li>
-              <strong>Image and Video Restoration & Enhancement</strong><br/>
-              High-resolution (4K/8K) quality restoration, super-resolution, and controllable editing of visual content.
+              <strong>Media Perception & Quality Assessment</strong><br/>
+              Developing intelligent, multi-dimensional evaluation systems for UGC, PGC, and AIGC content.
             </li>
             <li>
-              <strong>2D/3D/4D Generation, Representation & Compression</strong><br/>
-              Efficient modeling and compact representation of dynamic scenes for immersive media.
+              <strong>Video Restoration & Generation</strong><br/>
+              Enhancing, controllably generating and editing 4K/8K video content.
             </li>
             <li>
-              <strong>Multi-Modal Perception & Quality Assessment</strong><br/>
-              Developing perceptual and semantic-aware evaluation systems for UGC, PGC, and AIGC content.
+              <strong>3D/4D Reconstruction & Generation</strong><br/>
+              Leveraging 3DGS and GenAI for efficient representation and compression of immersive dynamic scenes.
             </li>
             <li>
-              <strong>Language-Guided Generation & Understanding</strong><br/>
-              Leveraging vision-language models and diffusion frameworks to guide controllable generation and forgery detection.
-            </li>
-            <li>
-              <strong>Interactive & Automated Media Creation Systems</strong><br/>
-              Building collaborative, multi-agent platforms for intelligent content production and human-in-the-loop media editing.
+              <strong>Intelligent Media Creation Platform</strong><br/>
+               Building collaborative, multi-agent systems for automated and interactive media production.
             </li>
           </ul>
 
