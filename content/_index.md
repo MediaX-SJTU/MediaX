@@ -42,16 +42,19 @@ sections:
           If you're passionate about intelligent media and generative AI, please send your <strong>CV and transcript</strong> to: <em>mediax@sjtu.edu.cn</em>
         </p>
 
-      # 修正图标配置（微信图标名称改为weixin）
-      - icon: envelope
-        icon_pack: fas  # Font Awesome Solid（信封是实心图标）
-        link: 'mailto:mediax@sjtu.edu.cn'
-      - icon: github
-        icon_pack: fab  # Font Awesome Brands（GitHub是品牌图标）
-        link: https://github.com/MediaX-SJTU
-      - icon: weixin  # 修正：微信图标官方名称为weixin
-        icon_pack: fab  # 品牌图标库
-        link: https://example.com/wechat  # 建议替换为微信二维码/公众号链接（原链接为Google Scholar，需确认是否正确）
+        <a href="mailto:mediax@sjtu.edu.cn" target="_blank">
+        <i class="fas fa-envelope"></i> 联系我们
+        </a>
+
+
+        <a href="https://github.com/MediaX-SJTU" target="_blank">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+
+
+        <a href="https://example.com/wechat" target="_blank">
+            <i class="fab fa-weixin"></i> 微信
+        </a>
 
     design:
         columns: '1'
