@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Wendi Liu
+title: Tinyu Liu
 
 # Full Name (for SEO)
-first_name: Wendi
+first_name: Tinyu
 last_name: Liu
 
 # Is this the primary user of the site?
