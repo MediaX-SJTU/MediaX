@@ -23,6 +23,9 @@ sections:
               background-color: #ffffff;
               color: #333333;
             }
+            p {  
+                font-size: 16px;  
+            }  
             h1, h2, h3 {
               color: #1a1a1a;
             }
