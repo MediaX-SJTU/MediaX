@@ -24,7 +24,7 @@ sections:
               color: #333333;
             }
             p {  
-                font-size: 16px;  
+                font-size: 18px;  
             }  
             h1, h2, h3 {
               color: #1a1a1a;
@@ -38,6 +38,7 @@ sections:
               margin-top: 40px;
             }
             ul {
+              font-size: 18px;
               margin: 10px 0 20px 20px;
             }
             .highlight {
