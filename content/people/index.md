@@ -18,6 +18,7 @@ sections:
           - Former Supervised Students
           - Visitors
           - Alumni
+          - Research Collaborators
       sort_by: Weight
       sort_ascending: true
     design:
