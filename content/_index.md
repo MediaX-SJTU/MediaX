@@ -30,11 +30,11 @@ sections:
               color: #1a1a1a;
             }
             h1 {
-              font-size: 2.2em;
+              font-size: 30px;
               margin-bottom: 10px;
             }
             h2 {
-              font-size: 1.6em;
+              font-size: 24px;
               margin-top: 40px;
             }
             ul {
