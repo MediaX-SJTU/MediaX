@@ -30,11 +30,11 @@ sections:
               color: #1a1a1a;
             }
             h1 {
-              font-size: 30px;
+              font-size: 34px;
               margin-bottom: 10px;
             }
             h2 {
-              font-size: 24px;
+              font-size: 27px;
               margin-top: 40px;
             }
             ul {
@@ -52,7 +52,7 @@ sections:
           <h1>Welcome to MediaX@SJTU (上交智能媒体组)</h1>
 
           <p>
-            <strong>MediaX</strong> is a research group under the Cooperative Medianet Innovation Center at Shanghai Jiao Tong University, focusing on cutting-edge research at the intersection of computer vision, <span class="highlight">computer vision</span>, <span class="highlight">machine learning</span>, and <span class="highlight">generative intelligent media</span>. We aim to advance the frontiers of multi-modal media (2D/3D/4D) across generation, restoration and enhancement, reconstruction and compression, and quality assessment. Our mission is to build intelligent systems capable of understanding, modeling, and manipulating complex human-centric visual content, enabling the high-quality and efficient creation of next-generation intelligent media.
+            <strong>MediaX</strong> is a research group under the <a href="https://cmic.sjtu.edu.cn/CN/Default.aspx">Cooperative Medianet Innovation Center</a> at Shanghai Jiao Tong University, focusing on cutting-edge research at the intersection of computer vision, <span class="highlight">computer vision</span>, <span class="highlight">machine learning</span>, and <span class="highlight">generative intelligent media</span>. We aim to advance the frontiers of multi-modal media (2D/3D/4D) across generation, restoration and enhancement, reconstruction and compression, and quality assessment. Our mission is to build intelligent systems capable of understanding, modeling, and manipulating complex human-centric visual content, enabling the high-quality and efficient creation of next-generation intelligent media.
           </p>
 
           <h2>🎯 Research Focus</h2>
