@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 傅思婳
+title: Sihua Fu
 
 # Full Name (for SEO)
 first_name: Sihua
