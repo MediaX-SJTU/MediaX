@@ -1,16 +1,16 @@
 ---
 # Display name
-title: XuanXuan Wang
+title: Qianhe Wang
 
 # Full Name (for SEO)
-first_name: XuanXuan
+first_name: Qianhe
 last_name: Wang
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: Master Student
+role: Undergraduate Student
 
 # Organizations/Affiliations
 organizations:
@@ -63,7 +63,7 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Master Students
+  - Undergraduate Students
 
 
 ---

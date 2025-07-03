@@ -1,10 +1,10 @@
 ---
 # Display name
-title: Wendi Liu
+title: XuanXuan Wang
 
 # Full Name (for SEO)
-first_name: Wendi
-last_name: Liu
+first_name: XuanXuan
+last_name: Wang
 
 # Is this the primary user of the site?
 superuser: true
@@ -65,6 +65,7 @@ highlight_name: false
 user_groups:
   - Master Students
 
+weight: 4
 
 ---
 
