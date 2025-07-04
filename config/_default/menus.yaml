@@ -16,7 +16,7 @@ main:
   - name: Publications
     url: publication
     weight: 40
-  - name: Demo(Under Construction)
+  - name: Demo
     url: demo
     weight: 50
   # - name: Contact
