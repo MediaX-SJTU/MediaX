@@ -35,6 +35,9 @@ sections:
         </head>
         <body>
             <div class="logo-container">
+                 <a href="https://github.com/MediaX-SJTU" target="_blank">
+                    <img src="images/mediax.png" alt="Picsart Logo">
+                </a>
                 <!-- Apple 图标 + 跳转 -->
                 <a href="https://www.nsfc.gov.cn/" target="_blank">
                     <img src="images/nsfc.jpg" alt="Apple Logo">
@@ -71,7 +74,10 @@ sections:
                 <a href="https://mall.hisense.com/" target="_blank">
                     <img src="images/hisense.png" alt="Picsart Logo">
                 </a>
-
+                <!-- Picsart 图标 + 跳转 -->
+                <a href="https://github.com/MediaX-SJTU" target="_blank">
+                    <img src="images/hisense.png" alt="Picsart Logo">
+                </a>
                
             </div>
         </body>
