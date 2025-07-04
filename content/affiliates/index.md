@@ -29,7 +29,7 @@ sections:
                 /* 图片样式：统一宽度，保持比例 */
                 .logo-container img {
                     width: 120px;       /* 图标宽度（可根据需求调整） */
-                    height: auto;       /* 自动保持宽高比，避免变形 */
+                    height: 80px;       /* 自动保持宽高比，避免变形 */
                 }
             </style>
         </head>
