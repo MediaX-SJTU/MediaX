@@ -35,47 +35,39 @@ sections:
         </head>
         <body>
             <div class="logo-container">
-                <!-- Apple 图标 + 跳转 -->
+
                 <a href="https://www.nsfc.gov.cn/" target="_blank">
                     <img src="images/nsfc.jpg" alt="Apple Logo">
                 </a>
 
-                <!-- NVIDIA 图标 + 跳转 -->
                 <a href="https://stcsm.sh.gov.cn/" target="_blank">
                     <img src="images/shstcsm.png" alt="NVIDIA Logo">
                 </a>
 
-                <!-- SONY 图标 + 跳转 -->
                 <a href="https://www.bilibili.com/" target="_blank">
                     <img src="images/bilibili.png" alt="SONY Logo">
                 </a>
 
-                <!-- Toyota Research Institute 图标 + 跳转 -->
                 <a href="https://tv.cctv.com/live/" target="_blank">
                     <img src="images/cmg.png" alt="Toyota Research Institute Logo">
                 </a>
 
-                <!-- Google 图标 + 跳转 -->
                 <a href="http://samc.comac.cc/" target="_blank">
                     <img src="images/samc.jpg" alt="Google Logo">
                 </a>
 
-                <!-- Verizon 图标 + 跳转 -->
                 <a href="https://www.189.cn/" target="_blank">
                     <img src="images/chinatele.jpg" alt="Verizon Logo">
                 </a>
 
-                <!-- GM 图标 + 跳转 -->
                 <a href="https://www.huawei.com/cn/" target="_blank">
                     <img src="images/huawei.png" alt="GM Logo">
                 </a>
 
-                <!-- Meta 图标 + 跳转 -->
                 <a href="https://www.aliyun.com/?spm=5176.28507329.J_4VYgf18xNlTAyFFbOuOQe.d_logo.f8032868b1cDqr" target="_blank">
                     <img src="images/alibaba.png" alt="Meta Logo">
                 </a>
-
-                <!-- Picsart 图标 + 跳转 -->
+                
                 <a href="https://mall.hisense.com/" target="_blank">
                     <img src="images/hisense.png" alt="Picsart Logo">
                 </a>
