@@ -31,7 +31,7 @@ sections:
             }
             h1 {
               font-size: 38px;
-              margin-bottom: 10px;
+              margin-bottom: 20px;
             }
             h2 {
               font-size: 27px;
