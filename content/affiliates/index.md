@@ -23,7 +23,7 @@ sections:
                     display: flex;       /* 开启 Flex 布局 */
                     flex-wrap: wrap;    /* 超出容器宽度时自动换行 */
                     justify-content: center; /* 水平居中排列 */
-                    gap: 40px;          /* 图标之间的间距 */
+                    gap: 60px;          /* 图标之间的间距 */
                     padding: 20px;      /* 容器内边距，避免图标贴边 */
                 }
                 /* 图片样式：统一宽度，保持比例 */
@@ -104,23 +104,4 @@ sections:
     design:
       columns: '1'
 
-  - block: markdown
-    content:
-      title:
-      subtitle: ''
-      text:
-    design:
-      columns: '1'
-      background:
-        image: 
-          filename: contact.jpg
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: auto
-          text_color_light: true
-      spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
 ---
