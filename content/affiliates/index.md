@@ -44,7 +44,7 @@ sections:
                 </a>
                 <!-- NVIDIA 图标 + 跳转 -->
                 <a href="https://stcsm.sh.gov.cn/" target="_blank">
-                    <img src="images/shstcsm.png" alt="NVIDIA Logo">
+                    <img src="images/shstcsm.jpg" alt="NVIDIA Logo">
                 </a>
                 <!-- SONY 图标 + 跳转 -->
                 <a href="https://www.bilibili.com/" target="_blank">
@@ -64,7 +64,7 @@ sections:
                 </a>
                 <!-- GM 图标 + 跳转 -->
                 <a href="https://www.huawei.com/cn/" target="_blank">
-                    <img src="images/huawei.png" alt="GM Logo">
+                    <img src="images/huawei.jpg" alt="GM Logo">
                 </a>
                 <!-- Meta 图标 + 跳转 -->
                 <a href="https://www.aliyun.com/?spm=5176.28507329.J_4VYgf18xNlTAyFFbOuOQe.d_logo.f8032868b1cDqr" target="_blank">
@@ -72,11 +72,7 @@ sections:
                 </a>
                 <!-- Picsart 图标 + 跳转 -->
                 <a href="https://mall.hisense.com/" target="_blank">
-                    <img src="images/hisense.png" alt="Picsart Logo">
-                </a>
-                <!-- Picsart 图标 + 跳转 -->
-                <a href="https://github.com/MediaX-SJTU" target="_blank">
-                    <img src="images/hisense.png" alt="Picsart Logo">
+                    <img src="images/hisense.jpg" alt="Picsart Logo">
                 </a>
                
             </div>
