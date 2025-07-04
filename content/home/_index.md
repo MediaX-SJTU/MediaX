@@ -30,8 +30,8 @@ sections:
               color: #1a1a1a;
             }
             h1 {
-              font-size: 34px;
-              margin-bottom: 10px;
+              font-size: 38px;
+              margin-bottom: 20px;
             }
             h2 {
               font-size: 27px;
@@ -49,7 +49,7 @@ sections:
         </head>
         <body>
 
-          <h1>Welcome to MediaX@SJTU (上交智能媒体组)</h1>
+          <h1><strong>Welcome to MediaX@SJTU (上交智能媒体组)</strong></h1>
 
           <p>
             <strong>MediaX</strong> is a research group under the <a href="https://cmic.sjtu.edu.cn/CN/Default.aspx">Cooperative Medianet Innovation Center</a> at Shanghai Jiao Tong University, focusing on cutting-edge research at the intersection of computer vision, <span class="highlight">computer vision</span>, <span class="highlight">machine learning</span>, and <span class="highlight">generative intelligent media</span>. We aim to advance the frontiers of multi-modal media (2D/3D/4D) across generation, restoration and enhancement, reconstruction and compression, and quality assessment. Our mission is to build intelligent systems capable of understanding, modeling, and manipulating complex human-centric visual content, enabling the high-quality and efficient creation of next-generation intelligent media.
@@ -79,7 +79,7 @@ sections:
           <h2>📢 Join Us</h2>
           <p>
             We are always looking for <strong>self-motivated PhD students, Master's students, and undergraduate RA</strong> to join our team.<br/>
-            If you're passionate about intelligent media and generative AI, please send your <strong>CV and transcript</strong> to: <em>mediax@sjtu.edu.cn</em>
+            If you're passionate about intelligent media and generative AI, please send your <strong>CV and transcript</strong> to: <em><span class="highlight">mediax@sjtu.edu.cn</span></em>
           </p>
 
           <a href="mailto:mediax@sjtu.edu.cn" target="_blank">
