@@ -1,5 +1,5 @@
 ---
-title: '[WACV2025]MegaFusion: Extend Diffusion Models towards Higher-resolution Image Generation without Further Tuning'
+title: '[WACV 2025]MegaFusion: Extend Diffusion Models towards Higher-resolution Image Generation without Further Tuning'
 date: 2024-08-18
 image:
   focal_point: 'top'

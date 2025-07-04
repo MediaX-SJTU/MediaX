@@ -1,5 +1,5 @@
 ---
-title: '[AAAI2025]VRVVC: Variable-Rate NeRF-Based Volumetric Video Compression'
+title: '[AAAI 2025]VRVVC: Variable-Rate NeRF-Based Volumetric Video Compression'
 date: 2025-04-11
 image:
   focal_point: 'top'

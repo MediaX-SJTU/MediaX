@@ -1,5 +1,5 @@
 ---
-title: '[CVPR2025]4DGC: Rate-Aware 4D Gaussian Compression for Efficient Streamable Free-Viewpoint Video'
+title: '[CVPR 2025]4DGC: Rate-Aware 4D Gaussian Compression for Efficient Streamable Free-Viewpoint Video'
 date: 2025-05-24
 image: 
   focal_point: 'top'

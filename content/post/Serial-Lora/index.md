@@ -1,5 +1,5 @@
 ---
-title: '[ICME2025]Serial Low-rank Adaptation of Vision Transformer'
+title: '[ICME 2025]Serial Low-rank Adaptation of Vision Transformer'
 date: 2025-05-22
 image:
   focal_point: 'top'
