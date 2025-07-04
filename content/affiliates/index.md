@@ -28,7 +28,7 @@ sections:
                 }
                 /* 图片样式：统一宽度，保持比例 */
                 .logo-container img {
-                    width: 120px;       /* 图标宽度（可根据需求调整） */
+                    width: auto;       /* 图标宽度（可根据需求调整） */
                     height: 80px;       /* 自动保持宽高比，避免变形 */
                 }
             </style>
@@ -73,8 +73,7 @@ sections:
                 <!-- Picsart 图标 + 跳转 -->
                 <a href="https://mall.hisense.com/" target="_blank">
                     <img src="images/hisense.jpg" alt="Picsart Logo">
-                </a>
-               
+                </a> 
             </div>
         </body>
         </html>
