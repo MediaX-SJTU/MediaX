@@ -56,7 +56,7 @@ sections:
                 </a>
                 <!-- Google 图标 + 跳转 -->
                 <a href="http://samc.comac.cc/" target="_blank">
-                    <img src="images/samc.jpg" alt="Google Logo">
+                    <img src="images/comac.jpg" alt="Google Logo">
                 </a>
                 <!-- Verizon 图标 + 跳转 -->
                 <a href="https://www.189.cn/" target="_blank">
