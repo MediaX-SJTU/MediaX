@@ -11,12 +11,8 @@ sections:
       text: |-
         MediaX thanks our industrial partners for their support.
 
-
-        <!DOCTYPE html>
-        <html lang="zh-CN">
         <head>
             <meta charset="UTF-8">
-            <title>商标集合展示</title>
             <style>
                 /* 容器样式：用 Flex 布局实现自动换行、居中、间距控制 */
                 .logo-container {
@@ -67,13 +63,13 @@ sections:
                 <a href="https://www.aliyun.com/?spm=5176.28507329.J_4VYgf18xNlTAyFFbOuOQe.d_logo.f8032868b1cDqr" target="_blank">
                     <img src="images/alibaba.png" alt="Meta Logo">
                 </a>
-                
+
                 <a href="https://mall.hisense.com/" target="_blank">
                     <img src="images/hisense.png" alt="Picsart Logo">
                 </a>
             </div>
         </body>
-        </html>
+
       # email: mediax@sjtu.edu.cn
       # address:
       #   street: 上海交通大学电子信息楼群5号楼303A
