@@ -79,7 +79,7 @@ sections:
           <h2>📢 Join Us</h2>
           <p>
             We are always looking for <strong>self-motivated PhD students, Master's students, and undergraduate RA</strong> to join our team.<br/>
-            If you're passionate about intelligent media and generative AI, please send your <strong>CV and transcript</strong> to: <em>mediax@sjtu.edu.cn</em>
+            If you're passionate about intelligent media and generative AI, please send your <strong>CV and transcript</strong> to: <em><span class="highlight">mediax@sjtu.edu.cn</span></em>
           </p>
 
           <a href="mailto:mediax@sjtu.edu.cn" target="_blank">
