@@ -121,6 +121,7 @@ sections:
         </head>
         <body>
             <h1>🔥 News</h1>
+            <div class="news-item">[2025/6]   Two paper is accepted to ICCV 2025</div>
             <div class="news-item">[2025/5]   One paper is accepted to ICML 2025</div>
             <div class="news-item">[2025/3]   Two paper is accepted to ICME 2025</div>
             <div class="news-item">[2025/2]   Two paper is accepted to CVPR 2025</div>
@@ -138,154 +139,82 @@ sections:
         </body>
         </html>
 
-    design:
-        columns: '1'
 
   - block: contact
     content:
 
       text: |-
 
-        <!DOCTYPE html>
-        <html lang="zh-CN"> <!-- 改为中文语言，更符合内容定位 -->
-        <head>
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- 优化IE渲染 -->
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>[CVPR Oral] Q-Eval-100K: 文本到视觉内容的视觉质量与对齐度评估</title> <!-- 补充网页标题（可根据需求调整中文/英文） -->
-            <style>
-                /* 全局重置 */
-                * {
-                    margin: 0;
-                    padding: 0;
-                    box-sizing: border-box;
-                    font-family: '微软雅黑', 'Arial', sans-serif; /* 增加中文字体，提升可读性 */
-                }
+        <style>
+          /* 表格布局重置（去除默认边框，调整间距） */
+          .paper-table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 30px 0;
+          }
+          .paper-table td {
+            vertical-align: top; /* 顶部对齐，避免图片高度影响文字布局 */
+            padding: 0 40px 0 0; /* 左右单元格间距（右侧文字单元格无左 padding） */
+          }
+          /* 图片容器样式（保持原HTML的边框和圆角） */
+          .paper-image {
+            width: 100%;
+            height: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            display: block; /* 去除图片底部间隙 */
+          }
+          /* 链接 hover 效果（原HTML的下划线） */
+          .paper-link {
+            color: #3498db;
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 0.95em;
+          }
+          .paper-link:hover {
+            text-decoration: underline;
+          }
+        </style>
 
-                /* 整体容器：左右两栏（自适应换行） */
-                .container {
-                    display: flex;
-                    max-width: 1200px;
-                    margin: 30px auto;
-                    padding: 0 20px;
-                    gap: 40px; /* 左右间距 */
-                    align-items: flex-start; /* 顶部对齐 */
-                    flex-wrap: wrap; /* 小屏幕下换行 */
-                }
-
-                /* 左侧图片容器（响应式） */
-                .left-container {
-                    width: 400px; /* 桌面端固定宽度 */
-                    max-width: 100%; /* 小屏幕下自适应 */
-                    border: 1px solid #e0e0e0; /* 轻微边框，提升层次感 */
-                    border-radius: 8px; /* 圆角 */
-                    overflow: hidden; /* 防止图片超出边框 */
-                    margin-bottom: 20px; /* 换行后底部间距 */
-                }
-
-                /* 左侧图片（保持比例） */
-                .left-image {
-                    width: 100%;
-                    height: auto;
-                    display: block; /* 去除图片底部间隙 */
-                }
-
-                /* 右侧文字容器（自适应剩余宽度） */
-                .right-container {
-                    flex: 1; /* 占据剩余空间 */
-                    min-width: 300px; /* 小屏幕下最小宽度，避免过窄 */
-                    padding-top: 10px; /* 与左侧顶部对齐 */
-                }
-
-                /* 论文标题（突出显示） */
-                .paper-title {
-                    font-size: 1.4rem; /* 使用rem单位，更稳定 */
-                    font-weight: bold;
-                    color: #2c3e50;
-                    margin-bottom: 15px;
-                    line-height: 1.4;
-                }
-
-                /* CVPR Oral 标签样式（增强视觉识别） */
-                .oral-tag {
-                    background-color: #e74c3c; /* 红色背景（CVPR常用色） */
-                    color: white;
-                    padding: 3px 8px;
-                    border-radius: 5px;
-                    font-size: 0.8em;
-                    font-weight: normal;
-                    margin-right: 10px;
-                    vertical-align: middle; /* 垂直居中 */
-                }
-
-                /* 作者列表（学术格式） */
-                .authors {
-                    font-size: 0.95em;
-                    color: #34495e;
-                    margin-bottom: 12px;
-                    line-height: 1.5;
-                }
-
-                /* 共同一作上标 */
-                .authors sup {
-                    font-size: 0.7em;
-                    margin-left: 2px;
-                }
-
-                /* 通讯作者（下划线突出） */
-                .corresponding-author {
-                    text-decoration: underline;
-                    font-weight: 500;
-                }
-
-                /* 会议信息（灰色小字） */
-                .conference {
-                    font-size: 0.9em;
-                    color: #7f8c8d;
-                    margin-bottom: 20px;
-                }
-
-                /* 链接样式（蓝色， hover 下划线） */
-                .links a {
-                    color: #3498db;
-                    text-decoration: none;
-                    margin-right: 25px;
-                    font-size: 0.95em;
-                }
-
-                .links a:hover {
-                    text-decoration: underline;
-                }
-            </style>
-        </head>
-        <body>
-            <main> <!-- 语义化标签：页面主要内容 -->
-                <div class="container">
-                    <!-- 左侧图片 -->
-                    <div class="left-container">
-                        <img src="images/4DGC.png" alt="Q-Eval-100K 视觉标注示例" class="left-image"> <!-- 优化alt文本（更具体） -->
-                    </div>
-
-                    <!-- 右侧论文信息 -->
-                    <div class="right-container">
-                        <h1 class="paper-title">
-                            <span class="oral-tag">CVPR Oral</span> <!-- 突出显示会议标识 -->
-                            Q-Eval-100K: Evaluating Visual Quality and Alignment Level for Text-to-Vision Content
-                        </h1>
-                        <p class="authors">
-                            Zicheng Zhang<sup>*</sup>, Tengchuan Kou<sup>*</sup>, Shushi Wang, Chunyi Li, Wei Sun, Wei Wang, Xiaoyu Li, Zongyu Wang, Xuezhi Cao, Xiongkuo Min, 
-                            <span class="corresponding-author">Xiaohong Liu<sup>*</sup></span>, Guangtao Zhai
-                        </p>
-                        <p class="conference">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025.</p>
-                        <div class="links">
-                            <a href="https://arxiv.org/" target="_blank" rel="noopener noreferrer">[Paper]</a> <!-- 安全链接 -->
-                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">[Code]</a> <!-- 安全链接 -->
-                        </div>
-                    </div>
-                </div>
-            </main>
-        </body>
-        </html>
+        <!-- 核心：表格布局（左右两栏） -->
+        <table class="paper-table">
+          <tr>
+            <!-- 左侧：图片单元格（固定宽度400px，响应式自适应） -->
+            <td style="width: 400px; max-width: 100%;">
+              <img 
+                src="images/4DGC.png" 
+                alt="Q-Eval-100K: Visual Annotation Example" 
+                class="paper-image"
+              >
+            </td>
+            
+            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
+            <td style="padding-top: 10px;"> <!-- 与左侧图片顶部对齐 -->
+              <!-- 1. 论文标题（含CVPR Oral标签） -->
+              <h1 style="font-size: 1.3em; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
+                <span style="background-color: #e74c3c; color: white; padding: 3px 8px; border-radius: 5px; font-size: 0.8em; margin-right: 10px;">CVPR Oral</span>
+                Q-Eval-100K: Evaluating Visual Quality and Alignment Level for Text-to-Vision Content
+              </h1>
+              
+              <!-- 2. 作者列表（学术格式：共同一作上标、通讯作者下划线） -->
+              <p style="font-size: 0.95em; color: #3498db; margin-bottom: 10px;"> <!-- 原HTML作者颜色是#34495e，这里调整为更醒目的蓝色（可选） -->
+                Zicheng Zhang<sup>*</sup>, Tengchuan Kou<sup>*</sup>, Shushi Wang, Chunyi Li, Wei Sun, Wei Wang, Xiaoyu Li, Zongyu Wang, Xuezhi Cao, Xiongkuo Min,  
+                <span style="text-decoration: underline; font-weight: 500;">Xiaohong Liu<sup>*</sup></span>, Guangtao Zhai
+              </p>
+              
+              <!-- 3. 会议信息（灰色小字） -->
+              <p style="font-size: 0.9em; color: #7f8c8d; margin-bottom: 20px;">
+                IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025.
+              </p>
+              
+              <!-- 4. 论文/代码链接（蓝色，hover下划线） -->
+              <div>
+                <a href="https://arxiv.org/" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
+                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="paper-link">[Code]</a>
+              </div>
+            </td>
+          </tr>
+        </table>
 
         
   - block: collection
