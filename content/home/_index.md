@@ -99,6 +99,49 @@ sections:
 
     design:
         columns: '1'
+  
+
+
+  - block: contact
+    content:
+
+      text: |-
+
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>News</title>
+            <style>
+                body {
+                    text-align: center;
+                }
+                .news-item {
+                    margin: 10px 0;
+                }
+            </style>
+        </head>
+        <body>
+            <h1>🔥 News</h1>
+            <div class="news-item">[2025/6]   Six papers are accepted by ICCV 2025</div>
+            <div class="news-item">[2025/2]   Eight papers are accepted by CVPR 2025 (Two orals! 3.3% of the accepted papers, and two spotlights! 13.5% of the accepted papers)</div>
+            <div class="news-item">[2025/1]   One paper is accepted by ICLR 2025</div>
+            <div class="news-item">[2024/12]   One paper is accepted by AAAI 2025</div>
+            <div class="news-item">[2024/9]   Four papers are accepted by NeurIPS 2024</div>
+            <div class="news-item">[2024/7]   Five papers are accepted by ACM MM 2024 (Three orals! One oral paper was selected as Best Paper Nominees!)</div>
+            <div class="news-item">[2024/7]   Three papers are accepted by ECCV 2024 (One oral)</div>
+            <div class="news-item">[2024/4]   One paper is accepted by IJCAI 2024</div>
+            <div class="news-item">[2024/2]   Two papers are accepted by CVPR 2024</div>
+            <div class="news-item">[2023/7]   Three papers are accepted by ACM MM 2023 (Two orals!)</div>
+            <div class="news-item">[2023/7]   One paper is accepted by ICCV 2023</div>
+            <div class="news-item">[2023/3]   One paper is accepted by CVPR 2023</div>
+            <div class="news-item">[2022/9]   One paper is accepted by NeurIPS 2022</div>
+            <div class="news-item">[2022/3]   One paper is accepted by CVPR 2022</div>
+        </body>
+        </html>
+
+    design:
+        columns: '1'
 
 
   - block: collection
