@@ -194,8 +194,7 @@ sections:
                 src="images/seriallora.png" 
                 alt="seriallora" 
                 class="paper-image"
-                style="display: block; margin: 0 auto;" <!-- 添加水平居中样式 -->
-              >
+                style="display: block; margin: 0 auto;">
             </td>
             <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
             <td> <!-- 移除原padding-top:10px，保持垂直居中 -->
