@@ -286,6 +286,8 @@ sections:
             </td>
           </tr>
         </table>
+
+        <a href="#" class="bottom-link" target="_blank" rel="noopener noreferrer">More on publication page</a>
     design:
         columns: '1'
 
