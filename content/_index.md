@@ -138,6 +138,10 @@ sections:
             <div class="news-item">[2023/3]   One paper is accepted to CVPR 2023</div>
         </body>
         </html>
+      
+    design:
+        columns: '1'
+
 
 
   - block: contact
@@ -211,6 +215,8 @@ sections:
             </td>
           </tr>
         </table>
+    design:
+        columns: '1'
 
         
   - block: collection
