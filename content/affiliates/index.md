@@ -23,13 +23,13 @@ sections:
                     display: flex;       /* 开启 Flex 布局 */
                     flex-wrap: wrap;    /* 超出容器宽度时自动换行 */
                     justify-content: center; /* 水平居中排列 */
-                    gap: 60px;          /* 图标之间的间距 */
+                    gap: 100px;          /* 图标之间的间距 */
                     padding: 20px;      /* 容器内边距，避免图标贴边 */
                 }
                 /* 图片样式：统一宽度，保持比例 */
                 .logo-container img {
                     width: auto;       /* 图标宽度（可根据需求调整） */
-                    height: 100px;       /* 自动保持宽高比，避免变形 */
+                    height: 120px;       /* 自动保持宽高比，避免变形 */
                 }
             </style>
         </head>
