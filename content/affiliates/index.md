@@ -60,7 +60,7 @@ sections:
                     <img src="images/alibaba.png" alt="Meta Logo">
                 </a>
                 <a href="https://stcsm.sh.gov.cn/" target="_blank">
-                    <img src="images/test1.png" alt="NVIDIA Logo">
+                    <img src="images/tests1.png" alt="NVIDIA Logo">
                 </a>
                 <a href="https://mall.hisense.com/" target="_blank">
                     <img src="images/hisense.jpg" alt="Picsart Logo">
