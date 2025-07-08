@@ -138,7 +138,10 @@ sections:
         </body>
         </html>
 
+    design:
+        columns: '1'
 
+        
   - block: collection
     content:
       title: Latest News
