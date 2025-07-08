@@ -186,6 +186,76 @@ sections:
             <!-- 左侧：图片单元格（固定宽度400px，响应式自适应） -->
             <td style="width: 400px; max-width: 100%;">
               <img 
+                src="images/seriallora.png" 
+                alt="seriallora" 
+                class="paper-image"
+              >
+            </td>
+            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
+            <td> <!-- 移除原padding-top:10px，保持垂直居中 -->
+              <!-- 1. 论文标题（含CVPR Oral标签） -->
+              <h1 style="font-size: 1.3em; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
+                <span style="background-color: #e74c3c; color: white; padding: 3px 8px; border-radius: 5px; font-size: 0.8em; margin-right: 10px;">ICME'2025</span>
+                Serial Low-rank Adaptation of Vision Transformer
+              </h1>
+              <!-- 2. 作者列表（学术格式：共同一作上标、通讯作者下划线） -->
+              <p style="font-size: 1em; color: #3498db; margin-bottom: 0;"> <!-- 原HTML作者颜色是#34495e，这里调整为更醒目的蓝色（可选） -->
+                Houqiang Zhong, Shaocheng Shen, Ke Cai, Zhenglong Wu, Jiangchao Yao, Yuan Cheng, Xuefei Li, Xiaoyun Zhang, Li Song, Qiang Hu
+              </p>
+              <!-- 3. 会议信息（灰色小字） -->
+              <p style="font-size: 1em; color: #7f8c8d; margin-bottom: 0;">
+                IEEE International Conference on Multimedia and Expo (ICME), 2025.
+              </p>
+              <!-- 4. 论文/代码链接（蓝色，hover下划线） -->
+              <div>
+                <a href="https://arxiv.org/pdf/2503.17750" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+
+        <!-- 核心：表格布局（左右两栏） -->
+        <table class="paper-table">
+          <tr>
+            <!-- 左侧：图片单元格（固定宽度400px，响应式自适应） -->
+            <td style="width: 400px; max-width: 100%;">
+              <img 
+                src="images/TDBFR.png" 
+                alt="TDBFR" 
+                class="paper-image"
+              >
+            </td>
+            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
+            <td> <!-- 移除原padding-top:10px，保持垂直居中 -->
+              <!-- 1. 论文标题（含CVPR Oral标签） -->
+              <h1 style="font-size: 1.3em; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
+                <span style="background-color: #e74c3c; color: white; padding: 3px 8px; border-radius: 5px; font-size: 0.8em; margin-right: 10px;">ICME'2025</span>
+                TD-BFR: Truncated Diffusion Model for Efficient Blind Face Restoration
+              </h1>
+              <!-- 2. 作者列表（学术格式：共同一作上标、通讯作者下划线） -->
+              <p style="font-size: 1em; color: #3498db; margin-bottom: 0;"> <!-- 原HTML作者颜色是#34495e，这里调整为更醒目的蓝色（可选） -->
+                Ziying Zhang, Xiang Gao, Zhixin Wang, Qiang Hu, Xiaoyun Zhang
+              </p>
+              <!-- 3. 会议信息（灰色小字） -->
+              <p style="font-size: 1em; color: #7f8c8d; margin-bottom: 0;">
+                IEEE International Conference on Multimedia and Expo (ICME), 2025.
+              </p>
+              <!-- 4. 论文/代码链接（蓝色，hover下划线） -->
+              <div>
+                <a href="https://arxiv.org/pdf/2503.20537" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+
+        <!-- 核心：表格布局（左右两栏） -->
+        <table class="paper-table">
+          <tr>
+            <!-- 左侧：图片单元格（固定宽度400px，响应式自适应） -->
+            <td style="width: 400px; max-width: 100%;">
+              <img 
                 src="images/4DGC.png" 
                 alt="Q-Eval-100K: Visual Annotation Example" 
                 class="paper-image"
@@ -195,7 +265,7 @@ sections:
             <td> <!-- 移除原padding-top:10px，保持垂直居中 -->
               <!-- 1. 论文标题（含CVPR Oral标签） -->
               <h1 style="font-size: 1.3em; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
-                <span style="background-color: #e74c3c; color: white; padding: 3px 8px; border-radius: 5px; font-size: 0.8em; margin-right: 10px;">CVPR 2025</span>
+                <span style="background-color: #e74c3c; color: white; padding: 3px 8px; border-radius: 5px; font-size: 0.8em; margin-right: 10px;">CVPR'2025</span>
                 4DGC: Rate-Aware 4D Gaussian Compression for Efficient Streamable Free-Viewpoint Video
               </h1>
               <!-- 2. 作者列表（学术格式：共同一作上标、通讯作者下划线） -->
