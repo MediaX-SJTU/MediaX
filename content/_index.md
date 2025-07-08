@@ -121,21 +121,23 @@ sections:
         </head>
         <body>
             <h1>🔥 News</h1>
-            <div class="news-item">[2025/6]   Two paper is accepted to ICCV 2025</div>
-            <div class="news-item">[2025/5]   One paper is accepted to ICML 2025</div>
-            <div class="news-item">[2025/3]   Two paper is accepted to ICME 2025</div>
-            <div class="news-item">[2025/2]   Two paper is accepted to CVPR 2025</div>
-            <div class="news-item">[2025/2]   NTIRE 2025 XGC Quality Assessment Challenge Organizer</div>
-            <div class="news-item">[2025/1]   One paper is accepted to JSAC 2025</div>
-            <div class="news-item">[2024/12]  One paper is accepted to AAAI 2025</div>
-            <div class="news-item">[2024/7]   One paper is accepted to TCSVT 2024</div>
-            <div class="news-item">[2024/7]   One paper is accepted to ACM MM 2024</div>
-            <div class="news-item">[2024/6]   One paper is accepted to ICIP 2024</div>
-            <div class="news-item">[2024/3]   One paper is accepted to ICME 2024</div>
-            <div class="news-item">[2024/2]   One paper is accepted to CVPR 2024</div>
-            <div class="news-item">[2023/12]  One paper is accepted to AAAI 2024</div>
-            <div class="news-item">[2023/6]   One paper is accepted to ICCP 2023</div>
-            <div class="news-item">[2023/3]   One paper is accepted to CVPR 2023</div>
+            <ul>
+                <li class="news-item">[2025/6]   Two paper is accepted to ICCV 2025</li>
+                <li class="news-item">[2025/5]   One paper is accepted to ICML 2025</li>
+                <li class="news-item">[2025/3]   Two paper is accepted to ICME 2025</li>
+                <li class="news-item">[2025/2]   Two paper is accepted to CVPR 2025</li>
+                <li class="news-item">[2025/2]   NTIRE 2025 XGC Quality Assessment Challenge Organizer</li>
+                <li class="news-item">[2025/1]   One paper is accepted to JSAC 2025</li>
+                <li class="news-item">[2024/12]  One paper is accepted to AAAI 2025</li>
+                <li class="news-item">[2024/7]   One paper is accepted to TCSVT 2024</li>
+                <li class="news-item">[2024/7]   One paper is accepted to ACM MM 2024</li>
+                <li class="news-item">[2024/6]   One paper is accepted to ICIP 2024</li>
+                <li class="news-item">[2024/3]   One paper is accepted to ICME 2024</li>
+                <li class="news-item">[2024/2]   One paper is accepted to CVPR 2024</li>
+                <li class="news-item">[2023/12]  One paper is accepted to AAAI 2024</li>
+                <li class="news-item">[2023/6]   One paper is accepted to ICCP 2023</li>
+                <li class="news-item">[2023/3]   One paper is accepted to CVPR 2023</li>
+            </ul>
         </body>
         </html>
       
