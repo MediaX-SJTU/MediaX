@@ -114,7 +114,6 @@ sections:
             <title>News</title>
             <style>
                 body {
-                    text-align: center;
                 }
                 .news-item {
                     margin: 10px 0;
