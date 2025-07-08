@@ -1,5 +1,5 @@
 ---
-title: Contact
+title: Partners & Sponsors
 date: 2022-10-24
 
 type: landing
@@ -7,9 +7,9 @@ type: landing
 sections:
   - block: contact
     content:
-      title: Industrial Support
+      title: Partners & Sponsors
       text: |-
-        MediaX thanks our industrial partners for their support.
+        MediaX thanks national research programs and our industrial partners for their support.
 
 
         <!DOCTYPE html>
@@ -35,42 +35,33 @@ sections:
         </head>
         <body>
             <div class="logo-container">
-                 <a href="https://github.com/MediaX-SJTU" target="_blank">
-                    <img src="images/mediax.png" alt="Picsart Logo">
-                </a>
-                <!-- Apple 图标 + 跳转 -->
                 <a href="https://www.nsfc.gov.cn/" target="_blank">
-                    <img src="images/nsfc.jpg" alt="Apple Logo">
+                    <img src="images/nsfc.png" alt="Apple Logo">
                 </a>
-                <!-- NVIDIA 图标 + 跳转 -->
-                <a href="https://stcsm.sh.gov.cn/" target="_blank">
-                    <img src="images/shstcsm.jpg" alt="NVIDIA Logo">
-                </a>
-                <!-- SONY 图标 + 跳转 -->
                 <a href="https://www.bilibili.com/" target="_blank">
                     <img src="images/bilibili.png" alt="SONY Logo">
                 </a>
-                <!-- Toyota Research Institute 图标 + 跳转 -->
-                <a href="https://tv.cctv.com/live/" target="_blank">
-                    <img src="images/cmg.png" alt="Toyota Research Institute Logo">
-                </a>
-                <!-- Google 图标 + 跳转 -->
                 <a href="http://samc.comac.cc/" target="_blank">
                     <img src="images/comac.jpg" alt="Google Logo">
                 </a>
-                <!-- Verizon 图标 + 跳转 -->
-                <a href="https://www.189.cn/" target="_blank">
-                    <img src="images/chinatele.jpg" alt="Verizon Logo">
-                </a>
-                <!-- GM 图标 + 跳转 -->
                 <a href="https://www.huawei.com/cn/" target="_blank">
                     <img src="images/huawei.jpg" alt="GM Logo">
                 </a>
-                <!-- Meta 图标 + 跳转 -->
+                <a href="https://www.most.gov.cn/index.html" target="_blank">
+                    <img src="images/tests.jpg" alt="NVIDIA Logo">
+                </a>
+                <a href="https://stcsm.sh.gov.cn/" target="_blank">
+                    <img src="images/shstcsm.jpg" alt="NVIDIA Logo">
+                </a>
+                <a href="https://tv.cctv.com/live/" target="_blank">
+                    <img src="images/cmg.png" alt="Toyota Research Institute Logo">
+                </a>
+                <a href="https://www.189.cn/" target="_blank">
+                    <img src="images/chinatele.jpg" alt="Verizon Logo">
+                </a>
                 <a href="https://www.aliyun.com/?spm=5176.28507329.J_4VYgf18xNlTAyFFbOuOQe.d_logo.f8032868b1cDqr" target="_blank">
                     <img src="images/alibaba.png" alt="Meta Logo">
                 </a>
-                <!-- Picsart 图标 + 跳转 -->
                 <a href="https://mall.hisense.com/" target="_blank">
                     <img src="images/hisense.jpg" alt="Picsart Logo">
                 </a> 

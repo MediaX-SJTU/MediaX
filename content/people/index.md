@@ -15,10 +15,10 @@ sections:
           - Ph.D. Students
           - Master Students
           - Undergraduate Students
+          - Research Collaborators
           - Former Supervised Students
           - Visitors
           - Alumni
-          - Research Collaborators
       sort_by: Weight
       sort_ascending: true
     design:
