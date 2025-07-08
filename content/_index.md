@@ -153,7 +153,7 @@ sections:
             margin: 30px 0;
           }
           .paper-table td {
-            vertical-align: top; /* 顶部对齐，避免图片高度影响文字布局 */
+            vertical-align: middle; /* 关键：单元格垂直居中（替换原top） */
             padding: 0 40px 0 0; /* 左右单元格间距（右侧文字单元格无左 padding） */
           }
           /* 图片容器样式（保持原HTML的边框和圆角） */
@@ -188,7 +188,7 @@ sections:
               >
             </td>
             <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
-            <td style="padding-top: 10px;"> <!-- 与左侧图片顶部对齐 -->
+            <td> <!-- 移除原padding-top:10px，保持垂直居中 -->
               <!-- 1. 论文标题（含CVPR Oral标签） -->
               <h1 style="font-size: 1.3em; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
                 <span style="background-color: #e74c3c; color: white; padding: 3px 8px; border-radius: 5px; font-size: 0.8em; margin-right: 10px;">CVPR Oral</span>
@@ -210,7 +210,7 @@ sections:
               </div>
             </td>
           </tr>
-        </table>
+</table>
 
         
   - block: collection
