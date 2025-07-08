@@ -224,11 +224,12 @@ sections:
         <table class="paper-table">
           <tr>
             <!-- 左侧：图片单元格（固定宽度400px，响应式自适应） -->
-            <td style="width: 400px; max-width: 100%;">
+            <td style="width: 400px; max-width: 100%; vertical-align: middle;"> <!-- 添加垂直居中样式 -->
               <img 
                 src="images/TDBFR.png" 
-                alt="TDBFR" 
+                alt="seriallora" 
                 class="paper-image"
+                style="display: block; margin: 0 auto;" <!-- 添加水平居中样式 -->
               >
             </td>
             <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
@@ -258,11 +259,12 @@ sections:
         <table class="paper-table">
           <tr>
             <!-- 左侧：图片单元格（固定宽度400px，响应式自适应） -->
-            <td style="width: 400px; max-width: 100%;">
+            <td style="width: 400px; max-width: 100%; vertical-align: middle;"> <!-- 添加垂直居中样式 -->
               <img 
                 src="images/4dgc.png" 
-                alt="Q-Eval-100K: Visual Annotation Example" 
+                alt="seriallora" 
                 class="paper-image"
+                style="display: block; margin: 0 auto;" <!-- 添加水平居中样式 -->
               >
             </td>
             <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
