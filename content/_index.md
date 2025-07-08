@@ -189,7 +189,7 @@ sections:
         <table class="paper-table">
           <tr>
             <!-- 左侧：图片单元格（固定宽度400px，响应式自适应） -->
-            <td style="width: 400px; max-width: 100%; vertical-align: middle;"> <!-- 添加垂直居中样式 -->
+            <td style="width: 400px; max-width: 100%; vertical-align: middle; margin-bottom: 15px;"> <!-- 添加垂直居中样式 -->
               <img 
                 src="images/seriallora.png" 
                 alt="seriallora" 
