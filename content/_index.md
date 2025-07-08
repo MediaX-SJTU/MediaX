@@ -210,7 +210,7 @@ sections:
               </div>
             </td>
           </tr>
-</table>
+        </table>
 
         
   - block: collection
