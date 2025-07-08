@@ -50,9 +50,6 @@ sections:
                 <a href="https://www.most.gov.cn/index.html" target="_blank">
                     <img src="images/tests.jpg" alt="NVIDIA Logo">
                 </a>
-                <a href="https://stcsm.sh.gov.cn/" target="_blank">
-                    <img src="images/shstcsm.jpg" alt="NVIDIA Logo">
-                </a>
                 <a href="https://tv.cctv.com/live/" target="_blank">
                     <img src="images/cmg.png" alt="Toyota Research Institute Logo">
                 </a>
@@ -61,6 +58,9 @@ sections:
                 </a>
                 <a href="https://www.aliyun.com/?spm=5176.28507329.J_4VYgf18xNlTAyFFbOuOQe.d_logo.f8032868b1cDqr" target="_blank">
                     <img src="images/alibaba.png" alt="Meta Logo">
+                </a>
+                <a href="https://stcsm.sh.gov.cn/" target="_blank">
+                    <img src="images/test1.png" alt="NVIDIA Logo">
                 </a>
                 <a href="https://mall.hisense.com/" target="_blank">
                     <img src="images/hisense.jpg" alt="Picsart Logo">
