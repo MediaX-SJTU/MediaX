@@ -146,7 +146,7 @@ sections:
 
   - block: contact
     content:
-
+      title: Publictions
       text: |-
 
         <style>
@@ -195,13 +195,12 @@ sections:
             <td> <!-- 移除原padding-top:10px，保持垂直居中 -->
               <!-- 1. 论文标题（含CVPR Oral标签） -->
               <h1 style="font-size: 1.3em; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
-                <span style="background-color: #e74c3c; color: white; padding: 3px 8px; border-radius: 5px; font-size: 0.8em; margin-right: 10px;">CVPR Oral</span>
-                Q-Eval-100K: Evaluating Visual Quality and Alignment Level for Text-to-Vision Content
+                <span style="background-color: #e74c3c; color: white; padding: 3px 8px; border-radius: 5px; font-size: 0.8em; margin-right: 10px;">CVPR 2025</span>
+                4DGC: Rate-Aware 4D Gaussian Compression for Efficient Streamable Free-Viewpoint Video
               </h1>
               <!-- 2. 作者列表（学术格式：共同一作上标、通讯作者下划线） -->
               <p style="font-size: 0.95em; color: #3498db; margin-bottom: 10px;"> <!-- 原HTML作者颜色是#34495e，这里调整为更醒目的蓝色（可选） -->
-                Zicheng Zhang<sup>*</sup>, Tengchuan Kou<sup>*</sup>, Shushi Wang, Chunyi Li, Wei Sun, Wei Wang, Xiaoyu Li, Zongyu Wang, Xuezhi Cao, Xiongkuo Min,  
-                <span style="text-decoration: underline; font-weight: 500;">Xiaohong Liu<sup>*</sup></span>, Guangtao Zhai
+                Qiang Hu, Zihan Zheng, Houqiang Zhong, Sihua Fu, Li Song, Xiaoyun Zhang, Guangtao Zhai, Yanfeng Wang.
               </p>
               <!-- 3. 会议信息（灰色小字） -->
               <p style="font-size: 0.9em; color: #7f8c8d; margin-bottom: 20px;">
@@ -209,8 +208,8 @@ sections:
               </p>
               <!-- 4. 论文/代码链接（蓝色，hover下划线） -->
               <div>
-                <a href="https://arxiv.org/" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
-                <a href="https://github.com/" target="_blank" rel="noopener noreferrer" class="paper-link">[Code]</a>
+                <a href="https://arxiv.org/pdf/2412.19238" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
+                <a href="https://github.com/qianghu-huber/4DGC" target="_blank" rel="noopener noreferrer" class="paper-link">[Code]</a>
               </div>
             </td>
           </tr>
