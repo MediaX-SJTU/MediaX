@@ -9,7 +9,7 @@ sections:
     content:
       title: Partners & Sponsors
       text: |-
-        MediaX thanks national research programs and our industrial partners for their support.
+        <p style="text-align: center;">MediaX thanks national research programs and our industrial partners for their support.</p>
 
 
         <!DOCTYPE html>
