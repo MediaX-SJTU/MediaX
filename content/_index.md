@@ -194,18 +194,15 @@ sections:
                 <span style="background-color: #e74c3c; color: white; padding: 3px 8px; border-radius: 5px; font-size: 0.8em; margin-right: 10px;">CVPR Oral</span>
                 Q-Eval-100K: Evaluating Visual Quality and Alignment Level for Text-to-Vision Content
               </h1>
-              
               <!-- 2. 作者列表（学术格式：共同一作上标、通讯作者下划线） -->
               <p style="font-size: 0.95em; color: #3498db; margin-bottom: 10px;"> <!-- 原HTML作者颜色是#34495e，这里调整为更醒目的蓝色（可选） -->
                 Zicheng Zhang<sup>*</sup>, Tengchuan Kou<sup>*</sup>, Shushi Wang, Chunyi Li, Wei Sun, Wei Wang, Xiaoyu Li, Zongyu Wang, Xuezhi Cao, Xiongkuo Min,  
                 <span style="text-decoration: underline; font-weight: 500;">Xiaohong Liu<sup>*</sup></span>, Guangtao Zhai
               </p>
-              
               <!-- 3. 会议信息（灰色小字） -->
               <p style="font-size: 0.9em; color: #7f8c8d; margin-bottom: 20px;">
                 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025.
               </p>
-              
               <!-- 4. 论文/代码链接（蓝色，hover下划线） -->
               <div>
                 <a href="https://arxiv.org/" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
