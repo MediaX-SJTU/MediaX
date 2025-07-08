@@ -183,6 +183,16 @@ sections:
           .paper-link:hover {
             text-decoration: underline;
           }
+          .bottom-link {
+            color: #3498db;
+            text-decoration: underline; /* 添加下划线 */
+            font-size: 25px; /* 增大字体大小 */
+            display: block;
+            margin-top: 10px;
+          }
+          .bottom-link:hover {
+            text-decoration: underline; /* 鼠标悬停时保持下划线 */
+          }
         </style>
 
         <!-- 核心：表格布局（左右两栏） -->
