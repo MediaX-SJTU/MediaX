@@ -141,13 +141,11 @@ sections:
     design:
         columns: '1'
 
-        
   - block: contact
     content:
 
       text: |-
 
-        <!DOCTYPE html>
         <html lang="en">
         <head>
             <meta charset="UTF-8">
@@ -318,7 +316,39 @@ sections:
     design:
         columns: '1'
 
+        
+  - block: collection
+    content:
+      title: Latest News
+      subtitle:
+      text:
+      count: 2
+      filters:
+        author: ''
+        category: ''
+        exclude_featured: false
+        publication_type: ''
+        tag: ''
+      offset: 0
+      order: desc
+      page_type: post
+    design:
+      view: card
+      columns: '1'
   
+
+  - block: collection
+    content:
+      title: Latest prints
+      text: ""
+      count: 5
+      filters:
+        folders:
+          - publication
+        # publication_type: 'article'
+    design:
+      view: citation
+      columns: '1'
 
   - block: markdown
     content:
