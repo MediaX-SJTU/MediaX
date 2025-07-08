@@ -187,7 +187,6 @@ sections:
                 class="paper-image"
               >
             </td>
-            
             <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
             <td style="padding-top: 10px;"> <!-- 与左侧图片顶部对齐 -->
               <!-- 1. 论文标题（含CVPR Oral标签） -->
