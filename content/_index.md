@@ -146,7 +146,7 @@ sections:
 
   - block: contact
     content:
-      title: Publictions
+      title: Publications
       text: |-
 
         <style>
@@ -203,7 +203,7 @@ sections:
                 Qiang Hu, Zihan Zheng, Houqiang Zhong, Sihua Fu, Li Song, Xiaoyun Zhang, Guangtao Zhai, Yanfeng Wang.
               </p>
               <!-- 3. 会议信息（灰色小字） -->
-              <p style="font-size: 0.9em; color: #7f8c8d; margin-bottom: 20px;">
+              <p style="font-size: 0.9em; color: #7f8c8d; margin-bottom: 10px;">
                 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025.
               </p>
               <!-- 4. 论文/代码链接（蓝色，hover下划线） -->
@@ -218,38 +218,6 @@ sections:
         columns: '1'
 
         
-  - block: collection
-    content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 2
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
-  
-
-  - block: collection
-    content:
-      title: Latest prints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        # publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
 
   - block: markdown
     content:
