@@ -199,11 +199,11 @@ sections:
                 4DGC: Rate-Aware 4D Gaussian Compression for Efficient Streamable Free-Viewpoint Video
               </h1>
               <!-- 2. 作者列表（学术格式：共同一作上标、通讯作者下划线） -->
-              <p style="font-size: 0.95em; color: #3498db; margin-bottom: 10px;"> <!-- 原HTML作者颜色是#34495e，这里调整为更醒目的蓝色（可选） -->
+              <p style="font-size: 1em; color: #3498db; margin-bottom: 10px;"> <!-- 原HTML作者颜色是#34495e，这里调整为更醒目的蓝色（可选） -->
                 Qiang Hu, Zihan Zheng, Houqiang Zhong, Sihua Fu, Li Song, Xiaoyun Zhang, Guangtao Zhai, Yanfeng Wang.
               </p>
               <!-- 3. 会议信息（灰色小字） -->
-              <p style="font-size: 0.9em; color: #7f8c8d; margin-bottom: 10px;">
+              <p style="font-size: 1em; color: #7f8c8d; margin-bottom: 10px;">
                 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025.
               </p>
               <!-- 4. 论文/代码链接（蓝色，hover下划线） -->
