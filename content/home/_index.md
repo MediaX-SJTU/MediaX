@@ -52,7 +52,7 @@ sections:
           <h1><strong>Welcome to MediaX@SJTU (上交智能媒体组)</strong></h1>
 
           <p>
-            <strong>MediaX</strong> is a research group under the <a href="https://cmic.sjtu.edu.cn/CN/Default.aspx">Cooperative Medianet Innovation Center</a> at Shanghai Jiao Tong University, focusing on cutting-edge research at the intersection of computer vision, <span class="highlight">computer vision</span>, <span class="highlight">machine learning</span>, and <span class="highlight">generative intelligent media</span>. We aim to advance the frontiers of multi-modal media (2D/3D/4D) across generation, restoration and enhancement, reconstruction and compression, and quality assessment. Our mission is to build intelligent systems capable of understanding, modeling, and manipulating complex human-centric visual content, enabling the high-quality and efficient creation of next-generation intelligent media.
+            <strong>MediaX</strong> is a research group under the <a href="https://cmic.sjtu.edu.cn/CN/Default.aspx">Cooperative Medianet Innovation Center</a> at Shanghai Jiao Tong University, focusing on cutting-edge research at the intersection of <span class="highlight">computer vision</span>, <span class="highlight">machine learning</span>, and <span class="highlight">generative intelligent media</span>. We aim to advance the frontiers of multi-modal media (2D/3D/4D) across generation, restoration and enhancement, reconstruction and compression, and quality assessment. Our mission is to build intelligent systems capable of understanding, modeling, and manipulating complex human-centric visual content, enabling the high-quality and efficient creation of next-generation intelligent media.
           </p>
 
           <h2>🎯 Research Focus</h2>
@@ -99,7 +99,6 @@ sections:
 
     design:
         columns: '1'
-  
 
 
   - block: contact
@@ -122,58 +121,187 @@ sections:
         </head>
         <body>
             <h1>🔥 News</h1>
-            <div class="news-item">[2025/6]   Six papers are accepted by ICCV 2025</div>
-            <div class="news-item">[2025/2]   Eight papers are accepted by CVPR 2025 (Two orals! 3.3% of the accepted papers, and two spotlights! 13.5% of the accepted papers)</div>
-            <div class="news-item">[2025/1]   One paper is accepted by ICLR 2025</div>
-            <div class="news-item">[2024/12]   One paper is accepted by AAAI 2025</div>
-            <div class="news-item">[2024/9]   Four papers are accepted by NeurIPS 2024</div>
-            <div class="news-item">[2024/7]   Five papers are accepted by ACM MM 2024 (Three orals! One oral paper was selected as Best Paper Nominees!)</div>
-            <div class="news-item">[2024/7]   Three papers are accepted by ECCV 2024 (One oral)</div>
-            <div class="news-item">[2024/4]   One paper is accepted by IJCAI 2024</div>
-            <div class="news-item">[2024/2]   Two papers are accepted by CVPR 2024</div>
-            <div class="news-item">[2023/7]   Three papers are accepted by ACM MM 2023 (Two orals!)</div>
-            <div class="news-item">[2023/7]   One paper is accepted by ICCV 2023</div>
-            <div class="news-item">[2023/3]   One paper is accepted by CVPR 2023</div>
-            <div class="news-item">[2022/9]   One paper is accepted by NeurIPS 2022</div>
-            <div class="news-item">[2022/3]   One paper is accepted by CVPR 2022</div>
+            <div class="news-item">[2025/6]   Two paper is accepted to ICCV 2025</div>
+            <div class="news-item">[2025/5]   One paper is accepted to ICML 2025</div>
+            <div class="news-item">[2025/3]   Two paper is accepted to ICME 2025</div>
+            <div class="news-item">[2025/2]   Two paper is accepted to CVPR 2025</div>
+            <div class="news-item">[2025/2]   NTIRE 2025 XGC Quality Assessment Challenge Organizer</div>
+            <div class="news-item">[2025/1]   One paper is accepted to JSAC 2025</div>
+            <div class="news-item">[2024/12]  One paper is accepted to AAAI 2025</div>
+            <div class="news-item">[2024/7]   One paper is accepted to TCSVT 2024</div>
+            <div class="news-item">[2024/7]   One paper is accepted to ACM MM 2024</div>
+            <div class="news-item">[2024/6]   One paper is accepted to ICIP 2024</div>
+            <div class="news-item">[2024/3]   One paper is accepted to ICME 2024</div>
+            <div class="news-item">[2024/2]   One paper is accepted to CVPR 2024</div>
+            <div class="news-item">[2023/12]  One paper is accepted to AAAI 2024</div>
+            <div class="news-item">[2023/6]   One paper is accepted to ICCP 2023</div>
+            <div class="news-item">[2023/3]   One paper is accepted to CVPR 2023</div>
         </body>
         </html>
-
+      
     design:
         columns: '1'
 
 
-  - block: collection
-    content:
-      title: Latest News
-      subtitle:
-      text:
-      count: 2
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
 
-  - block: collection
+  - block: contact
     content:
-      title: Latest prints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        # publication_type: 'article'
+      title: Publications
+      text: |-
+
+        <style>
+          body, html {
+            margin: 0;
+            padding: 0;
+          }
+          
+          /* 表格布局重置（去除默认边框，调整间距） */
+          .paper-table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 30px 0; /* 表格上下间距（不影响顶部） */
+          }
+          .paper-table td {
+            vertical-align: top; /* 关键：单元格垂直居中（替换原top） */
+            padding: 0 40px 0 0; /* 左右单元格间距（右侧文字单元格无左 padding） */
+          }
+          /* 图片容器样式（保持原HTML的边框和圆角） */
+          .paper-image {
+            width: 100%;
+            height: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            display: block; /* 去除图片底部间隙 */
+          }
+          /* 链接 hover 效果（原HTML的下划线） */
+          .paper-link {
+            color: #3498db;
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 0.95em;
+          }
+          .paper-link:hover {
+            text-decoration: underline;
+          }
+          .bottom-link {
+            color: #3498db;
+            text-decoration: underline; /* 添加下划线 */
+            font-size: 25px; /* 增大字体大小 */
+            display: block;
+            margin-top: 10px;
+          }
+          .bottom-link:hover {
+            text-decoration: underline; /* 鼠标悬停时保持下划线 */
+          }
+        </style>
+
+        <!-- 核心：表格布局（左右两栏） -->
+        <table class="paper-table">
+          <tr>
+            <!-- 左侧：图片单元格（固定宽度400px，响应式自适应） -->
+            <td style="width: 400px; max-width: 100%; vertical-align: middle; margin-top: 20px"> <!-- 添加垂直居中样式 -->
+              <img 
+                src="images/seriallora.png" 
+                alt="seriallora" 
+                class="paper-image"
+                style="display: block; margin: 0 auto;">
+            </td>
+            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
+            <td> <!-- 移除原padding-top:10px，保持垂直居中 -->
+              <!-- 1. 论文标题（含CVPR Oral标签） -->
+              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
+                [ICME'2025]Serial Low-rank Adaptation of Vision Transformer
+              </h1>
+              <!-- 2. 作者列表（学术格式：共同一作上标、通讯作者下划线） -->
+              <p style="font-size: 20px; color: #3498db; margin-bottom: 0;"> <!-- 原HTML作者颜色是#34495e，这里调整为更醒目的蓝色（可选） -->
+                Houqiang Zhong, Shaocheng Shen, Ke Cai, Zhenglong Wu, Jiangchao Yao, Yuan Cheng, Xuefei Li, Xiaoyun Zhang, Li Song, Qiang Hu
+              </p>
+              <!-- 3. 会议信息（灰色小字） -->
+              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 0;">
+                IEEE International Conference on Multimedia and Expo (ICME), 2025.
+              </p>
+              <!-- 4. 论文/代码链接（蓝色，hover下划线） -->
+              <div>
+                <a href="https://arxiv.org/pdf/2503.17750" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+
+        <!-- 核心：表格布局（左右两栏） -->
+        <table class="paper-table">
+          <tr>
+            <!-- 左侧：图片单元格（固定宽度400px，响应式自适应） -->
+            <td style="width: 400px; max-width: 100%; vertical-align: middle;"> <!-- 添加垂直居中样式 -->
+              <img 
+                src="images/TDBFR.png" 
+                alt="seriallora" 
+                class="paper-image"
+                style="display: block; margin: 0 auto;">
+            </td>
+            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
+            <td> <!-- 移除原padding-top:10px，保持垂直居中 -->
+              <!-- 1. 论文标题（含CVPR Oral标签） -->
+              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
+                [ICME'2025]TD-BFR: Truncated Diffusion Model for Efficient Blind Face Restoration
+              </h1>
+              <!-- 2. 作者列表（学术格式：共同一作上标、通讯作者下划线） -->
+              <p style="font-size: 20px; color: #3498db; margin-bottom: 0;"> <!-- 原HTML作者颜色是#34495e，这里调整为更醒目的蓝色（可选） -->
+                Ziying Zhang, Xiang Gao, Zhixin Wang, Qiang Hu, Xiaoyun Zhang
+              </p>
+              <!-- 3. 会议信息（灰色小字） -->
+              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 0;">
+                IEEE International Conference on Multimedia and Expo (ICME), 2025.
+              </p>
+              <!-- 4. 论文/代码链接（蓝色，hover下划线） -->
+              <div>
+                <a href="https://arxiv.org/pdf/2503.20537" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+
+        <!-- 核心：表格布局（左右两栏） -->
+        <table class="paper-table">
+          <tr>
+            <!-- 左侧：图片单元格（固定宽度400px，响应式自适应） -->
+            <td style="width: 400px; max-width: 100%; vertical-align: middle;"> <!-- 添加垂直居中样式 -->
+              <img 
+                src="images/4dgc.png" 
+                alt="seriallora" 
+                class="paper-image"
+                style="display: block; margin: 0 auto;">
+            </td>
+            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
+            <td> <!-- 移除原padding-top:10px，保持垂直居中 -->
+              <!-- 1. 论文标题（含CVPR Oral标签） -->
+              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
+                [CVPR'2025]4DGC: Rate-Aware 4D Gaussian Compression for Efficient Streamable Free-Viewpoint Video
+              </h1>
+              <!-- 2. 作者列表（学术格式：共同一作上标、通讯作者下划线） -->
+              <p style="font-size: 20px; color: #3498db; margin-bottom: 0;"> <!-- 原HTML作者颜色是#34495e，这里调整为更醒目的蓝色（可选） -->
+                Qiang Hu, Zihan Zheng, Houqiang Zhong, Sihua Fu, Li Song, Xiaoyun Zhang, Guangtao Zhai, Yanfeng Wang.
+              </p>
+              <!-- 3. 会议信息（灰色小字） -->
+              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 0;">
+                IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025.
+              </p>
+              <!-- 4. 论文/代码链接（蓝色，hover下划线） -->
+              <div>
+                <a href="https://arxiv.org/pdf/2412.19238" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
+                <a href="https://github.com/qianghu-huber/4DGC" target="_blank" rel="noopener noreferrer" class="paper-link">[Code]</a>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+        <a href="#" class="bottom-link" target="_blank" rel="noopener noreferrer">More on publication page</a>
     design:
-      view: citation
-      columns: '1'
+        columns: '1'
+
+        
 
   - block: markdown
     content:
