@@ -157,7 +157,7 @@ sections:
             margin: 30px 0;
           }
           .paper-table td {
-            vertical-align: middle; /* 关键：单元格垂直居中（替换原top） */
+            vertical-align: top; /* 关键：单元格垂直居中（替换原top） */
             padding: 0 40px 0 0; /* 左右单元格间距（右侧文字单元格无左 padding） */
           }
           /* 图片容器样式（保持原HTML的边框和圆角） */
