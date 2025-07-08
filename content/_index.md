@@ -141,7 +141,126 @@ sections:
     design:
         columns: '1'
 
-  
+  - block: contact
+    content:
+
+      text: |-
+
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <style>
+                /* 全局重置 */
+                * {
+                    margin: 0;
+                    padding: 0;
+                    box-sizing: border-box;
+                    font-family: 'Arial', sans-serif;
+                }
+
+                /* 整体容器：左右两栏（左侧图片+右侧文字） */
+                .container {
+                    display: flex;
+                    max-width: 1200px;
+                    margin: 30px auto;
+                    padding: 0 20px;
+                    gap: 40px; /* 左右间距 */
+                    align-items: flex-start; /* 顶部对齐（避免图片高度影响右侧布局） */
+                }
+
+                /* ------------------- 左侧图片容器（仅图片） ------------------- */
+                .left-container {
+                    width: 400px; /* 固定宽度（可根据图片比例调整） */
+                    border: 1px solid #e0e0e0; /* 轻微边框（可选，提升层次感） */
+                    border-radius: 8px; /* 圆角（可选） */
+                    overflow: hidden; /* 防止图片超出边框（若有圆角） */
+                }
+
+                /* 左侧图片（占满容器，保持比例） */
+                .left-image {
+                    width: 100%; /* 占满左侧容器宽度 */
+                    height: auto; /* 高度自动调整，避免变形 */
+                    display: block; /* 去除图片底部间隙 */
+                }
+
+                /* ------------------- 右侧文字容器（论文信息） ------------------- */
+                .right-container {
+                    flex: 1; /* 占据剩余宽度，自适应 */
+                    padding-top: 10px; /* 与左侧容器顶部对齐（可选） */
+                }
+
+                /* 论文标题（突出显示） */
+                .paper-title {
+                    font-size: 1.3em;
+                    font-weight: bold;
+                    color: #2c3e50;
+                    margin-bottom: 15px;
+                    line-height: 1.3;
+                }
+
+                /* 作者列表（带黑点标记） */
+                .authors {
+                    list-style-type: disc;
+                    margin-left: 25px;
+                    padding-left: 0;
+                    font-size: 0.95em;
+                    color: #34495e;
+                    margin-bottom: 10px;
+                }
+
+                /* 通讯作者（下划线突出） */
+                .corresponding-author {
+                    text-decoration: underline;
+                    font-weight: 500;
+                }
+
+                /* 会议信息（灰色小字） */
+                .conference {
+                    font-size: 0.9em;
+                    color: #7f8c8d;
+                    margin-bottom: 20px;
+                }
+
+                /* 论文/代码链接（蓝色） */
+                .links a {
+                    color: #3498db;
+                    text-decoration: none;
+                    margin-right: 20px;
+                    font-size: 0.95em;
+                }
+
+                .links a:hover {
+                    text-decoration: underline; /* Hover下划线 */
+                }
+
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <!-- 左侧：仅单张图片（无额外元素） -->
+                <div class="left-container">
+                    <img src="images/4DGC.png" alt="Visual Annotation Example" class="left-image"> <!-- 替换为实际图片路径 -->
+                </div>
+
+                <!-- 右侧：论文文字内容（保持不变） -->
+                <div class="right-container">
+                    <h2 class="paper-title">[CVPR Oral] Q-Eval-100K: Evaluating Visual Quality and Alignment Level for Text-to-Vision Content</h2>
+                    <ul class="authors">
+                        <li>Zicheng Zhang*, Tengchuan Kou*, Shushi Wang, Chunyi Li, Wei Sun, Wei Wang, Xiaoyu Li, Zongyu Wang, Xuezhi Cao, Xiongkuo Min, <span class="corresponding-author">Xiaohong Liu*</span>, Guangtao Zhai</li>
+                    </ul>
+                    <p class="conference">IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025.</p>
+                    <div class="links">
+                        <a href="https://arxiv.org/" target="_blank">[Paper]</a> <!-- 替换为实际论文链接 -->
+                        <a href="https://github.com/" target="_blank">[Code]</a> <!-- 替换为实际代码链接 -->
+                    </div>
+                </div>
+            </div>
+        </body>
+        </html>
+
+    design:
+        columns: '1'
 
         
   - block: collection
