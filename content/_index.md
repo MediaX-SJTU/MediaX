@@ -157,6 +157,9 @@ sections:
         </body>
         </html>
       
+    design:
+        columns: '1'
+
 
 
   - block: contact
@@ -186,17 +189,16 @@ sections:
             .paper-table td {
               vertical-align: top;
               /* 关键：单元格垂直居中（替换原top） */
-              padding: 0 100px 0 0;
+              padding: 0 40px 0 0;
               /* 左右单元格间距（右侧文字单元格无左 padding） */
             }
 
             /* 左侧灰色边框、内部白色的方框样式 */
             .left-box {
               width: 400px;
-              max-width: 100%;
               background-color: white; /* 内部白色 */
               border: 1px solid #ccc; /* 灰色边框 */
-              padding: 10px; /* 可根据需要调整内边距 */
+              padding: 0; /* 可根据需要调整内边距 */
               box-sizing: border-box;
               display: flex; /* 用于图片居中 */
               justify-content: center; /* 水平居中 */
