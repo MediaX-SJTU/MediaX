@@ -193,13 +193,17 @@ sections:
               /* 左右单元格间距（右侧文字单元格无左 padding） */
             }
 
-            /* 左侧灰色方框样式 */
+            /* 左侧灰色边框、内部白色的方框样式 */
             .left-box {
               width: 400px;
               max-width: 100%;
-              background-color: #f0f0f0; /* 灰色背景 */
+              background-color: white; /* 内部白色 */
+              border: 1px solid #ccc; /* 灰色边框 */
               padding: 10px; /* 可根据需要调整内边距 */
               box-sizing: border-box;
+              display: flex; /* 用于图片居中 */
+              justify-content: center; /* 水平居中 */
+              align-items: center; /* 垂直居中 */
             }
 
             /* 图片容器样式（保持原HTML的边框和圆角） */
@@ -208,8 +212,6 @@ sections:
               height: auto;
               border: 1px solid #e0e0e0;
               border-radius: 8px;
-              display: block;
-              /* 去除图片底部间隙 */
               object-fit: contain; /* 图片等比例缩放到容器内 */
             }
 
@@ -246,10 +248,9 @@ sections:
           <!-- 核心：表格布局（左右两栏） -->
           <table class="paper-table">
             <tr>
-              <!-- 左侧：图片单元格（固定宽度400px，灰色方框） -->
+              <!-- 左侧：图片单元格（固定宽度400px，灰色边框、内部白色的方框） -->
               <td class="left-box">
-                <img src="images/seriallora.png" alt="seriallora" class="paper-image"
-                  style="display: block; margin: 0 auto;">
+                <img src="images/seriallora.png" alt="seriallora" class="paper-image">
               </td>
               <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
               <td>
