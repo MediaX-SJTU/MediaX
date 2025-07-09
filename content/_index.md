@@ -127,17 +127,18 @@ sections:
                 }
                 .news-list {
                     flex: 1 1 auto;
-                    margin-left: 20px; /* 标题和新闻列表之间的间距 */
+                    margin-left: 100px; /* 标题和新闻列表之间的间距 */
                 }
                 .news-item {
                     margin: 10px 0;
+                    margin-top: 40px;
                 }
             </style>
         </head>
         <body>
             <div class="container">
                 <div class="title">
-                    <h1>🔥 News</h1>
+                    <h1>🔥 News: </h1>
                 </div>
                 <div class="news-list">
                     <div class="news-item">[2025/6]   Two paper is accepted to ICCV 2025</div>
