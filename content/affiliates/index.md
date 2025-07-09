@@ -1,5 +1,5 @@
 ---
-title: Partners & Sponsors
+title: Sponsors
 date: 2022-10-24
 
 type: landing
@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: contact
     content:
-      title: Partners & Sponsors
+      title: Sponsors
       text: |-
         <p style="text-align: center;">MediaX thanks national research programs and our industrial partners for their support.</p>
 
