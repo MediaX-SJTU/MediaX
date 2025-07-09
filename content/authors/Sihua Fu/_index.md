@@ -14,7 +14,7 @@ role: Undergraduate Student
 
 # Organizations/Affiliations
 organizations:
-  - name: MediaX of CMIC, Shanghai JiaoTong University
+  - name: Shanghai JiaoTong University
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
