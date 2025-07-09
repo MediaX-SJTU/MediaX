@@ -157,9 +157,6 @@ sections:
         </body>
         </html>
       
-    design:
-        columns: '1'
-
 
 
   - block: contact
