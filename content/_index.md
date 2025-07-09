@@ -130,8 +130,7 @@ sections:
                     margin-left: 100px; /* 标题和新闻列表之间的间距 */
                 }
                 .news-item {
-                    margin: 6px 0;
-
+                    margin: 10px 0;
                 }
             </style>
         </head>
