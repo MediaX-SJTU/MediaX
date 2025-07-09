@@ -124,10 +124,11 @@ sections:
                 }
                 .title {
                     flex: 0 0 auto;
+                    margin-top: 0;
                 }
                 .news-list {
                     flex: 1 1 auto;
-                    margin-left: 100px; /* 标题和新闻列表之间的间距 */
+                    margin-left: 120px; /* 标题和新闻列表之间的间距 */
                 }
                 .news-item {
                     margin: 10px 0;
