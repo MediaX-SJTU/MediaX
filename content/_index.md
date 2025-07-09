@@ -167,116 +167,93 @@ sections:
       title: Publications
       text: |-
 
-        <head>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>News</title>
-          <style>
-            body,
-            html {
-              margin: 0;
-              padding: 0;
-            }
+        <style>
+          body, html { margin: 0; padding: 0; }
+          
+          /* 表格布局：左右两栏，去除默认边框 */
+          .paper-table { 
+            border-collapse: collapse; 
+            width: 100%; 
+            margin: 30px 0; /* 表格上下间距 */
+          }
+          
+          /* 单元格样式：左侧固定宽度，右侧自适应 */
+          .paper-table td { 
+            vertical-align: middle; /* 左右单元格垂直居中对齐 */
+            padding: 0 40px 0 0; /* 左侧单元格右间距（与右侧文字的距离） */
+          }
+          
+          /* 左侧图片容器（灰色边框+白色底色方框） */
+          .image-container {
+            width: 400px; /* 固定宽度（核心需求） */
+            max-width: 100%; /* 响应式：不超过父容器宽度 */
+            border: 1px solid #e0e0e0; /* 灰色边框 */
+            background-color: #ffffff; /* 白色底色 */
+            border-radius: 8px; /* 圆角（可选，提升美观度） */
+            padding: 15px; /* 图片与边框的内边距（可选） */
+            box-sizing: border-box; /* 确保padding不增加容器宽度 */
+            display: flex; /* Flex布局：图片居中 */
+            justify-content: center; /* 水平居中 */
+            align-items: center; /* 垂直居中 */
+          }
+          
+          /* 图片样式：等比例缩放，不超出容器 */
+          .paper-image {
+            max-width: 100%; /* 不超过容器宽度 */
+            max-height: 100%; /* 不超过容器高度 */
+            width: auto; /* 保持比例 */
+            height: auto; /* 保持比例 */
+            display: block; /* 去除图片底部间隙 */
+          }
+          
+          /* 链接样式（保持原风格） */
+          .paper-link { 
+            color: #3498db; 
+            text-decoration: none; 
+            margin-right: 20px; 
+            font-size: 0.95em; 
+          }
+          .paper-link:hover { text-decoration: underline; }
+          
+          .bottom-link { 
+            color: #3498db; 
+            text-decoration: underline; 
+            font-size: 25px; 
+            display: block; 
+            margin-top: 10px; 
+          }
+        </style>
 
-            /* 表格布局重置（去除默认边框，调整间距） */
-            .paper-table {
-              border-collapse: collapse;
-              width: 100%;
-              margin: 30px 0;
-              /* 表格上下间距（不影响顶部） */
-            }
-
-            .paper-table td {
-              vertical-align: top;
-              /* 关键：单元格垂直居中（替换原top） */
-              padding: 0 40px 0 0;
-              /* 左右单元格间距（右侧文字单元格无左 padding） */
-            }
-
-            /* 左侧灰色边框、内部白色的方框样式 */
-            .left-box {
-              width: 400px;
-              background-color: white; /* 内部白色 */
-              border: 1px solid #ccc; /* 灰色边框 */
-              padding: 0; /* 可根据需要调整内边距 */
-              box-sizing: border-box;
-              display: flex; /* 用于图片居中 */
-              justify-content: center; /* 水平居中 */
-              align-items: center; /* 垂直居中 */
-            }
-
-            /* 图片容器样式（保持原HTML的边框和圆角） */
-            .paper-image {
-              width: 100%;
-              height: auto;
-              border: 1px solid #e0e0e0;
-              border-radius: 8px;
-              object-fit: contain; /* 图片等比例缩放到容器内 */
-            }
-
-            /* 链接 hover 效果（原HTML的下划线） */
-            .paper-link {
-              color: #3498db;
-              text-decoration: none;
-              margin-right: 20px;
-              font-size: 0.95em;
-            }
-
-            .paper-link:hover {
-              text-decoration: underline;
-            }
-
-            .bottom-link {
-              color: #3498db;
-              text-decoration: underline;
-              /* 添加下划线 */
-              font-size: 25px;
-              /* 增大字体大小 */
-              display: block;
-              margin-top: 10px;
-            }
-
-            .bottom-link:hover {
-              text-decoration: underline;
-              /* 鼠标悬停时保持下划线 */
-            }
-          </style>
-        </head>
-
-        <body>
-          <!-- 核心：表格布局（左右两栏） -->
-          <table class="paper-table">
-            <tr>
-              <!-- 左侧：图片单元格（固定宽度400px，灰色边框、内部白色的方框） -->
-              <td class="left-box">
+        <!-- 表格布局：左右两栏 -->
+        <table class="paper-table">
+          <tr>
+            <!-- 左侧：图片单元格（固定宽度400px） -->
+            <td>
+              <div class="image-container"> <!-- 灰色边框+白色底色的方框 -->
                 <img src="images/seriallora.png" alt="seriallora" class="paper-image">
-              </td>
-              <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
-              <td>
-                <!-- 1. 论文标题（含CVPR Oral标签） -->
-                <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
-                  [ICME'2025]Serial Low-rank Adaptation of Vision Transformer
-                </h1>
-                <!-- 2. 作者列表（学术格式：共同一作上标、通讯作者下划线） -->
-                <p style="font-size: 20px; color: #3498db; margin-bottom: 0;">
-                  Houqiang Zhong, Shaocheng Shen, Ke Cai, Zhenglong Wu, Jiangchao Yao, Yuan Cheng, Xuefei Li, Xiaoyun Zhang, Li Song, Qiang Hu
-                </p>
-                <!-- 3. 会议信息（灰色小字） -->
-                <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 0;">
-                  IEEE International Conference on Multimedia and Expo (ICME), 2025.
-                </p>
-                <!-- 4. 论文/代码链接（蓝色，hover下划线） -->
-                <div>
-                  <a href="https://arxiv.org/pdf/2503.17750" target="_blank" rel="noopener noreferrer" class="paper-link">
-                    [Paper]
-                  </a>
-                </div>
-              </td>
-            </tr>
-          </table>
-        </body>
-
-
+              </div>
+            </td>
+            
+            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
+            <td>
+              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
+                [ICME'2025] Serial Low-rank Adaptation of Vision Transformer
+              </h1>
+              
+              <p style="font-size: 20px; color: #3498db; margin-bottom: 10px;">
+                Houqiang Zhong, Shaocheng Shen, Ke Cai, Zhenglong Wu, Jiangchao Yao, Yuan Cheng, Xuefei Li, Xiaoyun Zhang, Li Song, Qiang Hu
+              </p>
+              
+              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 20px;">
+                IEEE International Conference on Multimedia and Expo (ICME), 2025.
+              </p>
+              
+              <div>
+                <a href="https://arxiv.org/pdf/2503.17750" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
+              </div>
+            </td>
+          </tr>
+        </table>
 
         <a href="#" class="bottom-link" target="_blank" rel="noopener noreferrer">More on publication page</a>
     design:
