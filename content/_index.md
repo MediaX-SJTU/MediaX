@@ -233,7 +233,6 @@ sections:
                 <img src="images/seriallora.png" alt="seriallora" class="paper-image">
               </div>
             </td>
-            
             <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
             <td>
               <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
