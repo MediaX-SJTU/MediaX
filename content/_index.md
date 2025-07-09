@@ -167,153 +167,115 @@ sections:
       title: Publications
       text: |-
 
-        <style>
-          body, html {
-            margin: 0;
-            padding: 0;
-          }
-          
-          /* 表格布局重置（去除默认边框，调整间距） */
-          .paper-table {
-            border-collapse: collapse;
-            width: 100%;
-            margin: 30px 0; /* 表格上下间距（不影响顶部） */
-          }
-          .paper-table td {
-            vertical-align: top; /* 关键：单元格垂直居中（替换原top） */
-            padding: 0 40px 0 0; /* 左右单元格间距（右侧文字单元格无左 padding） */
-          }
-          /* 图片容器样式（保持原HTML的边框和圆角） */
-          .paper-image {
-            width: 100%;
-            height: auto;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
-            display: block; /* 去除图片底部间隙 */
-          }
-          /* 链接 hover 效果（原HTML的下划线） */
-          .paper-link {
-            color: #3498db;
-            text-decoration: none;
-            margin-right: 20px;
-            font-size: 0.95em;
-          }
-          .paper-link:hover {
-            text-decoration: underline;
-          }
-          .bottom-link {
-            color: #3498db;
-            text-decoration: underline; /* 添加下划线 */
-            font-size: 25px; /* 增大字体大小 */
-            display: block;
-            margin-top: 10px;
-          }
-          .bottom-link:hover {
-            text-decoration: underline; /* 鼠标悬停时保持下划线 */
-          }
-        </style>
+        <head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>News</title>
+          <style>
+            body,
+            html {
+              margin: 0;
+              padding: 0;
+            }
 
-        <!-- 核心：表格布局（左右两栏） -->
-        <table class="paper-table">
-          <tr>
-            <!-- 左侧：图片单元格（固定宽度400px，响应式自适应） -->
-            <td style="width: 400px; max-width: 100%; vertical-align: middle; margin-top: 20px"> <!-- 添加垂直居中样式 -->
-              <img 
-                src="images/seriallora.png" 
-                alt="seriallora" 
-                class="paper-image"
-                style="display: block; margin: 0 auto;">
-            </td>
-            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
-            <td> <!-- 移除原padding-top:10px，保持垂直居中 -->
-              <!-- 1. 论文标题（含CVPR Oral标签） -->
-              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
-                [ICME'2025]Serial Low-rank Adaptation of Vision Transformer
-              </h1>
-              <!-- 2. 作者列表（学术格式：共同一作上标、通讯作者下划线） -->
-              <p style="font-size: 20px; color: #3498db; margin-bottom: 0;"> <!-- 原HTML作者颜色是#34495e，这里调整为更醒目的蓝色（可选） -->
-                Houqiang Zhong, Shaocheng Shen, Ke Cai, Zhenglong Wu, Jiangchao Yao, Yuan Cheng, Xuefei Li, Xiaoyun Zhang, Li Song, Qiang Hu
-              </p>
-              <!-- 3. 会议信息（灰色小字） -->
-              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 0;">
-                IEEE International Conference on Multimedia and Expo (ICME), 2025.
-              </p>
-              <!-- 4. 论文/代码链接（蓝色，hover下划线） -->
-              <div>
-                <a href="https://arxiv.org/pdf/2503.17750" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
-              </div>
-            </td>
-          </tr>
-        </table>
+            /* 表格布局重置（去除默认边框，调整间距） */
+            .paper-table {
+              border-collapse: collapse;
+              width: 100%;
+              margin: 30px 0;
+              /* 表格上下间距（不影响顶部） */
+            }
 
+            .paper-table td {
+              vertical-align: top;
+              /* 关键：单元格垂直居中（替换原top） */
+              padding: 0 40px 0 0;
+              /* 左右单元格间距（右侧文字单元格无左 padding） */
+            }
 
-        <!-- 核心：表格布局（左右两栏） -->
-        <table class="paper-table">
-          <tr>
-            <!-- 左侧：图片单元格（固定宽度400px，响应式自适应） -->
-            <td style="width: 400px; max-width: 100%; vertical-align: middle;"> <!-- 添加垂直居中样式 -->
-              <img 
-                src="images/TDBFR.png" 
-                alt="seriallora" 
-                class="paper-image"
-                style="display: block; margin: 0 auto;">
-            </td>
-            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
-            <td> <!-- 移除原padding-top:10px，保持垂直居中 -->
-              <!-- 1. 论文标题（含CVPR Oral标签） -->
-              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
-                [ICME'2025]TD-BFR: Truncated Diffusion Model for Efficient Blind Face Restoration
-              </h1>
-              <!-- 2. 作者列表（学术格式：共同一作上标、通讯作者下划线） -->
-              <p style="font-size: 20px; color: #3498db; margin-bottom: 0;"> <!-- 原HTML作者颜色是#34495e，这里调整为更醒目的蓝色（可选） -->
-                Ziying Zhang, Xiang Gao, Zhixin Wang, Qiang Hu, Xiaoyun Zhang
-              </p>
-              <!-- 3. 会议信息（灰色小字） -->
-              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 0;">
-                IEEE International Conference on Multimedia and Expo (ICME), 2025.
-              </p>
-              <!-- 4. 论文/代码链接（蓝色，hover下划线） -->
-              <div>
-                <a href="https://arxiv.org/pdf/2503.20537" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
-              </div>
-            </td>
-          </tr>
-        </table>
+            /* 左侧灰色方框样式 */
+            .left-box {
+              width: 400px;
+              max-width: 100%;
+              background-color: #f0f0f0; /* 灰色背景 */
+              padding: 10px; /* 可根据需要调整内边距 */
+              box-sizing: border-box;
+            }
 
+            /* 图片容器样式（保持原HTML的边框和圆角） */
+            .paper-image {
+              width: 100%;
+              height: auto;
+              border: 1px solid #e0e0e0;
+              border-radius: 8px;
+              display: block;
+              /* 去除图片底部间隙 */
+              object-fit: contain; /* 图片等比例缩放到容器内 */
+            }
 
-        <!-- 核心：表格布局（左右两栏） -->
-        <table class="paper-table">
-          <tr>
-            <!-- 左侧：图片单元格（固定宽度400px，响应式自适应） -->
-            <td style="width: 400px; max-width: 100%; vertical-align: middle;"> <!-- 添加垂直居中样式 -->
-              <img 
-                src="images/4dgc.png" 
-                alt="seriallora" 
-                class="paper-image"
-                style="display: block; margin: 0 auto;">
-            </td>
-            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
-            <td> <!-- 移除原padding-top:10px，保持垂直居中 -->
-              <!-- 1. 论文标题（含CVPR Oral标签） -->
-              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
-                [CVPR'2025]4DGC: Rate-Aware 4D Gaussian Compression for Efficient Streamable Free-Viewpoint Video
-              </h1>
-              <!-- 2. 作者列表（学术格式：共同一作上标、通讯作者下划线） -->
-              <p style="font-size: 20px; color: #3498db; margin-bottom: 0;"> <!-- 原HTML作者颜色是#34495e，这里调整为更醒目的蓝色（可选） -->
-                Qiang Hu, Zihan Zheng, Houqiang Zhong, Sihua Fu, Li Song, Xiaoyun Zhang, Guangtao Zhai, Yanfeng Wang.
-              </p>
-              <!-- 3. 会议信息（灰色小字） -->
-              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 0;">
-                IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025.
-              </p>
-              <!-- 4. 论文/代码链接（蓝色，hover下划线） -->
-              <div>
-                <a href="https://arxiv.org/pdf/2412.19238" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
-                <a href="https://github.com/qianghu-huber/4DGC" target="_blank" rel="noopener noreferrer" class="paper-link">[Code]</a>
-              </div>
-            </td>
-          </tr>
-        </table>
+            /* 链接 hover 效果（原HTML的下划线） */
+            .paper-link {
+              color: #3498db;
+              text-decoration: none;
+              margin-right: 20px;
+              font-size: 0.95em;
+            }
+
+            .paper-link:hover {
+              text-decoration: underline;
+            }
+
+            .bottom-link {
+              color: #3498db;
+              text-decoration: underline;
+              /* 添加下划线 */
+              font-size: 25px;
+              /* 增大字体大小 */
+              display: block;
+              margin-top: 10px;
+            }
+
+            .bottom-link:hover {
+              text-decoration: underline;
+              /* 鼠标悬停时保持下划线 */
+            }
+          </style>
+        </head>
+
+        <body>
+          <!-- 核心：表格布局（左右两栏） -->
+          <table class="paper-table">
+            <tr>
+              <!-- 左侧：图片单元格（固定宽度400px，灰色方框） -->
+              <td class="left-box">
+                <img src="images/seriallora.png" alt="seriallora" class="paper-image"
+                  style="display: block; margin: 0 auto;">
+              </td>
+              <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
+              <td>
+                <!-- 1. 论文标题（含CVPR Oral标签） -->
+                <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
+                  [ICME'2025]Serial Low-rank Adaptation of Vision Transformer
+                </h1>
+                <!-- 2. 作者列表（学术格式：共同一作上标、通讯作者下划线） -->
+                <p style="font-size: 20px; color: #3498db; margin-bottom: 0;">
+                  Houqiang Zhong, Shaocheng Shen, Ke Cai, Zhenglong Wu, Jiangchao Yao, Yuan Cheng, Xuefei Li, Xiaoyun Zhang, Li Song, Qiang Hu
+                </p>
+                <!-- 3. 会议信息（灰色小字） -->
+                <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 0;">
+                  IEEE International Conference on Multimedia and Expo (ICME), 2025.
+                </p>
+                <!-- 4. 论文/代码链接（蓝色，hover下划线） -->
+                <div>
+                  <a href="https://arxiv.org/pdf/2503.17750" target="_blank" rel="noopener noreferrer" class="paper-link">
+                    [Paper]
+                  </a>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </body>
+
 
         <a href="#" class="bottom-link" target="_blank" rel="noopener noreferrer">More on publication page</a>
     design:
