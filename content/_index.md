@@ -186,7 +186,7 @@ sections:
             .paper-table td {
               vertical-align: top;
               /* 关键：单元格垂直居中（替换原top） */
-              padding: 0 40px 0 0;
+              padding: 0 100px 0 0;
               /* 左右单元格间距（右侧文字单元格无左 padding） */
             }
 
