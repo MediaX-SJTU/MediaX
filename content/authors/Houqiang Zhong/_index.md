@@ -18,7 +18,7 @@ organizations:
   url: ''
 
 # Short bio (will be displayed in the future)
-bio: I’m a Research PHD candidate at SJTU Media Lab.  I'm doing research on volumetric video and 3D reconstruction, under the direction of Prof. Li Song and Prof. Qiang Hu.
+bio: I am a Research PHD candidate at SJTU Media Lab.  I'm doing research on volumetric video and 3D reconstruction, under the direction of Prof. Li Song and Prof. Qiang Hu.
 
 interests:
 - Volumetric Video
