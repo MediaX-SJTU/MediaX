@@ -129,9 +129,10 @@ sections:
                 .news-list {
                     flex: 1 1 auto;
                     margin-left: 120px; /* 标题和新闻列表之间的间距 */
+                    margin-top: 30px;
                 }
                 .news-item {
-                    margin: 10px 0;
+                    margin: 6px 0;
                 }
             </style>
         </head>
