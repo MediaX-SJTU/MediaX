@@ -238,22 +238,19 @@ sections:
               <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
                 [ICME'2025] Serial Low-rank Adaptation of Vision Transformer
               </h1>
-              
               <p style="font-size: 20px; color: #3498db; margin-bottom: 10px;">
                 Houqiang Zhong, Shaocheng Shen, Ke Cai, Zhenglong Wu, Jiangchao Yao, Yuan Cheng, Xuefei Li, Xiaoyun Zhang, Li Song, Qiang Hu
               </p>
-              
               <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 20px;">
                 IEEE International Conference on Multimedia and Expo (ICME), 2025.
               </p>
-              
               <div>
                 <a href="https://arxiv.org/pdf/2503.17750" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
               </div>
             </td>
           </tr>
         </table>
-
+        
         <a href="#" class="bottom-link" target="_blank" rel="noopener noreferrer">More on publication page</a>
     design:
         columns: '1'
