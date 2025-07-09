@@ -1,28 +1,35 @@
 ---
 # Display name
-title: Lu Liu
+title: Li Song
 
 # Full Name (for SEO)
-first_name: Lu
-last_name: Liu
+first_name: Song
+last_name: Li
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position
-role: PhD student
+role: Research Collaborator
 
 # Organizations/Affiliations
-organizations:
-  - name: Shanghai JiaoTong University
-    url: ''
+# organizations:
+#   - name: MediaX lab of CMIC, Shanghai JiaoTong University
+#     url: ''
 
-# Short bio (displayed in user profile at end of posts)
-bio: 
+# # Short bio (displayed in user profile at end of posts)
+# bio: 
 
-interests:
-  - 生成式智能媒体
+# interests:
+#   - 生成式智能媒体
+#   - 多模态大模型与扩散模型
 
+
+# education:
+#   courses:
+#     - course: B.E. in Electronic Information Engineering
+#       institution: Shanghai Jiao Tong University 
+#       year: 2025
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -56,9 +63,8 @@ highlight_name: false
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Ph.D. Students
+  - Research Collaborators
 
-weight: 2
+weight: 3
 ---
 
-刘璐，2023级直博在读。
