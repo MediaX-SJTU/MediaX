@@ -131,11 +131,6 @@ sections:
             <div class="news-item">[2024/7]   One paper is accepted to TCSVT 2024</div>
             <div class="news-item">[2024/7]   One paper is accepted to ACM MM 2024</div>
             <div class="news-item">[2024/6]   One paper is accepted to ICIP 2024</div>
-            <div class="news-item">[2024/3]   One paper is accepted to ICME 2024</div>
-            <div class="news-item">[2024/2]   One paper is accepted to CVPR 2024</div>
-            <div class="news-item">[2023/12]  One paper is accepted to AAAI 2024</div>
-            <div class="news-item">[2023/6]   One paper is accepted to ICCP 2023</div>
-            <div class="news-item">[2023/3]   One paper is accepted to CVPR 2023</div>
         </body>
         </html>
       
