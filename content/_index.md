@@ -168,114 +168,115 @@ sections:
       text: |-
 
         <head>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>News</title>
-          <style>
-            body,
-            html {
-              margin: 0;
-              padding: 0;
-            }
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>News</title>
+        <style>
+          body,
+          html {
+            margin: 0;
+            padding: 0;
+          }
 
-            /* 表格布局重置（去除默认边框，调整间距） */
-            .paper-table {
-              border-collapse: collapse;
-              width: 100%;
-              margin: 30px 0;
-              /* 表格上下间距（不影响顶部） */
-            }
+          /* 表格布局重置（去除默认边框，调整间距） */
+          .paper-table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 30px 0;
+            /* 表格上下间距（不影响顶部） */
+          }
 
-            .paper-table td {
-              vertical-align: top;
-              /* 关键：单元格垂直居中（替换原top） */
-              padding: 0 40px 0 0;
-              /* 左右单元格间距（右侧文字单元格无左 padding） */
-            }
+          .paper-table td {
+            vertical-align: top;
+            /* 关键：单元格垂直居中（替换原top） */
+            padding: 0 40px 0 0;
+            /* 左右单元格间距（右侧文字单元格无左 padding） */
+          }
 
-            /* 左侧灰色边框、内部白色的方框样式 */
-            .left-box {
-              width: 400px;
-              max-width: 100%;
-              background-color: white; /* 内部白色 */
-              border: 1px solid #ccc; /* 灰色边框 */
-              padding: 10px; /* 可根据需要调整内边距 */
-              box-sizing: border-box;
-              display: flex; /* 用于图片居中 */
-              justify-content: center; /* 水平居中 */
-              align-items: center; /* 垂直居中 */
-            }
+          /* 左侧灰色边框、内部白色的方框样式 */
+          .left-box {
+            width: 400px;
+            max-width: 100%;
+            background-color: white; /* 内部白色 */
+            border: 1px solid #ccc; /* 灰色边框 */
+            padding: 10px; /* 可根据需要调整内边距 */
+            box-sizing: border-box;
+            display: flex; /* 用于图片居中 */
+            justify-content: center; /* 水平居中 */
+            align-items: center; /* 垂直居中 */
+          }
 
-            /* 图片容器样式（保持原HTML的边框和圆角） */
-            .paper-image {
-              width: 100%;
-              height: auto;
-              border: 1px solid #e0e0e0;
-              border-radius: 8px;
-              object-fit: contain; /* 图片等比例缩放到容器内 */
-            }
+          /* 图片容器样式（保持原HTML的边框和圆角） */
+          .paper-image {
+            width: 100%;
+            height: auto;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            object-fit: contain; /* 图片等比例缩放到容器内 */
+          }
 
-            /* 链接 hover 效果（原HTML的下划线） */
-            .paper-link {
-              color: #3498db;
-              text-decoration: none;
-              margin-right: 20px;
-              font-size: 0.95em;
-            }
+          /* 链接 hover 效果（原HTML的下划线） */
+          .paper-link {
+            color: #3498db;
+            text-decoration: none;
+            margin-right: 20px;
+            font-size: 0.95em;
+          }
 
-            .paper-link:hover {
-              text-decoration: underline;
-            }
+          .paper-link:hover {
+            text-decoration: underline;
+          }
 
-            .bottom-link {
-              color: #3498db;
-              text-decoration: underline;
-              /* 添加下划线 */
-              font-size: 25px;
-              /* 增大字体大小 */
-              display: block;
-              margin-top: 10px;
-            }
+          .bottom-link {
+            color: #3498db;
+            text-decoration: underline;
+            /* 添加下划线 */
+            font-size: 25px;
+            /* 增大字体大小 */
+            display: block;
+            margin-top: 10px;
+          }
 
-            .bottom-link:hover {
-              text-decoration: underline;
-              /* 鼠标悬停时保持下划线 */
-            }
-          </style>
-        </head>
+          .bottom-link:hover {
+            text-decoration: underline;
+            /* 鼠标悬停时保持下划线 */
+          }
+        </style>
+      </head>
 
-        <body>
-          <!-- 核心：表格布局（左右两栏） -->
-          <table class="paper-table">
-            <tr>
-              <!-- 左侧：图片单元格（固定宽度400px，灰色边框、内部白色的方框） -->
-              <td class="left-box">
-                <img src="images/seriallora.png" alt="seriallora" class="paper-image">
-              </td>
-              <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
-              <td>
-                <!-- 1. 论文标题（含CVPR Oral标签） -->
-                <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
-                  [ICME'2025]Serial Low-rank Adaptation of Vision Transformer
-                </h1>
-                <!-- 2. 作者列表（学术格式：共同一作上标、通讯作者下划线） -->
-                <p style="font-size: 20px; color: #3498db; margin-bottom: 0;">
-                  Houqiang Zhong, Shaocheng Shen, Ke Cai, Zhenglong Wu, Jiangchao Yao, Yuan Cheng, Xuefei Li, Xiaoyun Zhang, Li Song, Qiang Hu
-                </p>
-                <!-- 3. 会议信息（灰色小字） -->
-                <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 0;">
-                  IEEE International Conference on Multimedia and Expo (ICME), 2025.
-                </p>
-                <!-- 4. 论文/代码链接（蓝色，hover下划线） -->
-                <div>
-                  <a href="https://arxiv.org/pdf/2503.17750" target="_blank" rel="noopener noreferrer" class="paper-link">
-                    [Paper]
-                  </a>
-                </div>
-              </td>
-            </tr>
-          </table>
-        </body>
+      <body>
+        <!-- 核心：表格布局（左右两栏） -->
+        <table class="paper-table">
+          <tr>
+            <!-- 左侧：图片单元格（固定宽度400px，灰色边框、内部白色的方框） -->
+            <td class="left-box">
+              <img src="images/seriallora.png" alt="seriallora" class="paper-image">
+            </td>
+            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
+            <td>
+              <!-- 1. 论文标题（含CVPR Oral标签） -->
+              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
+                [ICME'2025]Serial Low-rank Adaptation of Vision Transformer
+              </h1>
+              <!-- 2. 作者列表（学术格式：共同一作上标、通讯作者下划线） -->
+              <p style="font-size: 20px; color: #3498db; margin-bottom: 0;">
+                Houqiang Zhong, Shaocheng Shen, Ke Cai, Zhenglong Wu, Jiangchao Yao, Yuan Cheng, Xuefei Li, Xiaoyun Zhang, Li Song, Qiang Hu
+              </p>
+              <!-- 3. 会议信息（灰色小字） -->
+              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 0;">
+                IEEE International Conference on Multimedia and Expo (ICME), 2025.
+              </p>
+              <!-- 4. 论文/代码链接（蓝色，hover下划线） -->
+              <div>
+                <a href="https://arxiv.org/pdf/2503.17750" target="_blank" rel="noopener noreferrer" class="paper-link">
+                  [Paper]
+                </a>
+              </div>
+            </td>
+          </tr>
+        </table>
+      </body>
+
 
 
         <a href="#" class="bottom-link" target="_blank" rel="noopener noreferrer">More on publication page</a>
