@@ -193,6 +193,7 @@ sections:
           /* 左侧图片容器（灰色边框+白色底色方框） */
           .image-container {
             width: 400px; /* 固定宽度（核心需求） */
+            height: 400px;
             max-width: 100%; /* 响应式：不超过父容器宽度 */
             border: 1px solid #e0e0e0; /* 灰色边框 */
             background-color: #ffffff; /* 白色底色 */
