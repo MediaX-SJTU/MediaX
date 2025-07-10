@@ -39,7 +39,7 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: http://example.org
-
+date: "2022-10-03T00:00:00Z"
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 
