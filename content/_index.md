@@ -203,6 +203,7 @@ sections:
             display: flex; /* Flex布局：图片居中 */
             justify-content: center; /* 水平居中 */
             align-items: center; /* 垂直居中 */
+            margin-top: 20px
           }
           
           /* 图片样式：等比例缩放，不超出容器 */
