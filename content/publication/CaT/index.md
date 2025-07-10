@@ -1,16 +1,16 @@
 ---
-title: LAR-SR: A Local Autoregressive Model for Image Super-Resolution
+title: 'CaT: Weakly Supervised Object Detection With Category Transfer'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Baisong Guo
+  - Tianyue Cao
+  - Lianyu Du
   - Xiaoyun Zhang
-  - Haoning Wu
-  - Yu Wang
+  - Siheng Chen
   - Ya Zhang
-  - Yan-Feng Wang
+  - YanFeng Wang
 
 # Author notes (optional)
 # author_notes:
@@ -24,8 +24,8 @@ authors:
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022*
-publication_short: In *IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022*
+publication: In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2021*
+publication_short: In *Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV), 2021*
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -39,7 +39,7 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: http://example.org
-date: "2022-10-03T00:00:00Z"
+date: "2021-10-03T00:00:00Z"
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 
