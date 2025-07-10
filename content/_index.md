@@ -39,7 +39,7 @@ sections:
             }
             ul {
               font-size: 20px;
-              margin: 10px 0 20px 20px;
+              margin: 0 0 20px 20px;
             }
             .highlight {
               color: #c0392b;
