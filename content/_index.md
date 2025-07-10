@@ -41,6 +41,10 @@ sections:
               font-size: 20px;
               margin: 0 0 0 0;
             }
+            ul li {
+              margin-bottom: 0.5em; /* 用em单位（自适应字体大小），相当于10px（20px*0.5） */
+              /* 或用固定像素：margin-bottom: 10px; */
+            }
             .highlight {
               color: #c0392b;
               font-weight: bold;
