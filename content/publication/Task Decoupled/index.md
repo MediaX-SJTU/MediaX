@@ -25,7 +25,7 @@ authors:
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022
+publication:  IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022
 publication_short: In IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022
 
 # Summary. An optional shortened abstract.

@@ -24,8 +24,8 @@ authors:
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *British Machine Vision Virtual Conference 2022.*
-publication_short: In *British Machine Vision Virtual Conference 2022.*
+publication: In *British Machine Vision Virtual Conference 2022*
+publication_short: In *British Machine Vision Virtual Conference 2022*
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
