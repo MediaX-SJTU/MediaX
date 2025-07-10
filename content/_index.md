@@ -39,11 +39,14 @@ sections:
             }
             ul {
               font-size: 20px;
-              margin: 0 0 0 0;
+              margin: 0;
+              padding-left: 20px; /* 优化左侧缩进，避免符号贴边 */
+              line-height: 1.2; /* 关键：减少内部行高（从1.6调至1.2） */
             }
-            li {
-              margin-bottom: 0; /* 用em单位（自适应字体大小），相当于10px（20px*0.5） */
-              /* 或用固定像素：margin-bottom: 10px; */
+
+            ul li {
+              margin-bottom: 0.3em; /* 关键：调小`<li>`底部外边距（从0.5em调至0.3em） */
+              padding: 0; /* 可选：移除默认内边距，进一步压缩间距 */
             }
             .highlight {
               color: #c0392b;
