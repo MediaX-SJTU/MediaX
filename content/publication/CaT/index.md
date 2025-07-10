@@ -1,15 +1,16 @@
 ---
-title: CaT: Weakly Supervised Object Detection With Category Transfer
+title: LAR-SR: A Local Autoregressive Model for Image Super-Resolution
+
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Yangyi Dong
+  - Baisong Guo
   - Xiaoyun Zhang
-  - Zhixin Wang
+  - Haoning Wu
+  - Yu Wang
   - Ya Zhang
-  - Siheng Chen
-  - Yanfeng Wang
+  - Yan-Feng Wang
 
 # Author notes (optional)
 # author_notes:
@@ -23,8 +24,8 @@ authors:
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE Conference on Computer Vision and Pattern Recognition (CVPR) NTIRE, 2022*
-publication_short: In *IEEE Conference on Computer Vision and Pattern Recognition (CVPR) NTIRE, 2022*
+publication: In *IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022*
+publication_short: In *IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2022*
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
