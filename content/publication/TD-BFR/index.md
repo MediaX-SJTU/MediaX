@@ -28,8 +28,8 @@ publishDate: "2025-05-26T00:00:00Z"
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: IEEE International Conference on Multimedia and Expo (ICME), 2025
-publication_short: IEEE International Conference on Multimedia and Expo (ICME), 2025
+publication: In *IEEE International Conference on Multimedia and Expo (ICME), 2025*
+publication_short: In *IEEE International Conference on Multimedia and Expo (ICME), 2025*
 
 abstract: 'Diffusion-based methodologies have shown significant potential in blind face restoration (BFR), leveraging their robust generative capabilities. However, they are often criticized for two significant problems: 1) slow training and inference speed, and 2) inadequate recovery of fine-grained facial details. To address these problems, we propose a novel Truncated Diffusion model for efficient Blind Face Restoration (TD-BFR), a three-stage paradigm tailored for the progressive resolution of degraded images. Specifically, TD-BFR utilizes an innovative truncated sampling method, starting from low-quality (LQ) images at low resolution to enhance sampling speed, and then introduces an adaptive degradation removal module to handle unknown degradations and connect the generation processes across different resolutions. Additionally, we further adapt the priors of pre-trained diffusion models to recover rich facial details. Our method efficiently restores high-quality images in a coarse-to-fine manner and experimental results demonstrate that TD-BFR is, on average, faster than current state-of-the-art diffusion-based BFR methods while maintaining competitive quality.'
 
