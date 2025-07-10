@@ -1,16 +1,15 @@
 ---
-title: 'Unsupervised Segmentation Framework with Active Contour Models for Cine Cardiac MRI'
+title: 'MEMC-Net: Motion Estimation and Motion Compensation Driven Neural Network for Video Interpolation and Enhancement'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Lianyu Du
-  - Liwei Hu
+  - Wenbo Bao
+  - Wei-Sheng Lai
   - Xiaoyun Zhang
-  - Yumin Zhong
-  - Ya Zhang
-  - Yanfeng Wang
+  - Zhiyong Gao
+  - Ming-Hsuan Yang
 
 # Author notes (optional)
 # author_notes:
@@ -21,11 +20,11 @@ authors:
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['paper-conference']
+publication_types: ['paper-Journal']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE International Conference on Image Processing (ICIP), 2021*
-publication_short: In *IEEE International Conference on Image Processing (ICIP), 2021*
+publication: In *IEEE Transactions on Pattern Analysis and Artificial Intelligence*
+publication_short: In *IEEE Transactions on Pattern Analysis and Artificial Intelligence*
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -39,7 +38,7 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: http://example.org
-date: "2021-10-03T00:00:00Z"
+date: "2021-05-03T00:00:00Z"
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 
