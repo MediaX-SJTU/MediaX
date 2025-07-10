@@ -41,7 +41,7 @@ sections:
               font-size: 20px;
               margin: 0 0 0 0;
             }
-            ul li {
+            li {
               margin-bottom: 0; /* 用em单位（自适应字体大小），相当于10px（20px*0.5） */
               /* 或用固定像素：margin-bottom: 10px; */
             }
