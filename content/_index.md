@@ -366,6 +366,32 @@ sections:
             </td>
           </tr>
         </table>
+
+        <table class="paper-table">
+          <tr>
+            <!-- 左侧：图片单元格（固定宽度400px） -->
+            <td>
+              <div class="image-container"> <!-- 灰色边框+白色底色的方框 -->
+                <img src="images/wacv2025.png" alt="f-bench" class="paper-image">
+              </div>
+            </td>
+            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
+            <td>
+              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
+                [WACV'2025] MegaFusion: Extend Diffusion Models towards Higher-resolution Image Generation without Further Tuning
+              </h1>
+              <p style="font-size: 20px; color: #3498db; margin-bottom: 10px;">
+                Haoning Wu, Shaocheng Shen, Qiang Hu, Xiaoyun Zhang, Ya Zhang, Yanfeng Wang
+              </p>
+              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 20px;">
+                Winter Conference on Applications of Computer Vision (WACV), 2025.
+              </p>
+              <div>
+                <a href="https://arxiv.org/abs/2408.11001" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
+              </div>
+            </td>
+          </tr>
+        </table>
         
         
         <a href="#" class="bottom-link" target="_blank" rel="noopener noreferrer">More on publication page</a>
