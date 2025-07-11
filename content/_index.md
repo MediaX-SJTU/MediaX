@@ -239,6 +239,33 @@ sections:
             <!-- 左侧：图片单元格（固定宽度400px） -->
             <td>
               <div class="image-container"> <!-- 灰色边框+白色底色的方框 -->
+                <img src="images/f-bench.png" alt="f-bench" class="paper-image">
+              </div>
+            </td>
+            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
+            <td>
+              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
+                [ICCV'2025] F-Bench: Rethinking Human Preference Evaluation Metrics for Benchmarking Face Generation, Customization, and Restoration
+              </h1>
+              <p style="font-size: 20px; color: #3498db; margin-bottom: 10px;">
+                Lu Liu, Huiyu Duan, Qiang Hu, Liu Yang, Chunlei Cai, Tianxiao Ye, Huayu Liu, Xiaoyun Zhang, Guangtao Zhai
+              </p>
+              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 20px;">
+                EEE/CVF International Conference on Computer Vision (ICCV), 2025.
+              </p>
+              <div>
+                <a href="https://arxiv.org/abs/2412.13155" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+        <!-- 表格布局：左右两栏 -->
+        <table class="paper-table">
+          <tr>
+            <!-- 左侧：图片单元格（固定宽度400px） -->
+            <td>
+              <div class="image-container"> <!-- 灰色边框+白色底色的方框 -->
                 <img src="images/seriallora.png" alt="seriallora" class="paper-image">
               </div>
             </td>
