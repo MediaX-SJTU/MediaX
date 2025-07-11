@@ -251,7 +251,7 @@ sections:
                 Lu Liu, Huiyu Duan, Qiang Hu, Liu Yang, Chunlei Cai, Tianxiao Ye, Huayu Liu, Xiaoyun Zhang, Guangtao Zhai
               </p>
               <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 20px;">
-                EEE/CVF International Conference on Computer Vision (ICCV), 2025.
+                IEEE/CVF International Conference on Computer Vision (ICCV), 2025.
               </p>
               <div>
                 <a href="https://arxiv.org/abs/2412.13155" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
@@ -336,6 +336,32 @@ sections:
               <div>
                 <a href="https://arxiv.org/pdf/2412.19238" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
                 <a href="https://github.com/qianghu-huber/4DGC" target="_blank" rel="noopener noreferrer" class="paper-link">[Code]</a>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+        <table class="paper-table">
+          <tr>
+            <!-- 左侧：图片单元格（固定宽度400px） -->
+            <td>
+              <div class="image-container"> <!-- 灰色边框+白色底色的方框 -->
+                <img src="images/aaai2025.png" alt="f-bench" class="paper-image">
+              </div>
+            </td>
+            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
+            <td>
+              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
+                [AAAI'2025] VRVVC: Variable-Rate NeRF-Based Volumetric Video Compression
+              </h1>
+              <p style="font-size: 20px; color: #3498db; margin-bottom: 10px;">
+                Qiang Hu,Houqiang Zhong,Zihan Zheng,Xiaoyun Zhang,Zhengxue Cheng,Li Song,Guangtao Zhai,Yanfeng Wang
+              </p>
+              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 20px;">
+                The Association for the Advancement of Artificial Intelligence (AAAI), 2025.
+              </p>
+              <div>
+                <a href="https://qianghu-huber.github.io/qianghuhomepage/paper/AAAI_VRVVC_CameraReady.pdf" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
               </div>
             </td>
           </tr>
