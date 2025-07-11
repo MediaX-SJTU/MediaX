@@ -39,7 +39,14 @@ sections:
             }
             ul {
               font-size: 20px;
-              margin: 10px 0 20px 20px;
+              margin: 0;
+              padding-left: 20px; /* 优化左侧缩进，避免符号贴边 */
+              line-height: 1.2; /* 关键：减少内部行高（从1.6调至1.2） */
+            }
+
+            ul li {
+              margin-bottom: 0.3em; /* 关键：调小`<li>`底部外边距（从0.5em调至0.3em） */
+              padding: 0; /* 可选：移除默认内边距，进一步压缩间距 */
             }
             .highlight {
               color: #c0392b;
@@ -113,29 +120,47 @@ sections:
             <title>News</title>
             <style>
                 body {
+                    margin: 0;
+                    padding: 0;
+                }
+                .container {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: flex-start;
+                    padding: 20px;
+                }
+                .title {
+                    flex: 0 0 auto;
+                    margin-top: 0;
+                }
+                .news-list {
+                    flex: 1 1 auto;
+                    margin-left: 120px; /* 标题和新闻列表之间的间距 */
+                    margin-top: 30px;
                 }
                 .news-item {
-                    margin: 10px 0;
+                    margin: 6px 0;
                 }
             </style>
         </head>
         <body>
-            <h1>🔥 News</h1>
-            <div class="news-item">[2025/6]   Two paper is accepted to ICCV 2025</div>
-            <div class="news-item">[2025/5]   One paper is accepted to ICML 2025</div>
-            <div class="news-item">[2025/3]   Two paper is accepted to ICME 2025</div>
-            <div class="news-item">[2025/2]   Two paper is accepted to CVPR 2025</div>
-            <div class="news-item">[2025/2]   NTIRE 2025 XGC Quality Assessment Challenge Organizer</div>
-            <div class="news-item">[2025/1]   One paper is accepted to JSAC 2025</div>
-            <div class="news-item">[2024/12]  One paper is accepted to AAAI 2025</div>
-            <div class="news-item">[2024/7]   One paper is accepted to TCSVT 2024</div>
-            <div class="news-item">[2024/7]   One paper is accepted to ACM MM 2024</div>
-            <div class="news-item">[2024/6]   One paper is accepted to ICIP 2024</div>
-            <div class="news-item">[2024/3]   One paper is accepted to ICME 2024</div>
-            <div class="news-item">[2024/2]   One paper is accepted to CVPR 2024</div>
-            <div class="news-item">[2023/12]  One paper is accepted to AAAI 2024</div>
-            <div class="news-item">[2023/6]   One paper is accepted to ICCP 2023</div>
-            <div class="news-item">[2023/3]   One paper is accepted to CVPR 2023</div>
+            <div class="container">
+                <div class="title">
+                    <h1>🔥 News: </h1>
+                </div>
+                <div class="news-list">
+                    <div class="news-item">[2025/6]   Two paper is accepted to ICCV 2025</div>
+                    <div class="news-item">[2025/5]   One paper is accepted to ICML 2025</div>
+                    <div class="news-item">[2025/3]   Two paper is accepted to ICME 2025</div>
+                    <div class="news-item">[2025/2]   Two paper is accepted to CVPR 2025</div>
+                    <div class="news-item">[2025/2]   NTIRE 2025 XGC Quality Assessment Challenge Organizer</div>
+                    <div class="news-item">[2025/1]   One paper is accepted to JSAC 2025</div>
+                    <div class="news-item">[2024/12]  One paper is accepted to AAAI 2025</div>
+                    <div class="news-item">[2024/7]   One paper is accepted to TCSVT 2024</div>
+                    <div class="news-item">[2024/7]   One paper is accepted to ACM MM 2024</div>
+                    <div class="news-item">[2024/6]   One paper is accepted to ICIP 2024</div>
+                </div>
+            </div>
         </body>
         </html>
       
@@ -150,77 +175,111 @@ sections:
       text: |-
 
         <style>
-          body, html {
-            margin: 0;
-            padding: 0;
+          body, html { margin: 0; padding: 0; }
+          
+          /* 表格布局：左右两栏，去除默认边框 */
+          .paper-table { 
+            border-collapse: collapse; 
+            width: 100%; 
+            margin: 30px 0; /* 表格上下间距 */
           }
           
-          /* 表格布局重置（去除默认边框，调整间距） */
-          .paper-table {
-            border-collapse: collapse;
-            width: 100%;
-            margin: 30px 0; /* 表格上下间距（不影响顶部） */
+          /* 单元格样式：左侧固定宽度，右侧自适应 */
+          .paper-table td { 
+            vertical-align: middle; /* 左右单元格垂直居中对齐 */
+            padding: 0 40px 0 0; /* 左侧单元格右间距（与右侧文字的距离） */
           }
-          .paper-table td {
-            vertical-align: top; /* 关键：单元格垂直居中（替换原top） */
-            padding: 0 40px 0 0; /* 左右单元格间距（右侧文字单元格无左 padding） */
+          
+          /* 左侧图片容器（灰色边框+白色底色方框） */
+          .image-container {
+            width: 400px; /* 固定宽度（核心需求） */
+            height: 280px;
+            max-width: 100%; /* 响应式：不超过父容器宽度 */
+            border: 1px solid #e0e0e0; /* 灰色边框 */
+            background-color: #ffffff; /* 白色底色 */
+            border-radius: 8px; /* 圆角（可选，提升美观度） */
+            padding: 15px; /* 图片与边框的内边距（可选） */
+            box-sizing: border-box; /* 确保padding不增加容器宽度 */
+            display: flex; /* Flex布局：图片居中 */
+            justify-content: center; /* 水平居中 */
+            align-items: center; /* 垂直居中 */
+            margin-top: 30px
           }
-          /* 图片容器样式（保持原HTML的边框和圆角） */
+          
+          /* 图片样式：等比例缩放，不超出容器 */
           .paper-image {
-            width: 100%;
-            height: auto;
-            border: 1px solid #e0e0e0;
-            border-radius: 8px;
+            max-width: 100%; /* 不超过容器宽度 */
+            max-height: 100%; /* 不超过容器高度 */
+            width: auto; /* 保持比例 */
+            height: auto; /* 保持比例 */
             display: block; /* 去除图片底部间隙 */
           }
-          /* 链接 hover 效果（原HTML的下划线） */
-          .paper-link {
-            color: #3498db;
-            text-decoration: none;
-            margin-right: 20px;
-            font-size: 0.95em;
+          
+          /* 链接样式（保持原风格） */
+          .paper-link { 
+            color: #3498db; 
+            text-decoration: none; 
+            margin-right: 20px; 
+            font-size: 0.95em; 
           }
-          .paper-link:hover {
-            text-decoration: underline;
-          }
-          .bottom-link {
-            color: #3498db;
-            text-decoration: underline; /* 添加下划线 */
-            font-size: 25px; /* 增大字体大小 */
-            display: block;
-            margin-top: 10px;
-          }
-          .bottom-link:hover {
-            text-decoration: underline; /* 鼠标悬停时保持下划线 */
+          .paper-link:hover { text-decoration: underline; }
+          
+          .bottom-link { 
+            color: #3498db; 
+            text-decoration: underline; 
+            font-size: 25px; 
+            display: block; 
+            margin-top: 10px; 
           }
         </style>
 
-        <!-- 核心：表格布局（左右两栏） -->
+        <!-- 表格布局：左右两栏 -->
         <table class="paper-table">
           <tr>
-            <!-- 左侧：图片单元格（固定宽度400px，响应式自适应） -->
-            <td style="width: 400px; max-width: 100%; vertical-align: middle; margin-top: 20px"> <!-- 添加垂直居中样式 -->
-              <img 
-                src="images/seriallora.png" 
-                alt="seriallora" 
-                class="paper-image"
-                style="display: block; margin: 0 auto;">
+            <!-- 左侧：图片单元格（固定宽度400px） -->
+            <td>
+              <div class="image-container"> <!-- 灰色边框+白色底色的方框 -->
+                <img src="images/f-bench.png" alt="f-bench" class="paper-image">
+              </div>
             </td>
             <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
-            <td> <!-- 移除原padding-top:10px，保持垂直居中 -->
-              <!-- 1. 论文标题（含CVPR Oral标签） -->
+            <td>
               <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
-                [ICME'2025]Serial Low-rank Adaptation of Vision Transformer
+                [ICCV'2025] F-Bench: Rethinking Human Preference Evaluation Metrics for Benchmarking Face Generation, Customization, and Restoration
               </h1>
-              <!-- 2. 作者列表（学术格式：共同一作上标、通讯作者下划线） -->
-              <p style="font-size: 20px; color: #3498db; margin-bottom: 0;"> <!-- 原HTML作者颜色是#34495e，这里调整为更醒目的蓝色（可选） -->
+              <p style="font-size: 20px; color: #3498db; margin-bottom: 10px;">
+                Lu Liu, Huiyu Duan, Qiang Hu, Liu Yang, Chunlei Cai, Tianxiao Ye, Huayu Liu, Xiaoyun Zhang, Guangtao Zhai
+              </p>
+              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 20px;">
+                IEEE/CVF International Conference on Computer Vision (ICCV), 2025.
+              </p>
+              <div>
+                <a href="https://arxiv.org/abs/2412.13155" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+        <!-- 表格布局：左右两栏 -->
+        <table class="paper-table">
+          <tr>
+            <!-- 左侧：图片单元格（固定宽度400px） -->
+            <td>
+              <div class="image-container"> <!-- 灰色边框+白色底色的方框 -->
+                <img src="images/seriallora.png" alt="seriallora" class="paper-image">
+              </div>
+            </td>
+            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
+            <td>
+              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
+                [ICME'2025] Serial Low-rank Adaptation of Vision Transformer
+              </h1>
+              <p style="font-size: 20px; color: #3498db; margin-bottom: 10px;">
                 Houqiang Zhong, Shaocheng Shen, Ke Cai, Zhenglong Wu, Jiangchao Yao, Yuan Cheng, Xuefei Li, Xiaoyun Zhang, Li Song, Qiang Hu
               </p>
-              <!-- 3. 会议信息（灰色小字） -->
-              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 0;">
+              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 20px;">
                 IEEE International Conference on Multimedia and Expo (ICME), 2025.
               </p>
-              <!-- 4. 论文/代码链接（蓝色，hover下划线） -->
               <div>
                 <a href="https://arxiv.org/pdf/2503.17750" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
               </div>
@@ -228,67 +287,52 @@ sections:
           </tr>
         </table>
 
-
-        <!-- 核心：表格布局（左右两栏） -->
         <table class="paper-table">
           <tr>
-            <!-- 左侧：图片单元格（固定宽度400px，响应式自适应） -->
-            <td style="width: 400px; max-width: 100%; vertical-align: middle;"> <!-- 添加垂直居中样式 -->
-              <img 
-                src="images/TDBFR.png" 
-                alt="seriallora" 
-                class="paper-image"
-                style="display: block; margin: 0 auto;">
+            <!-- 左侧：图片单元格（固定宽度400px） -->
+            <td>
+              <div class="image-container"> <!-- 灰色边框+白色底色的方框 -->
+                <img src="images/TDBFR.png" alt="TDBFR" class="paper-image">
+              </div>
             </td>
             <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
-            <td> <!-- 移除原padding-top:10px，保持垂直居中 -->
-              <!-- 1. 论文标题（含CVPR Oral标签） -->
+            <td>
               <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
                 [ICME'2025]TD-BFR: Truncated Diffusion Model for Efficient Blind Face Restoration
               </h1>
-              <!-- 2. 作者列表（学术格式：共同一作上标、通讯作者下划线） -->
-              <p style="font-size: 20px; color: #3498db; margin-bottom: 0;"> <!-- 原HTML作者颜色是#34495e，这里调整为更醒目的蓝色（可选） -->
+              <p style="font-size: 20px; color: #3498db; margin-bottom: 10px;">
                 Ziying Zhang, Xiang Gao, Zhixin Wang, Qiang Hu, Xiaoyun Zhang
               </p>
-              <!-- 3. 会议信息（灰色小字） -->
-              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 0;">
+              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 20px;">
                 IEEE International Conference on Multimedia and Expo (ICME), 2025.
               </p>
-              <!-- 4. 论文/代码链接（蓝色，hover下划线） -->
               <div>
                 <a href="https://arxiv.org/pdf/2503.20537" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
               </div>
             </td>
           </tr>
         </table>
+        
 
-
-        <!-- 核心：表格布局（左右两栏） -->
         <table class="paper-table">
           <tr>
-            <!-- 左侧：图片单元格（固定宽度400px，响应式自适应） -->
-            <td style="width: 400px; max-width: 100%; vertical-align: middle;"> <!-- 添加垂直居中样式 -->
-              <img 
-                src="images/4dgc.png" 
-                alt="seriallora" 
-                class="paper-image"
-                style="display: block; margin: 0 auto;">
+            <!-- 左侧：图片单元格（固定宽度400px） -->
+            <td>
+              <div class="image-container"> <!-- 灰色边框+白色底色的方框 -->
+                <img src="images/4dgc.png" alt="seriallora" class="paper-image">
+              </div>
             </td>
             <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
-            <td> <!-- 移除原padding-top:10px，保持垂直居中 -->
-              <!-- 1. 论文标题（含CVPR Oral标签） -->
+            <td>
               <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
                 [CVPR'2025]4DGC: Rate-Aware 4D Gaussian Compression for Efficient Streamable Free-Viewpoint Video
               </h1>
-              <!-- 2. 作者列表（学术格式：共同一作上标、通讯作者下划线） -->
-              <p style="font-size: 20px; color: #3498db; margin-bottom: 0;"> <!-- 原HTML作者颜色是#34495e，这里调整为更醒目的蓝色（可选） -->
+              <p style="font-size: 20px; color: #3498db; margin-bottom: 10px;">
                 Qiang Hu, Zihan Zheng, Houqiang Zhong, Sihua Fu, Li Song, Xiaoyun Zhang, Guangtao Zhai, Yanfeng Wang.
               </p>
-              <!-- 3. 会议信息（灰色小字） -->
-              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 0;">
+              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 20px;">
                 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025.
               </p>
-              <!-- 4. 论文/代码链接（蓝色，hover下划线） -->
               <div>
                 <a href="https://arxiv.org/pdf/2412.19238" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
                 <a href="https://github.com/qianghu-huber/4DGC" target="_blank" rel="noopener noreferrer" class="paper-link">[Code]</a>
@@ -297,6 +341,59 @@ sections:
           </tr>
         </table>
 
+        <table class="paper-table">
+          <tr>
+            <!-- 左侧：图片单元格（固定宽度400px） -->
+            <td>
+              <div class="image-container"> <!-- 灰色边框+白色底色的方框 -->
+                <img src="images/aaai2025.png" alt="f-bench" class="paper-image">
+              </div>
+            </td>
+            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
+            <td>
+              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
+                [AAAI'2025] VRVVC: Variable-Rate NeRF-Based Volumetric Video Compression
+              </h1>
+              <p style="font-size: 20px; color: #3498db; margin-bottom: 10px;">
+                Qiang Hu,Houqiang Zhong,Zihan Zheng,Xiaoyun Zhang,Zhengxue Cheng,Li Song,Guangtao Zhai,Yanfeng Wang
+              </p>
+              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 20px;">
+                The Association for the Advancement of Artificial Intelligence (AAAI), 2025.
+              </p>
+              <div>
+                <a href="https://qianghu-huber.github.io/qianghuhomepage/paper/AAAI_VRVVC_CameraReady.pdf" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+        <table class="paper-table">
+          <tr>
+            <!-- 左侧：图片单元格（固定宽度400px） -->
+            <td>
+              <div class="image-container"> <!-- 灰色边框+白色底色的方框 -->
+                <img src="images/wacv2025.png" alt="f-bench" class="paper-image">
+              </div>
+            </td>
+            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
+            <td>
+              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
+                [WACV'2025] MegaFusion: Extend Diffusion Models towards Higher-resolution Image Generation without Further Tuning
+              </h1>
+              <p style="font-size: 20px; color: #3498db; margin-bottom: 10px;">
+                Haoning Wu, Shaocheng Shen, Qiang Hu, Xiaoyun Zhang, Ya Zhang, Yanfeng Wang
+              </p>
+              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 20px;">
+                Winter Conference on Applications of Computer Vision (WACV), 2025.
+              </p>
+              <div>
+                <a href="https://arxiv.org/abs/2408.11001" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
+              </div>
+            </td>
+          </tr>
+        </table>
+        
+        
         <a href="#" class="bottom-link" target="_blank" rel="noopener noreferrer">More on publication page</a>
     design:
         columns: '1'
