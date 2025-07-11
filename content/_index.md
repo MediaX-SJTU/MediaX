@@ -287,7 +287,7 @@ sections:
         </table>
         
 
-                <table class="paper-table">
+        <table class="paper-table">
           <tr>
             <!-- 左侧：图片单元格（固定宽度400px） -->
             <td>
