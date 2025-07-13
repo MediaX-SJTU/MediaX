@@ -394,7 +394,7 @@ sections:
         </table>
         
         
-        <a href="#" class="bottom-link" target="_blank" rel="noopener noreferrer">More on publication page</a>
+        <a href="https://cabbgedog.github.io/MediaX_pre/publication/" class="bottom-link" target="_blank" rel="noopener noreferrer">More on publication page</a>
     design:
         columns: '1'
 
