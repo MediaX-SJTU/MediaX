@@ -6,7 +6,7 @@ title: 'VRVVC: Variable-Rate NeRF-Based Volumetric Video Compression'
 # and it will be replaced with their full name and linked to their profile.
 authors:
   - Qiang Hu
-  - Houqing Zhong
+  - Houqiang Zhong
   - Zihan Zheng
   - Xiaoyun Zhang
   - Zhengxue Cheng
