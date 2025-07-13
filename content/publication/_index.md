@@ -1,5 +1,5 @@
 ---
-title: Publications (After 2021)
+title: Publications
 
 # Listing view
 view: citation
