@@ -1,5 +1,5 @@
 ---
-title: 'In-loop perceptual model-based rate-distortion optimization for HEVC real-time encoder'
+title: 'Viewport-Adaptive 360-degree Video Coding'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -8,8 +8,8 @@ authors:
   - Qiang Hu
   - Jun Zhou
   - Xiaoyun Zhang
+  - Zhiru Shi
   - Zhiyong Gao
-  - Ming-ting Sun
 
 # Author notes (optional)
 # author_notes:
@@ -23,8 +23,8 @@ authors:
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Journal of Real-Time Image Processing*
-publication_short: In *Journal of Real-Time Image Processing*
+publication: In *Multimedia Tools and Applications*
+publication_short: In *Multimedia Tools and Applications*
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -38,7 +38,7 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: http://example.org
-date: "2020-10-03T00:00:00Z"
+date: "2019-10-03T00:00:00Z"
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 
