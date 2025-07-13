@@ -1,14 +1,13 @@
 ---
-title: 'KalmanFlow 2.0: Efficient Video Optical Flow Estimation via Context-Aware Kalman Filtering'
+title: 'Novel Integration of Frame Rate Up Conversion and HEVC Coding Based on Rate-Distortion Optimization'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Wenbo Bao
+  - Guo Lu
   - Xiaoyun Zhang
   - Li Chen
-  - Lianghui Ding
   - Zhiyong Gao
 
 # Author notes (optional)

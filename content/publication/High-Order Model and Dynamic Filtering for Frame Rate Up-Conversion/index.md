@@ -1,5 +1,5 @@
 ---
-title: 'KalmanFlow 2.0: Efficient Video Optical Flow Estimation via Context-Aware Kalman Filtering'
+title: 'High-Order Model and Dynamic Filtering for Frame Rate Up-Conversion'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -8,7 +8,6 @@ authors:
   - Wenbo Bao
   - Xiaoyun Zhang
   - Li Chen
-  - Lianghui Ding
   - Zhiyong Gao
 
 # Author notes (optional)

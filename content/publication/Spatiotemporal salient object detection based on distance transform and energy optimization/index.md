@@ -1,14 +1,13 @@
 ---
-title: 'KalmanFlow 2.0: Efficient Video Optical Flow Estimation via Context-Aware Kalman Filtering'
+title: 'Spatiotemporal salient object detection based on distance transform and energy optimization'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - Wenbo Bao
+  - Bing Yang
   - Xiaoyun Zhang
   - Li Chen
-  - Lianghui Ding
   - Zhiyong Gao
 
 # Author notes (optional)
@@ -23,8 +22,8 @@ authors:
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *IEEE Transaction on Image Processing*
-publication_short: In *IEEE Transaction on Image Processing*
+publication: In *Neurocomputing*
+publication_short: In *Neurocomputing*
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -38,7 +37,7 @@ featured: true
 # links:
 # - name: Custom Link
 #   url: http://example.org
-date: "2018-10-03T00:00:00Z"
+date: "2017-10-03T00:00:00Z"
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 
