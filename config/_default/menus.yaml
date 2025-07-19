@@ -6,7 +6,7 @@
 main:
   - name: Home
     url: home
-    weight: 0
+    weight: 1
   - name: News
     url: post
     weight: 10
@@ -21,4 +21,4 @@ main:
     weight: 40
   - name: Sponsors
     url: affiliates
-    weight: 40
+    weight: 50
