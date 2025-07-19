@@ -22,3 +22,6 @@ main:
   - name: Sponsors
     url: affiliates
     weight: 50
+  - name: Home1
+    url: home1
+    weight: 50
