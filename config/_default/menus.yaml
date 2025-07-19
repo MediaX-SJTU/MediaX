@@ -19,9 +19,6 @@ main:
   - name: Demo
     url: demo
     weight: 50
-  # - name: Contact
-  #   url: contact
-  #   weight: 50
   - name: Sponsors
     url: affiliates
     weight: 60
