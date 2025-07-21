@@ -49,19 +49,19 @@ sections:
 
           <h2>🎯 Research Focus</h2>
           <p>
-            <strong>Media Perception & Quality Assessment</strong><br/>
+            <strong>• Media Perception & Quality Assessment</strong><br/>
             Developing intelligent, multi-dimensional evaluation systems for UGC, PGC, and AIGC content.
           </p>
            <p>
-            <strong>Video Restoration & Generation</strong><br/>
+            <strong>• Video Restoration & Generation</strong><br/>
             Enhancing, controllably generating and editing 4K/8K video content.
           </p>
            <p>
-            <strong>3D/4D Reconstruction & Generation</strong><br/>
+            <strong>• 3D/4D Reconstruction & Generation</strong><br/>
             Leveraging 3DGS and GenAI for efficient representation and compression of immersive dynamic scenes.
           </p>
            <p>
-            <strong>Intelligent Media Creation Platform</strong><br/>
+            <strong>• Intelligent Media Creation Platform</strong><br/>
             Building collaborative, multi-agent systems for automated and interactive media production.
           </p>
 
