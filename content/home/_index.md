@@ -33,17 +33,6 @@ sections:
               font-size: 27px;
               margin-top: 40px;
             }
-            ul {
-              font-size: 20px;
-              margin: 0;
-              padding-left: 20px; /* 优化左侧缩进，避免符号贴边 */
-              line-height: 1.2; /* 关键：减少内部行高（从1.6调至1.2） */
-            }
-
-            ul li {
-              margin-bottom: 0.3em; /* 关键：调小`<li>`底部外边距（从0.5em调至0.3em） */
-              padding: 0; /* 可选：移除默认内边距，进一步压缩间距 */
-            }
             .highlight {
               color: #c0392b;
               font-weight: bold;
@@ -59,25 +48,22 @@ sections:
           </p>
 
           <h2>🎯 Research Focus</h2>
-
-          <ul>
-            <li>
-              <strong>Media Perception & Quality Assessment</strong><br/>
-              Developing intelligent, multi-dimensional evaluation systems for UGC, PGC, and AIGC content.
-            </li>
-            <li>
-              <strong>Video Restoration & Generation</strong><br/>
-              Enhancing, controllably generating and editing 4K/8K video content.
-            </li>
-            <li>
-              <strong>3D/4D Reconstruction & Generation</strong><br/>
-              Leveraging 3DGS and GenAI for efficient representation and compression of immersive dynamic scenes.
-            </li>
-            <li>
-              <strong>Intelligent Media Creation Platform</strong><br/>
-              Building collaborative, multi-agent systems for automated and interactive media production.
-            </li>
-          </ul>
+          <p>
+            <strong>Media Perception & Quality Assessment</strong><br/>
+            Developing intelligent, multi-dimensional evaluation systems for UGC, PGC, and AIGC content.
+          </p>
+           <p>
+            <strong>Video Restoration & Generation</strong><br/>
+            Enhancing, controllably generating and editing 4K/8K video content.
+          </p>
+           <p>
+            <strong>3D/4D Reconstruction & Generation</strong><br/>
+            Leveraging 3DGS and GenAI for efficient representation and compression of immersive dynamic scenes.
+          </p>
+           <p>
+            <strong>Intelligent Media Creation Platform</strong><br/>
+            Building collaborative, multi-agent systems for automated and interactive media production.
+          </p>
 
           <h2>📢 Join Us</h2>
           <p>
