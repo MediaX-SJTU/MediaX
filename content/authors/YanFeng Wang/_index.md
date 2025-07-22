@@ -65,6 +65,6 @@ highlight_name: false
 user_groups:
   - Research Collaborators
 
-weight: 1
+weight: 2
 ---
 
