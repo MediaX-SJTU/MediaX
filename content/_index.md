@@ -16,7 +16,7 @@ sections:
           <style>
             body {
               font-family: Arial, sans-serif;
-              line-height: 1.2;
+              line-height: 1.4;
               margin: 0;
               padding: 40px;
               background-color: #ffffff;
