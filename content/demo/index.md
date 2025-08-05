@@ -9,7 +9,7 @@ sections:
     content:
       title: Under Construction
       text: |-
-        Waiting to be done.....
+        Pending.....
       # email: mediax@sjtu.edu.cn
       # address:
       #   street: 上海交通大学电子信息楼群5号楼303A
