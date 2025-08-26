@@ -400,6 +400,7 @@ sections:
               </p>
               <div>
                 <a href="https://arxiv.org/abs/2306.00973" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
+                <a href="https://github.com/haoningwu3639/StoryGen" target="_blank" rel="noopener noreferrer" class="paper-link">[Code]</a>
               </div>
             </td>
           </tr>
