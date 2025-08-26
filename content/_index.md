@@ -244,60 +244,6 @@ sections:
           </tr>
         </table>
 
-        <!-- 表格布局：左右两栏 -->
-        <table class="paper-table">
-          <tr>
-            <!-- 左侧：图片单元格（固定宽度400px） -->
-            <td>
-              <div class="image-container"> <!-- 灰色边框+白色底色的方框 -->
-                <img src="images/seriallora.png" alt="seriallora" class="paper-image">
-              </div>
-            </td>
-            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
-            <td>
-              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
-                [ICME'2025] Serial Low-rank Adaptation of Vision Transformer
-              </h1>
-              <p style="font-size: 20px; color: #3498db; margin-bottom: 10px;">
-                Houqiang Zhong, Shaocheng Shen, Ke Cai, Zhenglong Wu, Jiangchao Yao, Yuan Cheng, Xuefei Li, Xiaoyun Zhang, Li Song, Qiang Hu
-              </p>
-              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 20px;">
-                IEEE International Conference on Multimedia and Expo (ICME), 2025.
-              </p>
-              <div>
-                <a href="https://arxiv.org/pdf/2503.17750" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
-              </div>
-            </td>
-          </tr>
-        </table>
-
-        <table class="paper-table">
-          <tr>
-            <!-- 左侧：图片单元格（固定宽度400px） -->
-            <td>
-              <div class="image-container"> <!-- 灰色边框+白色底色的方框 -->
-                <img src="images/TDBFR.png" alt="TDBFR" class="paper-image">
-              </div>
-            </td>
-            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
-            <td>
-              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
-                [ICME'2025]TD-BFR: Truncated Diffusion Model for Efficient Blind Face Restoration
-              </h1>
-              <p style="font-size: 20px; color: #3498db; margin-bottom: 10px;">
-                Ziying Zhang, Xiang Gao, Zhixin Wang, Qiang Hu, Xiaoyun Zhang
-              </p>
-              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 20px;">
-                IEEE International Conference on Multimedia and Expo (ICME), 2025.
-              </p>
-              <div>
-                <a href="https://arxiv.org/pdf/2503.20537" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
-              </div>
-            </td>
-          </tr>
-        </table>
-        
-
         <table class="paper-table">
           <tr>
             <!-- 左侧：图片单元格（固定宽度400px） -->
@@ -325,6 +271,62 @@ sections:
           </tr>
         </table>
 
+
+        <!-- 表格布局：左右两栏 -->
+        <table class="paper-table">
+          <tr>
+            <!-- 左侧：图片单元格（固定宽度400px） -->
+            <td>
+              <div class="image-container"> <!-- 灰色边框+白色底色的方框 -->
+                <img src="images/finevq.png" alt="seriallora" class="paper-image">
+              </div>
+            </td>
+            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
+            <td>
+              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
+                [CVPR'2025] FineVQ: Fine-Grained User Generated Content Video Quality Assessment
+              </h1>
+              <p style="font-size: 20px; color: #3498db; margin-bottom: 10px;">
+                Huiyu Duan, Qiang Hu, Wang Jiarui, Liu Yang, Zitong Xu, Lu Liu, Xiongkuo Min, Chunlei Cai, Tianxiao Ye, Xiaoyun Zhang, Guangtao Zhai
+              </p>
+              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 20px;">
+                IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2025.
+              </p>
+              <div>
+                <a href="https://arxiv.org/pdf/2412.19238" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
+                <a href="https://github.com/qianghu-huber/4DGC" target="_blank" rel="noopener noreferrer" class="paper-link">[Code]</a>
+              </div>
+            </td>
+          </tr>
+        </table>
+
+        <table class="paper-table">
+          <tr>
+            <!-- 左侧：图片单元格（固定宽度400px） -->
+            <td>
+              <div class="image-container"> <!-- 灰色边框+白色底色的方框 -->
+                <img src="images/jsac.png" alt="TDBFR" class="paper-image">
+              </div>
+            </td>
+            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
+            <td>
+              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
+                [JSAC'2025]VARFVV: View-Adaptive Real-Time Interactive Free-View Video Streaming with Edge Computing
+              </h1>
+              <p style="font-size: 20px; color: #3498db; margin-bottom: 10px;">
+                Qiang Hu, Qihan He, Houqiang Zhong, GuoLu, Xiaoyun Zhang,Guangtao Zhai,Yanfeng Wang
+              </p>
+              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 20px;">
+                IEEE Journal on Selected Areas in Communications (JSAC), 2025.
+              </p>
+              <div>
+                <a href="https://qianghu-huber.github.io/qianghuhomepage/paper/JSAC.pdf" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
+                <a href="https://waveviewer.github.io/" target="_blank" rel="noopener noreferrer" class="paper-link">[Code]</a>
+              </div>
+            </td>
+          </tr>
+        </table>
+        
         <table class="paper-table">
           <tr>
             <!-- 左侧：图片单元格（固定宽度400px） -->
@@ -356,28 +358,79 @@ sections:
             <!-- 左侧：图片单元格（固定宽度400px） -->
             <td>
               <div class="image-container"> <!-- 灰色边框+白色底色的方框 -->
-                <img src="images/wacv2025.png" alt="f-bench" class="paper-image">
+                <img src="images/mm2024.png" alt="f-bench" class="paper-image">
               </div>
             </td>
             <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
             <td>
               <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
-                [WACV'2025] MegaFusion: Extend Diffusion Models towards Higher-resolution Image Generation without Further Tuning
+                [MM'2025] HPC: Hierarchical Progressive Coding Framework for Volumetric Video
               </h1>
               <p style="font-size: 20px; color: #3498db; margin-bottom: 10px;">
-                Haoning Wu, Shaocheng Shen, Qiang Hu, Xiaoyun Zhang, Ya Zhang, Yanfeng Wang
+                Zihan Zheng, Houqiang Zhong, Qiang Hu, Xiaoyun Zhang, Li Song, Ya Zhang, Yanfeng Wang
               </p>
               <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 20px;">
-                Winter Conference on Applications of Computer Vision (WACV), 2025.
+                Proceedings of the ACM International Conference on Multimedia(MM), 2024.
               </p>
               <div>
-                <a href="https://arxiv.org/abs/2408.11001" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
+                <a href="https://arxiv.org/abs/2407.09026" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
               </div>
             </td>
           </tr>
         </table>
         
+        <table class="paper-table">
+          <tr>
+            <!-- 左侧：图片单元格（固定宽度400px） -->
+            <td>
+              <div class="image-container"> <!-- 灰色边框+白色底色的方框 -->
+                <img src="images/mm2024.png" alt="f-bench" class="paper-image">
+              </div>
+            </td>
+            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
+            <td>
+              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
+                [MM'2024] HPC: Hierarchical Progressive Coding Framework for Volumetric Video
+              </h1>
+              <p style="font-size: 20px; color: #3498db; margin-bottom: 10px;">
+                Zihan Zheng, Houqiang Zhong, Qiang Hu, Xiaoyun Zhang, Li Song, Ya Zhang, Yanfeng Wang
+              </p>
+              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 20px;">
+                Proceedings of the ACM International Conference on Multimedia(MM), 2024.
+              </p>
+              <div>
+                <a href="https://arxiv.org/abs/2407.09026" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
+              </div>
+            </td>
+          </tr>
+        </table>
         
+        <table class="paper-table">
+          <tr>
+            <!-- 左侧：图片单元格（固定宽度400px） -->
+            <td>
+              <div class="image-container"> <!-- 灰色边框+白色底色的方框 -->
+                <img src="images/storygen.png" alt="f-bench" class="paper-image">
+              </div>
+            </td>
+            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
+            <td>
+              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
+                [CVPR'2024] Intelligent Grimm - Open-ended Visual Storytelling via Latent Diffusion Models
+              </h1>
+              <p style="font-size: 20px; color: #3498db; margin-bottom: 10px;">
+                Chang Liu, Haoning Wu, Yujie Zhong, Xiaoyun Zhang, Yanfeng Wang, Weidi Xie
+              </p>
+              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 20px;">
+                IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2024.
+              </p>
+              <div>
+                <a href="https://arxiv.org/abs/2306.00973" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
+              </div>
+            </td>
+          </tr>
+        </table>
+
         <a href="https://cabbgedog.github.io/MediaX_pre/publication/" class="bottom-link" target="_blank" rel="noopener noreferrer">More on publication page</a>
     design:
         columns: '1'
