@@ -352,32 +352,6 @@ sections:
             </td>
           </tr>
         </table>
-
-        <table class="paper-table">
-          <tr>
-            <!-- 左侧：图片单元格（固定宽度400px） -->
-            <td>
-              <div class="image-container"> <!-- 灰色边框+白色底色的方框 -->
-                <img src="images/mm2024.png" alt="f-bench" class="paper-image">
-              </div>
-            </td>
-            <!-- 右侧：论文信息单元格（自适应剩余宽度） -->
-            <td>
-              <h1 style="font-size: 27px; font-weight: bold; color: #2c3e50; margin-bottom: 15px; line-height: 1.3;">
-                [MM'2025] HPC: Hierarchical Progressive Coding Framework for Volumetric Video
-              </h1>
-              <p style="font-size: 20px; color: #3498db; margin-bottom: 10px;">
-                Zihan Zheng, Houqiang Zhong, Qiang Hu, Xiaoyun Zhang, Li Song, Ya Zhang, Yanfeng Wang
-              </p>
-              <p style="font-size: 20px; color: #7f8c8d; margin-bottom: 20px;">
-                Proceedings of the ACM International Conference on Multimedia(MM), 2024.
-              </p>
-              <div>
-                <a href="https://arxiv.org/abs/2407.09026" target="_blank" rel="noopener noreferrer" class="paper-link">[Paper]</a>
-              </div>
-            </td>
-          </tr>
-        </table>
         
         <table class="paper-table">
           <tr>
