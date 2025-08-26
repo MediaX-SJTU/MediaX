@@ -131,6 +131,8 @@ sections:
                     <h1>🔥 News: </h1>
                 </div>
                 <div class="news-list">
+                    <div class="news-item">[2025/8]   Second Place, ICCV 2025 MIPI Challenge – Detailed Image Quality Assessment</div>
+                    <div class="news-item">[2025/7]   Second Place, ICCV 2025 VQualA Challenge – GenAI-Bench AIGC Video Quality Assessment</div>
                     <div class="news-item">[2025/6]   Two paper is accepted to ICCV 2025</div>
                     <div class="news-item">[2025/5]   One paper is accepted to ICML 2025</div>
                     <div class="news-item">[2025/3]   Two paper is accepted to ICME 2025</div>
