@@ -54,15 +54,15 @@ sections:
           <h2>🎯 研究方向</h2>
           <p>
             <strong>媒体感知与质量评价</strong><br/>
-            构建面向UGC、PGC和AIGC内容的多维度智能质量评价体系。（F-Bench、FineVQ等）
+            构建面向UGC、PGC和AIGC内容的多维度智能质量评价体系。（<a href="https://arxiv.org/abs/2412.13155">F-Bench</a>、<a href="https://arxiv.org/pdf/2412.19238">FineVQ</a>等）
           </p>
           <p>
             <strong>视频恢复与生成</strong><br/>
-            高质量视频增强、可控生成与编辑，支持4K/8K分辨率。（StoryGen、Dr2等）
+            高质量视频增强、可控生成与编辑，支持4K/8K分辨率。（<a href="https://arxiv.org/abs/2306.00973">StoryGen</a>、<a href="https://arxiv.org/abs/2303.06885">Dr2</a>等）
           </p>
           <p>
             <strong>3D/4D重建与生成</strong><br/>
-            基于3D高斯建模与生成式AI，实现沉浸式动态场景的高效表示与压缩。（4DGC、VQRFVV等）
+            基于3D高斯建模与生成式AI，实现沉浸式动态场景的高效表示与压缩。（<a href="https://arxiv.org/pdf/2412.19238">4DGC</a>、<a href="https://qianghu-huber.github.io/qianghuhomepage/paper/JSAC.pdf">VARFVV</a>等）
           </p>
           <p>
             <strong>智能媒体创作平台</strong><br/>
