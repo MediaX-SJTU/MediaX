@@ -9,13 +9,20 @@ sections:
 
       text: |-
          # JSAC 2025｜VARFVV让你在手机上畅玩超高清实时自由视点视频
-         >**题目**：VARFVV: View-Adaptive Real-Time Interactive Free-View Video Streaming with Edge Computing
+         > **题目**：VARFVV: View-Adaptive Real-Time Interactive Free-View Video Streaming with Edge Computing
+         >
          > **作者**：Qiang Hu, Qihan He, Houqiang Zhong, Guo Lu, Xiaoyun Zhang, Guangtao Zhai, Yanfeng Wang
+         >
          > **来源**：IEEE JSAC 2025
+         >
          > **文章地址**：https://arxiv.org/abs/2501.13630 
+         >
          > **视频链接**：https://www.bilibili.com/video/BV1ntLnzUEtJ 
+         >
          > **项目主页**：https://waveviewer.github.io/VARFVV/ 
+         >
          > **内容整理**：钟后强
+         >
          > 自由视角视频（FVV）允许用户从多个视角探索沉浸式视频内容。然而，由于视角切换的不确定性，以及传输和解码多个视频流所需的大量带宽和计算资源，FVV 的传输面临重大挑战，这可能导致频繁的播放中断。现有的方法，无论是基于客户端还是基于云端，在带宽和计算资源受限的条件下都难以满足高质量体验（QoE）的要求。为了解决这些问题，我们提出了 VARFVV，这是一种带宽和计算效率高的系统，能够实现高QoE和低切换延迟的实时交互式FVV流传输。具体而言，VARFVV 引入了一种低复杂度的 FVV 生成方案，在边缘服务器上根据用户选择的视角轨迹重新组装多视角视频帧，从而无需转码，显著降低了计算开销。这种设计特别适用于大规模、基于移动端的超高清视频（UHD）FVV体验。此外，我们提出了一种基于图神经网络的流行度自适应比特分配方法，该方法可以预测视角的受欢迎程度，并在带宽受限的情况下动态调整比特分配，以最大化 QoE。我们还构建了一个包含 10 个场景（如篮球、歌剧等）共 330 个视频的 FVV 数据集。大量实验结果表明，VARFVV 在视频质量、切换延迟、计算效率和带宽使用方面均优于现有方法，支持单个边缘服务器同时服务超过 **500** 名用户，视角切换延迟仅为 **71.5** 毫秒。
 
 
