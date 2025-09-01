@@ -5,6 +5,24 @@ image:
   focal_point: 'top'
 
 ---
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+
+<!-- 引入 KaTeX 核心渲染脚本 + 自动渲染插件（关键：自动识别公式并渲染） -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
+
+<!-- 触发 KaTeX 自动渲染：识别 $...$（行内公式）和 $$...$$（块级公式） -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$", right: "$", display: false},  // 行内公式：$公式$
+                {left: "$$", right: "$$", display: true}   // 块级公式：$$公式$$
+            ]
+        });
+    });
+</script>
+
 <!--more-->
 # CVPR2025｜16倍压缩！4DGC 让高质量自由视点视频流式传输成为现实（代码已开源）
 
@@ -20,11 +38,11 @@ image:
 
 **项目主页**：https://waveviewer.github.io/4dgc/ 
 
-**代码地址：**https://github.com/qianghu-huber/4DGC
+**代码地址**：https://github.com/qianghu-huber/4DGC
 
 **内容整理**：钟后强
 
-**摘要：**3D高斯泼溅技术 (3DGS) 在实现逼真的自由视点视频 (FVV) 体验方面拥有巨大潜力。然而，大量的高斯点云数量及其相关属性对存储和传输提出了严峻挑战。现有方法通常分别处理动态 3DGS 表示和压缩，忽略了训练过程中的运动信息和码率失真 (RD) 权衡，导致性能下降和模型冗余增加。为了弥补这一缺陷，我们提出了 4DGC，这是一种新颖的码率感知 4D 高斯压缩框架，它可以显著减少存储大小，同时保持 FVV 卓越的 RD 性能。具体而言，4DGC 引入了一种运动感知的动态高斯表示，该表示利用紧凑的运动网格与稀疏补偿高斯函数相结合来挖掘帧间相似性。这种表示能够有效地处理大运动，保持质量并减少时间冗余。此外，我们提出了一种端到端压缩方案，该方案采用可微量化和微小隐式熵模型来高效压缩运动网格和补偿高斯分布。整个框架通过率失真权衡进行联合优化。大量实验表明，4DGC 支持可变比特率，并且在多个数据集的 RD 性能上始终优于现有方法。 
+**摘要**：3D高斯泼溅技术 (3DGS) 在实现逼真的自由视点视频 (FVV) 体验方面拥有巨大潜力。然而，大量的高斯点云数量及其相关属性对存储和传输提出了严峻挑战。现有方法通常分别处理动态 3DGS 表示和压缩，忽略了训练过程中的运动信息和码率失真 (RD) 权衡，导致性能下降和模型冗余增加。为了弥补这一缺陷，我们提出了 4DGC，这是一种新颖的码率感知 4D 高斯压缩框架，它可以显著减少存储大小，同时保持 FVV 卓越的 RD 性能。具体而言，4DGC 引入了一种运动感知的动态高斯表示，该表示利用紧凑的运动网格与稀疏补偿高斯函数相结合来挖掘帧间相似性。这种表示能够有效地处理大运动，保持质量并减少时间冗余。此外，我们提出了一种端到端压缩方案，该方案采用可微量化和微小隐式熵模型来高效压缩运动网格和补偿高斯分布。整个框架通过率失真权衡进行联合优化。大量实验表明，4DGC 支持可变比特率，并且在多个数据集的 RD 性能上始终优于现有方法。 
 
 
 ## 引言
