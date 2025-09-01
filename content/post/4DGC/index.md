@@ -78,14 +78,18 @@ image:
 ![图2 动态序列建模](images/modeling.png)
 
 回顾 3DGS，其使用高斯元集合 $\mathbf{G}$ 对场景进行显式建模，类似于点云。每个高斯 $\boldsymbol{\mathcal{G}} \in \mathbf{G}$ 由参数集合 $\{ \boldsymbol{\mu}; \mathbf{R}; \mathbf{f}; \mathbf{s};\alpha \}$ 定义，其中 $\boldsymbol{\mu}$ 是中心位置，$\mathbf{R}$ 是旋转矩阵，$\mathbf{f}$ 是用于视角相关颜色 $\mathbf{c}$ 的 SH 系数，$\mathbf{s}$ 是缩放向量，$\alpha$ 是不透明度。对于处于高斯元内部的位置 $\mathbf{x}$，其空间分布由下式定义：
+
 $$
 \boldsymbol{\mathcal{G}}(\mathbf{x}) = \exp\left(-\frac{1}{2}(\mathbf{x}- \boldsymbol{\mu})^T\mathbf{\Sigma}^{-1}(\mathbf{x}-\boldsymbol{\mu})\right)
 $$
+
 其中 $\mathbf{\Sigma} = \mathbf{R}\mathbf{s}\mathbf{s}^T\mathbf{R}^T$。
 像素的颜色 $\mathbf{c}$ 通过对重叠的 $N$ 个高斯按照深度顺序进行 alpha 混合获得：
+
 $$
     \mathbf{c} = \sum_{i \in N} \mathbf{c}_i {\alpha'}_{i} \prod_{j=1}^{i-1} (1 - {\alpha'}_j)
 $$
+
 其中 $\alpha_i'$ 是第 $i$ 个高斯在图像平面上的投影不透明度，$\mathbf{c}_i$ 是该高斯在当前视角下的颜色。为了从静态场景扩展到动态场景，一种直观的方法是叠加逐帧的静态高斯来构成动态序列，但这忽略了时间一致性，会造成显著的时间冗余。已有方法如SpacetimeGS和4DGS将高斯扩展到 4D 空间来建模整个动态场景，但在长序列中会导致性能退化，且不适用于流式应用。为克服这些问题，我们提出一种运动感知的动态高斯表示，明确建模并跟踪相邻帧之间的运动，以维持空间和时间的一致性。我们使用完整的 3DGS 表示作为第一帧的初始高斯 $\mathbf{G}_1$。在后续帧中，我们采用多分辨率的运动网格 $\mathbf{M}_t$，并通过两个共享的轻量级 MLP（$\Phi_{\boldsymbol{\mu}}$ 和 $\Phi_{\mathbf{R}}$）预测每个高斯的刚性运动。运动网格具有多尺度特性，能够精准建模不同速度或方向的物体运动。对于新出现的区域，我们动态添加稀疏补偿高斯 $\Delta \mathbf{G}_t$。最终，我们用 $\mathbf{G}_1, \{\mathbf{M}_t, \Delta \mathbf{G}_t\}_{t=2}^{N}$、$\Phi_{\boldsymbol{\mu}}$ 和 $\Phi_{\mathbf{R}}$ 来顺序建模整个动态场景。该设计显著降低时间冗余，并提升重建质量。
 
 
@@ -97,17 +101,23 @@ $$
 **运动估计模块**
 
 我们从参考缓冲区加载前一帧的重建高斯 $\hat{\mathbf{G}}_{t-1}$，并结合当前帧的图像输入，通过多分辨率运动网格 $\mathbf{M}_t$ 及 MLP $\Phi_{\boldsymbol{\mu}}, \Phi_{\mathbf{R}}$ 预测每个高斯的平移与旋转变换。前一帧每个高斯的位置编码如下：
+
 $$
 \mathbf{P}_{t-1} = \{\mathbf{P}_{t-1}^l\}_{l=1}^L = \{\sin(2^l\pi \boldsymbol{\mu}_{t-1}), \cos(2^l\pi \boldsymbol{\mu}_{t-1})\}_{l=1}^L
 $$
+
 我们结合位置编码与运动网格进行插值与预测：
+
 $$
     \Delta \boldsymbol{\mu}_t = \Phi_{\boldsymbol{\mu}} (\bigcup_{l=1}^L \text{interp}(\mathbf{P}_{t-1}^l, \mathbf{M}_{t}^l) )
 $$
+
 $$
     \Delta \mathbf{R}_t = \Phi_{\mathbf{R}}\left(\bigcup_{l=1}^L \text{interp}(\mathbf{P}_{t-1}^l, \mathbf{M}_{t}^l)\right)
 $$
+
 最终将变换应用于新一帧的高斯：
+
 $$
     \mathbf{G}_{t}^{'} =  \hat{\mathbf{G}}_{t-1}(\boldsymbol{\mathcal{G}} \oplus \mathbf{M}_t(\boldsymbol{\mathcal{G}})) \\
     = \{ \boldsymbol{\mathcal{G}}(\boldsymbol{\mu}_{t-1}+ \Delta \boldsymbol{\mu}_t; \Delta \mathbf{R}_t \mathbf{R}_{t-1} ; C ) \mid \boldsymbol{\mathcal{G}} \in \hat{\mathbf{G}}_{t-1}\}
@@ -125,6 +135,7 @@ $$
 **阶段一：运动网格压缩**
 
 优化 $\Phi_{\boldsymbol{\mu}}$、$\Phi_{\mathbf{R}}$、$\mathbf{M}_t$ 及其熵模型，损失函数为：
+
 $$
 \mathcal{L}_{s1} = \mathcal{L}_{color} + \lambda_1 \mathcal{L}_{rate}^{ME} \\
 \mathcal{L}_{rate}^{ME} = -\frac{1}{N} \sum_{\hat{y} \in \hat{\mathbf{M}}_t} \log_2(P_{PMF}^1(\hat{y}))
@@ -132,11 +143,14 @@ $$
 
 **阶段二：补偿高斯压缩**
 优化 $\Delta \mathbf{G}_t$ 及其熵模型，重点压缩 SH 系数。损失函数为：
+
 $$
 \mathcal{L}_{s2} = \mathcal{L}_{color} + \lambda_1 \mathcal{L}_{rate}^{MC} \\
 \mathcal{L}_{rate}^{MC} = -\frac{1}{M} \sum_{\hat{y} \in \hat{\mathbf{f}}_t^C} \log_2(P_{PMF}^2(\hat{y}))
 $$
+
 最终，重建帧表示为：
+
 $
 \hat{\mathbf{G}}_t = \hat{\mathbf{G}}_{t-1}(\boldsymbol{\mathcal{G}} \oplus \hat{\mathbf{M}}_t(\boldsymbol{\mathcal{G}})) + \Delta \hat{\mathbf{G}}_t
 $,$\hat{\mathbf{G}}_t$ 被用于下一帧的重建过程。
