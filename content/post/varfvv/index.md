@@ -8,15 +8,12 @@ sections:
     content:
 
       text: |-
-         <head>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css">
             <!-- 引入KaTeX渲染脚本 -->
             <script src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"></script>
             <!-- 引入自动渲染工具（可选，自动处理文档中的公式） -->
             <script src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"></script>
-         </head>
 
-         <body>
             <script>
                document.addEventListener("DOMContentLoaded", function() {
                // 自动渲染所有公式（默认支持$$...$$和$...$）
@@ -186,8 +183,6 @@ sections:
             ## 结论
 
             我们提出并实现了 VARFVV——一种新型的自由视角视频（FVV）流媒体系统，在保持低计算与传输开销的同时，实现了低视角切换延迟与高用户体验（QoE）的目标。我们提出的高效 FVV 流生成方法通过对视频帧的解复用与重组，显著降低了边缘端的计算负载，使该系统非常适合于面向移动端的大规模超高清视频（UHD）FVV 应用场景。此外，我们还设计了基于 PPC（前一帧流行度延续）与 GNN（图神经网络） 的视角流行度预测算法，以及用于多视角编码的流行度自适应比特分配算法，以在有限码率资源下最大化整体 QoE。大量实验结果表明，我们的方法在视频质量、计算资源使用和传输带宽等方面表现优异，综合性能优于当前主流方法。
-         </body>
-
          
 
 ---
