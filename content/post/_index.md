@@ -2,7 +2,7 @@
 title: Latest News
 
 # Listing view
-view: card  # 切换为卡片式视图
+view: compact  # 切换为卡片式视图
 sort_by: Date  # 按日期排序（默认，可选其他字段）
 sort_ascending: false  # 最新的在前（降序，true 为旧的在前）
 
