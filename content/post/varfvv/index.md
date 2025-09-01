@@ -18,15 +18,15 @@ sections:
 
          <body>
             <script>
-            document.addEventListener("DOMContentLoaded", function() {
-            // 自动渲染所有公式（默认支持$$...$$和$...$）
-            renderMathInElement(document.body, {
-               delimiters: [
-                  {left: "$$", right: "$$", display: true},  // 块级公式（居中显示）
-                  {left: "$", right: "$", display: false}   // 行内公式（嵌入文本）
-               ],
-               throwOnError: false  // 错误时不抛出异常，避免页面崩溃
-            });
+               document.addEventListener("DOMContentLoaded", function() {
+               // 自动渲染所有公式（默认支持$$...$$和$...$）
+               renderMathInElement(document.body, {
+                  delimiters: [
+                     {left: "$$", right: "$$", display: true},  // 块级公式（居中显示）
+                     {left: "$", right: "$", display: false}   // 行内公式（嵌入文本）
+                  ],
+                  throwOnError: false  // 错误时不抛出异常，避免页面崩溃
+               });
             });
             </script>
             # JSAC 2025｜VARFVV让你在手机上畅玩超高清实时自由视点视频
