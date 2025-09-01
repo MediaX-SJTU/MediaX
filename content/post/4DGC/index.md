@@ -8,6 +8,7 @@ sections:
     content:
 
       text: |-
+        
         #CVPR2025｜16倍压缩！4DGC 让高质量自由视点视频流式传输成为现实（代码已开源）
 
         > **文章标题**：4DGC: Rate-Aware 4D Gaussian Compression for Efficient Streamable Free-Viewpoint Video  

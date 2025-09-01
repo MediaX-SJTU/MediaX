@@ -8,6 +8,24 @@ sections:
     content:
 
       text: |-
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css">
+         <!-- 引入KaTeX渲染脚本 -->
+         <script src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"></script>
+         <!-- 引入自动渲染工具（可选，自动处理文档中的公式） -->
+         <script src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"></script>
+
+         <script>
+         document.addEventListener("DOMContentLoaded", function() {
+         // 自动渲染所有公式（默认支持$$...$$和$...$）
+         renderMathInElement(document.body, {
+            delimiters: [
+               {left: "$$", right: "$$", display: true},  // 块级公式（居中显示）
+               {left: "$", right: "$", display: false}   // 行内公式（嵌入文本）
+            ],
+            throwOnError: false  // 错误时不抛出异常，避免页面崩溃
+         });
+         });
+         </script>
          # JSAC 2025｜VARFVV让你在手机上畅玩超高清实时自由视点视频
          > **题目**：VARFVV: View-Adaptive Real-Time Interactive Free-View Video Streaming with Edge Computing  
          > **作者**：Qiang Hu, Qihan He, Houqiang Zhong, Guo Lu, Xiaoyun Zhang, Guangtao Zhai, Yanfeng Wang   
