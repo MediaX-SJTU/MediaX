@@ -5,22 +5,20 @@ image:
   focal_point: 'top'
 
 ---
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css" integrity="sha384-n8MVd4RsNIU0tAv4ct0nTaAbDJwPJzDEaqSD1odI+WdtXRGWt2kTvGFasHpSy3SV" crossorigin="anonymous">
+<!-- 引入 MathJax 3 核心脚本（MathJax 3 比 2 版本更快） -->
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
-<!-- 引入 KaTeX 核心渲染脚本 + 自动渲染插件（关键：自动识别公式并渲染） -->
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js" integrity="sha384-XjKyOOlGwcjNTAIQHIpgOno0Hl1YQqzUOEleOLALmuqehneUG+vnGctmUb0ZY0l8" crossorigin="anonymous"></script>
-<script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js" integrity="sha384-+VBxd3r6XgURycqtZ117nYw44OOcIax56Z4dCRWbxyPt0Koah1uHoK0o4+/RRE05" crossorigin="anonymous"></script>
-
-<!-- 触发 KaTeX 自动渲染：识别 $...$（行内公式）和 $$...$$（块级公式） -->
+<!-- 配置 MathJax：指定公式分隔符（与 KaTeX 一致，保持 Markdown 语法统一） -->
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        renderMathInElement(document.body, {
-            delimiters: [
-                {left: "$", right: "$", display: false},  // 行内公式：$公式$
-                {left: "$$", right: "$$", display: true}   // 块级公式：$$公式$$
-            ]
-        });
-    });
+    MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']],  // 行内公式：$公式$ 或 \(公式\)
+            displayMath: [['$$', '$$'], ['\\[', '\\]']] // 块级公式：$$公式$$ 或 \[公式\]
+        },
+        svg: {
+            fontCache: 'global'
+        }
+    };
 </script>
 
 <!--more-->
