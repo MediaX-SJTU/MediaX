@@ -9,22 +9,6 @@ sections:
 
       text: |-
 
-        <!-- 引入 MathJax 3 核心脚本（MathJax 3 比 2 版本更快） -->
-        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
-        <!-- 配置 MathJax：指定公式分隔符（与 KaTeX 一致，保持 Markdown 语法统一） -->
-        <script>
-            MathJax = {
-                tex: {
-                    inlineMath: [['$', '$'], ['\\(', '\\)']],  // 行内公式：$公式$ 或 \(公式\)
-                    displayMath: [['$$', '$$'], ['\\[', '\\]']] // 块级公式：$$公式$$ 或 \[公式\]
-                },
-                svg: {
-                    fontCache: 'global'
-                }
-            };
-        </script>
-
         # CVPR2025｜16倍压缩！4DGC 让高质量自由视点视频流式传输成为现实（代码已开源）
 
         **文章标题**：4DGC: Rate-Aware 4D Gaussian Compression for Efficient Streamable Free-Viewpoint Video
