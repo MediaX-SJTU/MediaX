@@ -41,35 +41,41 @@ sections:
         </head>
         <body>
 
-          <h1><strong>Welcome to MediaX@SJTU (上交智能媒体组)</strong></h1>
+          <h1><strong>欢迎来到上海交通大学智能媒体组 （MediaX@SJTU）</strong></h1>
 
           <p>
-            <strong>MediaX</strong> is a research group under the <a href="https://cmic.sjtu.edu.cn/CN/Default.aspx">Cooperative Medianet Innovation Center</a> at Shanghai Jiao Tong University, focusing on cutting-edge research at the intersection of <span class="highlight">computer vision</span>, <span class="highlight">machine learning</span>, and <span class="highlight">generative intelligent media</span>. We aim to advance the frontiers of multi-modal media (2D/3D/4D) across generation, restoration and enhancement, reconstruction and compression, and quality assessment. Our mission is to build intelligent systems capable of understanding, modeling, and manipulating complex human-centric visual content, enabling the high-quality and efficient creation of next-generation intelligent media.
+            <strong>MediaX</strong> 隶属于 <a href="https://cmic.sjtu.edu.cn/CN/Default.aspx">上海交通大学未来媒体网络协同创新中心</a>，
+            专注于 <span class="highlight">计算机视觉</span>、<span class="highlight">机器学习</span> 与 <span class="highlight">生成式智能媒体</span> 交叉领域的前沿研究。
+            我们致力于推动多模态媒体（2D/3D/4D）在生成、恢复与增强、重建与压缩、以及质量评价等方向的发展。
+            我们的使命是构建能够理解、建模和操控复杂人类中心视觉内容的智能系统，
+            以实现高质量、高效率的下一代智能媒体内容生产。
           </p>
 
-          <h2>🎯 Research Focus</h2>
+          <h2>🎯 研究方向</h2>
           <p>
-            <strong>Media Perception & Quality Assessment</strong><br/>
-            Developing intelligent, multi-dimensional evaluation systems for UGC, PGC, and AIGC content.
+            <strong>媒体感知与质量评价</strong><br/>
+            构建面向UGC、PGC和AIGC内容的多维度智能质量评价体系。（F-Bench、FineVQ等）
           </p>
-           <p>
-            <strong>Video Restoration & Generation</strong><br/>
-            Enhancing, controllably generating and editing 4K/8K video content.
+          <p>
+            <strong>视频恢复与生成</strong><br/>
+            高质量视频增强、可控生成与编辑，支持4K/8K分辨率。（StoryGen、Dr2等）
           </p>
-           <p>
-            <strong>3D/4D Reconstruction & Generation</strong><br/>
-            Leveraging 3DGS and GenAI for efficient representation and compression of immersive dynamic scenes.
+          <p>
+            <strong>3D/4D重建与生成</strong><br/>
+            基于3D高斯建模与生成式AI，实现沉浸式动态场景的高效表示与压缩。（4DGC、VQRFVV等）
           </p>
-           <p>
-            <strong>Intelligent Media Creation Platform</strong><br/>
-            Building collaborative, multi-agent systems for automated and interactive media production.
+          <p>
+            <strong>智能媒体创作平台</strong><br/>
+            构建协同、多智能体驱动的自动化与交互式媒体生产系统。(央视4K/8K超高清媒体的智能增强制作平台)
           </p>
 
-          <h2>📢 Join Us</h2>
+          <h2>📢 加入我们</h2>
           <p>
-            We are always looking for <strong>self-motivated PhD students, Master's students, and undergraduate RA</strong> to join our team.<br/>
-            If you're passionate about intelligent media and generative AI, please send your <strong>CV and transcript</strong> to: <em><span class="highlight">mediax@sjtu.edu.cn</span></em>
+            我们长期欢迎 <strong>博士研究生、硕士研究生、本科科研助理</strong> 加入团队。<br/>
+            如果你对智能媒体与生成式AI充满热情，欢迎将 <strong>个人简历与成绩单</strong> 发送至：
+            <em><span class="highlight">mediax@sjtu.edu.cn</span></em>
           </p>
+
 
           <a href="mailto:mediax@sjtu.edu.cn" target="_blank">
           <i class="fas fa-envelope"></i> 联系我们
