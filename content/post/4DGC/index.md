@@ -19,8 +19,8 @@ sections:
             // 自动渲染所有公式（默认支持$$...$$和$...$）
             renderMathInElement(document.body, {
               delimiters: [
-                  {left: "$$", right: "$$", display: true},  // 块级公式（居中显示）
-                  {left: "$", right: "$", display: false}   // 行内公式（嵌入文本）
+                  {left: "$$", right: "$$"},  // 块级公式（居中显示）
+                  {left: "$", right: "$"}   // 行内公式（嵌入文本）
               ],
               throwOnError: false  // 错误时不抛出异常，避免页面崩溃
             });
