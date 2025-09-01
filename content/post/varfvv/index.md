@@ -9,12 +9,9 @@ sections:
 
       text: |-
          # JSAC 2025｜VARFVV让你在手机上畅玩超高清实时自由视点视频
-         > **题目**：VARFVV: View-Adaptive Real-Time Interactive Free-View Video Streaming with Edge Computing
-         >
-         > **作者**：Qiang Hu, Qihan He, Houqiang Zhong, Guo Lu, Xiaoyun Zhang, Guangtao Zhai, Yanfeng Wang
-         >
-         > **来源**：IEEE JSAC 2025
-         >
+         > **题目**：VARFVV: View-Adaptive Real-Time Interactive Free-View Video Streaming with Edge Computing  
+         > **作者**：Qiang Hu, Qihan He, Houqiang Zhong, Guo Lu, Xiaoyun Zhang, Guangtao Zhai, Yanfeng Wang   
+         > **来源**：IEEE JSAC 2025  
          > **文章地址**：https://arxiv.org/abs/2501.13630  
          > **视频链接**：https://www.bilibili.com/video/BV1ntLnzUEtJ  
          > **项目主页**：https://waveviewer.github.io/VARFVV/  
