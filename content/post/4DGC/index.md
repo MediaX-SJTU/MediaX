@@ -8,24 +8,29 @@ sections:
     content:
 
       text: |-
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.css">
-        <!-- 引入KaTeX渲染脚本 -->
-        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/katex.min.js"></script>
-        <!-- 引入自动渲染工具（可选，自动处理文档中的公式） -->
-        <script src="https://cdn.jsdelivr.net/npm/katex@0.16.4/dist/contrib/auto-render.min.js"></script>
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css" 
+            integrity="sha384-wcIxkf4k558AjM3Yz3BBFQUbk/zgIYC2R0QpeeYb+TwlBVMrlgLqwRjRtGZiK7ww" 
+            crossorigin="anonymous"
+        />
 
-        <script>
-            document.addEventListener("DOMContentLoaded", function() {
-            // 自动渲染所有公式（默认支持$$...$$和$...$）
-            renderMathInElement(document.body, {
-              delimiters: [
-                  {left: "$$", right: "$$", display: true},  // 块级公式（居中显示）
-                  {left: "$", right: "$", display: false}   // 行内公式（嵌入文本）
-              ],
-              throwOnError: false  // 错误时不抛出异常，避免页面崩溃
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js" integrity="sha384-hIoBPJpTUs74ddyc4bFZSM1TVlQDA60VBbJS0oA934VSz82sBx1X7kSx2ATBDIyd" crossorigin="anonymous"></script>
+
+        <!-- To automatically render math in text elements, include the auto-render extension: -->
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous"
+            onload="
+            window.addEventListener('DOMContentLoaded', function() {
+                renderMathInElement(document.body, {
+                    delimiters: [
+                        {left: '$$', right: '$$', display: true},
+                        {left: '$', right: '$', display: false},
+                        {left: '\\$$', right: '\\\\$$', display: false},
+                        {left: '\\$$', right: '\\\\$$', display: true}
+                    ]
+                });
             });
-        });
-        </script>
+        "></script>
 
 
 
