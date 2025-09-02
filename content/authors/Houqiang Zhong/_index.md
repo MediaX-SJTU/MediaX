@@ -10,7 +10,7 @@ last_name: Zhong
 # Role/position： 
 # Student: Undergraduate Student / Master Student / PhD Student
 # Grad Students:  B.S. Degree / M.S. Degree / Ph.D.
-role: PhD Student (cor supervisied with Li Song)
+role: PhD Student (Co-supervisied by Prof. Li Song)
 
 # Organizations/Affiliations
 organizations:
