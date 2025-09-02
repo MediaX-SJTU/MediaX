@@ -132,11 +132,11 @@ sections:
             在预测出各视角的流行度后，我们为 VARFVV 系统中的每一帧制定了相应的比特分配方案。该方案通过构建拉格朗日函数并结合 KKT 条件，求解 QoE 最大化目标。拉格朗日函数为
             $$
             L(\lambda, R\_{1,j},\dots,R\_{N,j},\hat{R}\_{1,j},\dots,\hat{R}\_{N,j}) \nonumber \\
-            = \sum\_{i=1}^{N} p\_{i,j}\log(1+R\_{i,j}/\eta )+\sum\_{i=1}^{N} \hat{p}\_{i, j}\log(1+\hat{R}\_{i,j}/\hat{\eta} ) \nonumber \\ 
-            - \mu\_1 \cdot \mu\_3\sum\_{i=2}^{N}\hat{p}\_{i,j}(\hat{R}\_{i,j}-\hat{R}\_{i-1,j})^2 \nonumber \\
-            - \mu\_1 \cdot \sum\_{i=2}^{N}\hat{p}\_{i,j}(\hat{R}\_{i,j}/\hat{\eta}-R\_{i-1,j}/\eta)^2 \nonumber \\
-            - \mu\_2\sum\_{i=1}^{N}p\_{i,j}(R\_{i,j}-R\_{i,j-1})^2 \nonumber \\
-            + \lambda \left(R\_j-\sum\_{i=1}^{N}(\hat{R}\_{i,j}+R\_{i,j})\right)
+            \= \sum\_{i=1}^{N} p\_{i,j}\log(1+R\_{i,j}/\eta )+\sum\_{i=1}^{N} \hat{p}\_{i, j}\log(1+\hat{R}\_{i,j}/\hat{\eta} ) \nonumber \\ 
+            \- \mu\_1 \cdot \mu\_3\sum\_{i=2}^{N}\hat{p}\_{i,j}(\hat{R}\_{i,j}-\hat{R}\_{i-1,j})^2 \nonumber \\
+            \- \mu\_1 \cdot \sum\_{i=2}^{N}\hat{p}\_{i,j}(\hat{R}\_{i,j}/\hat{\eta}-R\_{i-1,j}/\eta)^2 \nonumber \\
+            \- \mu\_2\sum\_{i=1}^{N}p\_{i,j}(R\_{i,j}-R\_{i,j-1})^2 \nonumber \\
+            \+ \lambda \left(R\_j-\sum\_{i=1}^{N}(\hat{R}\_{i,j}+R\_{i,j})\right)
             $$
             其中，$\lambda$ 是拉格朗日乘子，$R\_j$ 表示第 $j$ 个时间片的比特预算，其定义如下：
             $$
