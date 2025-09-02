@@ -1,6 +1,6 @@
 ---
 title: CVPR2025｜16倍压缩！4DGC 让高质量自由视点视频流式传输成为现实（代码已开源）
-date: 2022-10-24
+date: 2025-03-18
 type: landing
 
 sections:
