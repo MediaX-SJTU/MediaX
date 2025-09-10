@@ -1,5 +1,5 @@
 ---
-title: JSAC 2025｜VARFVV让你在手机上畅玩超高清实时自由视点视频
+title: AI赋能历史影像修复：上交大团队超高清AI修复技术助力抗战胜利80周年晚会
 date: 2025-09-10
 type: landing
 
